@@ -41,8 +41,8 @@ const index = () => {
 
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
             The purpose of this policy is to provide clarity and guidance on the types of donations
-            Sporting2Impact will accept, the process for evaluating and accepting donations, and
-            the responsibilities of both the donor and the organization. This policy applies to all
+            Sporting2Impact will accept, the process for evaluating and accepting donations, and the
+            responsibilities of both the donor and the organization. This policy applies to all
             forms of donations, including cash, securities, real estate, personal property, and
             in-kind contributions. By adhering to this policy, Sporting2Impact aims to maintain the
             trust and confidence of our donors while advancing our mission to improve the services

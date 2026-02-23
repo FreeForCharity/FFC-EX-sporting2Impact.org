@@ -13,7 +13,13 @@ export async function GET() {
   // Prefer an explicit page access token; fall back to app token if provided
   const accessToken = pageToken || (appId && appSecret ? `${appId}|${appSecret}` : undefined)
   if (!accessToken) {
-    return NextResponse.json({ error: 'Missing Facebook access token. Set FACEBOOK_PAGE_ACCESS_TOKEN or FACEBOOK_APP_ID and FACEBOOK_APP_SECRET' }, { status: 400 })
+    return NextResponse.json(
+      {
+        error:
+          'Missing Facebook access token. Set FACEBOOK_PAGE_ACCESS_TOKEN or FACEBOOK_APP_ID and FACEBOOK_APP_SECRET',
+      },
+      { status: 400 }
+    )
   }
 
   const fields = ['id', 'name', 'start_time', 'place', 'cover', 'description']
@@ -23,7 +29,10 @@ export async function GET() {
     const res = await fetch(url)
     if (!res.ok) {
       const errText = await res.text()
-      return NextResponse.json({ error: 'Facebook API error', details: errText }, { status: res.status })
+      return NextResponse.json(
+        { error: 'Facebook API error', details: errText },
+        { status: res.status }
+      )
     }
     const data = await res.json()
     return NextResponse.json(data)

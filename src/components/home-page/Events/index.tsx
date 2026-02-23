@@ -14,7 +14,7 @@ const Events = () => {
         <div className="text-center mb-8">
           <p className="text-[20px] lg:text-[25px] font-[500]" id="lato-font">
             Join us for upcoming fitness, health talks, and sports events.
-            <br/>
+            <br />
             Check our Facebook Events page for more details on upcoming events.
           </p>
         </div>
@@ -34,7 +34,7 @@ const Events = () => {
             allow="encrypted-media"
           />
         </div>
-{/* 
+        {/* 
         <div className="text-center mt-8">
           <p className="text-[18px] font-[400] text-gray-600" id="lato-font">
             <a

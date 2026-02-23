@@ -28,7 +28,7 @@ const index = () => {
         >
           Volunteer
         </a>
-{/* 
+        {/* 
         <Image
           src="/Images/Volunteer-with-Us.webp"
           alt="Volunteer-with-Us"

@@ -29,7 +29,7 @@ export default function TeamMemberCard({
             sizes="(max-width: 768px) 100vw, 192px"
             priority
           />
-        </div> */}  
+        </div> */}
 
         {/* Text Content */}
         <div className="text-center space-y-2">

@@ -9,10 +9,10 @@ const index = () => {
           Empower Your Charity with Cutting-Edge Technology
         </h1>
         <p className="text-[18px] font-[500] color-black text-left" id="lato-font">
-          At Sporting2Impact, we believe that every non-profit deserves a powerful digital
-          presence. That’s why we offer a comprehensive, modern tech stack to 501(c)(3)
-          organizations – completely free of charge. When you partner with us, you’re not just
-          getting a website; you’re embracing a full suite of top-tier digital tools.
+          At Sporting2Impact, we believe that every non-profit deserves a powerful digital presence.
+          That’s why we offer a comprehensive, modern tech stack to 501(c)(3) organizations –
+          completely free of charge. When you partner with us, you’re not just getting a website;
+          you’re embracing a full suite of top-tier digital tools.
         </p>
       </div>
       <div className="w-[90%] max-w-[90%] mx-auto py-[2%] items-center text-center">

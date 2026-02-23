@@ -24,29 +24,29 @@ This guide identifies all the content you need to provide to replace the Sportin
 ### Logo in Top Left Corner
 
 | Section           | Variable              | Current Sporting2Impact Content                                                                              | Your Content                                                                                                      |
-| ----------------- | --------------------- | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| ----------------- | --------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
 | Header Navigation | Logo Image            | `https://freeforcharity.org/wp-content/uploads/2024/04/Screenshot_145.png` (Sporting2Impact horizontal logo) | _(URL or file path to your charity's horizontal logo, recommended size: 150px wide × 44px tall for best display)_ |
 | Header Navigation | Logo Alt Text         | "Sporting2Impact"                                                                                            | _(Your charity name for accessibility)_                                                                           |
-| Header Navigation | Logo Link Destination | "/" (homepage)                                                                                                | _(Usually "/" for homepage)_                                                                                      |
+| Header Navigation | Logo Link Destination | "/" (homepage)                                                                                               | _(Usually "/" for homepage)_                                                                                      |
 
 ### Navigation Menu Items
 
 | Section         | Variable            | Current Sporting2Impact Content | Your Content |
-| --------------- | ------------------- | -------------------------------- | ------------ |
-| Navigation Menu | Menu Item 1 - Label | "Home"                           |              |
-| Navigation Menu | Menu Item 1 - Link  | "/#hero"                         |              |
-| Navigation Menu | Menu Item 2 - Label | "Mission"                        |              |
-| Navigation Menu | Menu Item 2 - Link  | "/#mission"                      |              |
-| Navigation Menu | Menu Item 3 - Label | "Programs"                       |              |
-| Navigation Menu | Menu Item 3 - Link  | "/#programs"                     |              |
-| Navigation Menu | Menu Item 4 - Label | "Volunteer"                      |              |
-| Navigation Menu | Menu Item 4 - Link  | "/#volunteer"                    |              |
-| Navigation Menu | Menu Item 5 - Label | "Donate"                         |              |
-| Navigation Menu | Menu Item 5 - Link  | "/#donate"                       |              |
-| Navigation Menu | Menu Item 6 - Label | "FAQ"                            |              |
-| Navigation Menu | Menu Item 6 - Link  | "/#faq"                          |              |
-| Navigation Menu | Menu Item 7 - Label | "Team"                           |              |
-| Navigation Menu | Menu Item 7 - Link  | "/#team"                         |              |
+| --------------- | ------------------- | ------------------------------- | ------------ |
+| Navigation Menu | Menu Item 1 - Label | "Home"                          |              |
+| Navigation Menu | Menu Item 1 - Link  | "/#hero"                        |              |
+| Navigation Menu | Menu Item 2 - Label | "Mission"                       |              |
+| Navigation Menu | Menu Item 2 - Link  | "/#mission"                     |              |
+| Navigation Menu | Menu Item 3 - Label | "Programs"                      |              |
+| Navigation Menu | Menu Item 3 - Link  | "/#programs"                    |              |
+| Navigation Menu | Menu Item 4 - Label | "Volunteer"                     |              |
+| Navigation Menu | Menu Item 4 - Link  | "/#volunteer"                   |              |
+| Navigation Menu | Menu Item 5 - Label | "Donate"                        |              |
+| Navigation Menu | Menu Item 5 - Link  | "/#donate"                      |              |
+| Navigation Menu | Menu Item 6 - Label | "FAQ"                           |              |
+| Navigation Menu | Menu Item 6 - Link  | "/#faq"                         |              |
+| Navigation Menu | Menu Item 7 - Label | "Team"                          |              |
+| Navigation Menu | Menu Item 7 - Link  | "/#team"                        |              |
 
 ---
 
@@ -54,12 +54,12 @@ This guide identifies all the content you need to provide to replace the Sportin
 
 This is the first thing visitors see - it includes your main message and a circular logo image.
 
-| Section | Variable                  | Current Sporting2Impact Content                                          | Your Content                                                                                         |
+| Section | Variable                  | Current Sporting2Impact Content                                           | Your Content                                                                                         |
 | ------- | ------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | Hero    | Main Heading Line 1       | "Welcome to"                                                              |                                                                                                      |
-| Hero    | Main Heading Line 2       | "Sporting2Impact"                                                        |                                                                                                      |
+| Hero    | Main Heading Line 2       | "Sporting2Impact"                                                         |                                                                                                      |
 | Hero    | Tagline / Description     | "Connecting Students, Professionals, & Businesses with Charities in Need" | _(Your charity's main tagline or mission statement, keep it under 100 characters for best display)_  |
-| Hero    | Hero Circle Logo/Image    | `/Images/figma-hero-img.webp` (Sporting2Impact circular logo)            | _(File path to your charity's logo or representative image, recommended size: 445px × 445px square)_ |
+| Hero    | Hero Circle Logo/Image    | `/Images/figma-hero-img.webp` (Sporting2Impact circular logo)             | _(File path to your charity's logo or representative image, recommended size: 445px × 445px square)_ |
 | Hero    | Hero Image Alt Text       | "Hero image"                                                              | _(Description of your hero image)_                                                                   |
 | Hero    | Primary Button Text       | "Volunteer"                                                               |                                                                                                      |
 | Hero    | Primary Button Link       | "#volunteer"                                                              |                                                                                                      |
@@ -76,14 +76,14 @@ This is the first thing visitors see - it includes your main message and a circu
 
 This section explains your charity's core mission and purpose.
 
-| Section | Variable                   | Current Sporting2Impact Content                                                                                                                                                                                                      | Your Content                                                               |
+| Section | Variable                   | Current Sporting2Impact Content                                                                                                                                                                                                       | Your Content                                                               |
 | ------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Mission | Section Heading            | "Sporting2Impact has a simple mission with broad implications"                                                                                                                                                                       | _(Your mission heading)_                                                   |
+| Mission | Section Heading            | "Sporting2Impact has a simple mission with broad implications"                                                                                                                                                                        | _(Your mission heading)_                                                   |
 | Mission | Mission Statement (Bold)   | "Reduce costs and increase revenues for nonprofits; putting that money back into their charitable mission where it belongs."                                                                                                          | _(Your primary mission statement, 1-2 sentences)_                          |
 | Mission | Mission Description        | "This charity for charities seeks to replace as many functions as possible that current nonprofits pay for to for-profit companies with free or at cost work from our campus, on site projects, or partnerships with other entities." | _(Detailed explanation of your mission, 2-3 sentences)_                    |
 | Mission | Mission Video URL          | `https://ffcsites.org/videos/mission-video.mp4`                                                                                                                                                                                       | _(URL to your mission video, or leave blank if none)_                      |
 | Mission | Mission Video Poster Image | `/videos/mission-video-poster.webp`                                                                                                                                                                                                   | _(Thumbnail image shown before video plays, recommended size: 800px wide)_ |
-| Mission | Mission Video Title        | "Learn about Sporting2Impact's mission to help nonprofits reduce costs"                                                                                                                                                              | _(Descriptive title for accessibility)_                                    |
+| Mission | Mission Video Title        | "Learn about Sporting2Impact's mission to help nonprofits reduce costs"                                                                                                                                                               | _(Descriptive title for accessibility)_                                    |
 
 ---
 
@@ -91,7 +91,7 @@ This section explains your charity's core mission and purpose.
 
 This section shows your charity's achievements with numbers and statistics.
 
-| Section | Variable                    | Current Sporting2Impact Content                         | Your Content                                                  |
+| Section | Variable                    | Current Sporting2Impact Content                          | Your Content                                                  |
 | ------- | --------------------------- | -------------------------------------------------------- | ------------------------------------------------------------- |
 | Results | Section Heading             | "Results - 2023"                                         | _(Your heading, e.g., "Our Impact 2024" or "Results - 2023")_ |
 | Results | Impact Card 1 - Number      | "221"                                                    | _(Your statistic, e.g., "500")_                               |
@@ -112,23 +112,23 @@ _Note: You can add more cards or remove some by providing additional rows or mar
 Share what people say about your charity. Each testimonial should be a quote from a supporter, partner, or beneficiary.
 
 | Section      | Variable                        | Current Sporting2Impact Content                                                                                                                                                                                          | Your Content                        |
-| ------------ | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| Testimonials | Section Heading                 | "Testimonials"                                                                                                                                                                                                            |                                     |
-| Testimonials | Testimonial 1 - Heading         | "American Legion Ahwatukee Post 64"                                                                                                                                                                                       | _(Name of person or organization)_  |
-| Testimonials | Testimonial 1 - Quote           | "Knowing that I can reach out to the owner of another veteran to aid with our website's charities' needs completely across the country has been amazing for this disabled veteran."                                       | _(The testimonial quote)_           |
-| Testimonials | Testimonial 1 - Name            | "David Green, Public Affairs Officer"                                                                                                                                                                                     | _(Who said this quote)_             |
-| Testimonials | Testimonial 1 - Location/Org    | "American Legion Ahwatukee Post 64"                                                                                                                                                                                       | _(Their organization or location)_  |
-| Testimonials | Testimonial 1 - Link (optional) | "https://americanlegionpost64.org/"                                                                                                                                                                                       | _(Link to their website, optional)_ |
-| Testimonials | Testimonial 2 - Heading         | "TaShonda Payne"                                                                                                                                                                                                          |                                     |
-| Testimonials | Testimonial 2 - Quote           | "…I'm so glad the universe aligned me with you"                                                                                                                                                                           |                                     |
-| Testimonials | Testimonial 2 - Name            | "Melanin Magic Foundation"                                                                                                                                                                                                |                                     |
-| Testimonials | Testimonial 2 - Location/Org    | _(Leave blank if not applicable)_                                                                                                                                                                                         |                                     |
-| Testimonials | Testimonial 3 - Heading         | "Pardhasaradhi Namburi"                                                                                                                                                                                                   |                                     |
+| ------------ | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------- |
+| Testimonials | Section Heading                 | "Testimonials"                                                                                                                                                                                                           |                                     |
+| Testimonials | Testimonial 1 - Heading         | "American Legion Ahwatukee Post 64"                                                                                                                                                                                      | _(Name of person or organization)_  |
+| Testimonials | Testimonial 1 - Quote           | "Knowing that I can reach out to the owner of another veteran to aid with our website's charities' needs completely across the country has been amazing for this disabled veteran."                                      | _(The testimonial quote)_           |
+| Testimonials | Testimonial 1 - Name            | "David Green, Public Affairs Officer"                                                                                                                                                                                    | _(Who said this quote)_             |
+| Testimonials | Testimonial 1 - Location/Org    | "American Legion Ahwatukee Post 64"                                                                                                                                                                                      | _(Their organization or location)_  |
+| Testimonials | Testimonial 1 - Link (optional) | "https://americanlegionpost64.org/"                                                                                                                                                                                      | _(Link to their website, optional)_ |
+| Testimonials | Testimonial 2 - Heading         | "TaShonda Payne"                                                                                                                                                                                                         |                                     |
+| Testimonials | Testimonial 2 - Quote           | "…I'm so glad the universe aligned me with you"                                                                                                                                                                          |                                     |
+| Testimonials | Testimonial 2 - Name            | "Melanin Magic Foundation"                                                                                                                                                                                               |                                     |
+| Testimonials | Testimonial 2 - Location/Org    | _(Leave blank if not applicable)_                                                                                                                                                                                        |                                     |
+| Testimonials | Testimonial 3 - Heading         | "Pardhasaradhi Namburi"                                                                                                                                                                                                  |                                     |
 | Testimonials | Testimonial 3 - Quote           | "Sporting2Impact was absolutely and outstanding — they really did a terrific job for us, they provided us the proper tech guidance and tools in order to help support the nonprofits that we support at Online Impacts." |                                     |
-| Testimonials | Testimonial 3 - Name            | _(Leave blank if included in heading)_                                                                                                                                                                                    |                                     |
-| Testimonials | Testimonial 4 - Heading         | "Keith Ray"                                                                                                                                                                                                               |                                     |
-| Testimonials | Testimonial 4 - Quote           | "An awesome charity that helps and supports other charities with technology support"                                                                                                                                      |                                     |
-| Testimonials | Testimonial 4 - Name            | _(Leave blank if included in heading)_                                                                                                                                                                                    |                                     |
+| Testimonials | Testimonial 3 - Name            | _(Leave blank if included in heading)_                                                                                                                                                                                   |                                     |
+| Testimonials | Testimonial 4 - Heading         | "Keith Ray"                                                                                                                                                                                                              |                                     |
+| Testimonials | Testimonial 4 - Quote           | "An awesome charity that helps and supports other charities with technology support"                                                                                                                                     |                                     |
+| Testimonials | Testimonial 4 - Name            | _(Leave blank if included in heading)_                                                                                                                                                                                   |                                     |
 
 _Note: You can add more testimonials or use fewer by adding rows or removing entries._
 
@@ -138,7 +138,7 @@ _Note: You can add more testimonials or use fewer by adding rows or removing ent
 
 Encourage people to volunteer with your charity.
 
-| Section   | Variable                 | Current Sporting2Impact Content                                                                                                                                                                         | Your Content                                                                 |
+| Section   | Variable                 | Current Sporting2Impact Content                                                                                                                                                                          | Your Content                                                                 |
 | --------- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | Volunteer | Section Heading          | "Volunteer with Us"                                                                                                                                                                                      |                                                                              |
 | Volunteer | Description Text         | "Your time and skills can create a lasting impact. Whether you're assisting with outreach, providing technical expertise, or supporting our programs, your contributions are invaluable to our mission." | _(Your volunteer appeal text, 2-3 sentences)_                                |
@@ -154,13 +154,13 @@ Encourage people to volunteer with your charity.
 
 Display upcoming events for your charity.
 
-| Section | Variable                   | Current Sporting2Impact Content                                                         | Your Content                                                              |
+| Section | Variable                   | Current Sporting2Impact Content                                                          | Your Content                                                              |
 | ------- | -------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | Events  | Section Heading            | "Upcoming Events"                                                                        |                                                                           |
 | Events  | Description Text           | "Join us for upcoming volunteer opportunities, training sessions, and community events." | _(Brief description of your events)_                                      |
 | Events  | Facebook Events Widget URL | "https://widgets.sociablekit.com/facebook-page-events/iframe/25631700"                   | _(Your SociableKit Facebook events widget URL, or leave blank to remove)_ |
 | Events  | Facebook Page Link Text    | "View all events on Facebook"                                                            |                                                                           |
-| Events  | Facebook Page Link URL     | "https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr"                                                | _(Link to your Facebook page)_                                            |
+| Events  | Facebook Page Link URL     | "https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr"                             | _(Link to your Facebook page)_                                            |
 
 _Note: If you don't use Facebook events, you can replace this section with a custom event list or calendar._
 
@@ -170,12 +170,12 @@ _Note: If you don't use Facebook events, you can replace this section with a cus
 
 This is where people can financially support your charity.
 
-| Section | Variable                  | Current Sporting2Impact Content                                                                                              | Your Content                                                                      |
+| Section | Variable                  | Current Sporting2Impact Content                                                                                               | Your Content                                                                      |
 | ------- | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| Donate  | Section Heading           | "Support Sporting2Impact"                                                                                                    | _(e.g., "Support [Your Charity Name]")_                                           |
+| Donate  | Section Heading           | "Support Sporting2Impact"                                                                                                     | _(e.g., "Support [Your Charity Name]")_                                           |
 | Donate  | Description Text          | "By donating you help drive our mission and allow us to support more charities with our Domain, Website, and other services." | _(Explain what donations help accomplish, 1-2 sentences)_                         |
 | Donate  | Supporting Image          | `/Images/support-free-for-charity.webp`                                                                                       | _(Image file, recommended size: 578px × 386px)_                                   |
-| Donate  | Supporting Image Alt Text | "support Sporting2Impact image"                                                                                              | _(Description of image)_                                                          |
+| Donate  | Supporting Image Alt Text | "support Sporting2Impact image"                                                                                               | _(Description of image)_                                                          |
 | Donate  | Donation Form URL         | "https://www.zeffy.com/embed/donation-form/free-for-charity-endowment-fund"                                                   | _(Your donation form embed URL - from Zeffy, PayPal, or other donation platform)_ |
 | Donate  | Donation Form Title       | "Donation form powered by Zeffy"                                                                                              | _(Title for accessibility)_                                                       |
 
@@ -188,20 +188,20 @@ _Note: This template uses an embedded donation form. You'll need to set up an ac
 Highlight special features or aspects of your charity. Sporting2Impact uses this for their Endowment Fund features.
 
 | Section   | Variable                     | Current Sporting2Impact Content                                                                                                                 | Your Content                                                      |
-| --------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- |
+| --------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | Endowment | Section Heading              | "Sporting2Impact Endowment Features"                                                                                                            | _(Your section heading, e.g., "Why Choose Us" or "Our Approach")_ |
-| Endowment | Feature Card 1 - Icon/Image  | `/Svgs/sustainable-funding.svg`                                                                                                                  | _(Icon or small image representing this feature)_                 |
-| Endowment | Feature Card 1 - Title       | "Sustainable Funding"                                                                                                                            |                                                                   |
+| Endowment | Feature Card 1 - Icon/Image  | `/Svgs/sustainable-funding.svg`                                                                                                                 | _(Icon or small image representing this feature)_                 |
+| Endowment | Feature Card 1 - Title       | "Sustainable Funding"                                                                                                                           |                                                                   |
 | Endowment | Feature Card 1 - Description | "The Endowment ensures that only the investment gains are used, providing a sustainable funding source for the Sporting2Impact Domain Program." |                                                                   |
-| Endowment | Feature Card 2 - Icon/Image  | `/Svgs/Long-Term-Impact.svg`                                                                                                                     |                                                                   |
-| Endowment | Feature Card 2 - Title       | "Long-Term Impact"                                                                                                                               |                                                                   |
-| Endowment | Feature Card 2 - Description | "By supporting the Endowment, you contribute to a lasting legacy that will continuously support charities in need of digital resources."         |                                                                   |
-| Endowment | Feature Card 3 - Icon/Image  | `/Svgs/Goal-of-$1,000,000.svg`                                                                                                                   |                                                                   |
-| Endowment | Feature Card 3 - Title       | "Goal of $1,000,000"                                                                                                                             |                                                                   |
-| Endowment | Feature Card 3 - Description | "Our target is to raise $1,000,000 to secure the future of the program, ensuring ongoing support for countless charities."                       |                                                                   |
-| Endowment | Feature Card 4 - Icon/Image  | `/Svgs/Be-a-Champion.svg`                                                                                                                        |                                                                   |
-| Endowment | Feature Card 4 - Title       | "Be a Champion for Change"                                                                                                                       |                                                                   |
-| Endowment | Feature Card 4 - Description | "By taking donations on our behalf, you become an essential part of our mission, creating a ripple effect of generosity and support."            |                                                                   |
+| Endowment | Feature Card 2 - Icon/Image  | `/Svgs/Long-Term-Impact.svg`                                                                                                                    |                                                                   |
+| Endowment | Feature Card 2 - Title       | "Long-Term Impact"                                                                                                                              |                                                                   |
+| Endowment | Feature Card 2 - Description | "By supporting the Endowment, you contribute to a lasting legacy that will continuously support charities in need of digital resources."        |                                                                   |
+| Endowment | Feature Card 3 - Icon/Image  | `/Svgs/Goal-of-$1,000,000.svg`                                                                                                                  |                                                                   |
+| Endowment | Feature Card 3 - Title       | "Goal of $1,000,000"                                                                                                                            |                                                                   |
+| Endowment | Feature Card 3 - Description | "Our target is to raise $1,000,000 to secure the future of the program, ensuring ongoing support for countless charities."                      |                                                                   |
+| Endowment | Feature Card 4 - Icon/Image  | `/Svgs/Be-a-Champion.svg`                                                                                                                       |                                                                   |
+| Endowment | Feature Card 4 - Title       | "Be a Champion for Change"                                                                                                                      |                                                                   |
+| Endowment | Feature Card 4 - Description | "By taking donations on our behalf, you become an essential part of our mission, creating a ripple effect of generosity and support."           |                                                                   |
 
 ---
 
@@ -211,7 +211,7 @@ Describe the programs or services your charity offers.
 
 ### Program 1
 
-| Section  | Variable                          | Current Sporting2Impact Content                                                                           | Your Content                                                 |
+| Section  | Variable                          | Current Sporting2Impact Content                                                                            | Your Content                                                 |
 | -------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
 | Programs | Section Heading                   | "Our Programs"                                                                                             |                                                              |
 | Programs | Program 1 - Icon                  | `/Svgs/FFC-Domains.svg`                                                                                    | _(Icon representing your program, recommended: 56px × 56px)_ |
@@ -221,7 +221,7 @@ Describe the programs or services your charity offers.
 
 #### Program 1 - Details (Expandable Sections)
 
-| Section  | Variable                         | Current Sporting2Impact Content                                                                                                                                                                                                                                                                                                                                                                                            | Your Content |
+| Section  | Variable                         | Current Sporting2Impact Content                                                                                                                                                                                                                                                                                                                                                                                             | Your Content |
 | -------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
 | Programs | Program 1 Detail 1 - Title       | ".org Domain Registration"                                                                                                                                                                                                                                                                                                                                                                                                  |              |
 | Programs | Program 1 Detail 1 - Description | "For You: Leverage a .org domain name to enhance your charity's credibility, trustworthiness, and online presence, making it easier to attract donors and supporters"                                                                                                                                                                                                                                                       |              |
@@ -234,7 +234,7 @@ Describe the programs or services your charity offers.
 
 ### Program 2
 
-| Section  | Variable                | Current Sporting2Impact Content                                                                                                  | Your Content |
+| Section  | Variable                | Current Sporting2Impact Content                                                                                                   | Your Content |
 | -------- | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------ |
 | Programs | Program 2 - Icon        | `/Svgs/FFC-Hosting.svg`                                                                                                           |              |
 | Programs | Program 2 - Name        | "FFC Hosting"                                                                                                                     |              |
@@ -242,7 +242,7 @@ Describe the programs or services your charity offers.
 
 #### Program 2 - Details
 
-| Section  | Variable                         | Current Sporting2Impact Content                                                                                                                                                             | Your Content |
+| Section  | Variable                         | Current Sporting2Impact Content                                                                                                                                                              | Your Content |
 | -------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
 | Programs | Program 2 Detail 1 - Title       | "GitHub Pages Hosting"                                                                                                                                                                       |              |
 | Programs | Program 2 Detail 1 - Description | "For You: Free, reliable static site hosting with automatic HTTPS and custom domain support\nFor Us: Simplified deployment and maintenance with version-controlled websites"                 |              |
@@ -255,7 +255,7 @@ Describe the programs or services your charity offers.
 
 ### Program 3
 
-| Section  | Variable                | Current Sporting2Impact Content                                                                                                                                                                                                                                                                                                                                     | Your Content |
+| Section  | Variable                | Current Sporting2Impact Content                                                                                                                                                                                                                                                                                                                                      | Your Content |
 | -------- | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
 | Programs | Program 3 - Icon        | `/Svgs/FFC-Consulting.svg`                                                                                                                                                                                                                                                                                                                                           |              |
 | Programs | Program 3 - Name        | "FFC Consulting"                                                                                                                                                                                                                                                                                                                                                     |              |
@@ -263,7 +263,7 @@ Describe the programs or services your charity offers.
 
 #### Program 3 - Details
 
-| Section  | Variable                         | Current Sporting2Impact Content                                                                                                                                                                                                                                                                                                                                                                      | Your Content |
+| Section  | Variable                         | Current Sporting2Impact Content                                                                                                                                                                                                                                                                                                                                                                       | Your Content |
 | -------- | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
 | Programs | Program 3 Detail 1 - Title       | "Northwest Registered Agent"                                                                                                                                                                                                                                                                                                                                                                          |              |
 | Programs | Program 3 Detail 1 - Description | "For You: Leverage Northwest Registered Agents services to maintain compliance with state requirements, including registered agent services, nonprofit corporation filing, and initial charity IRS application.\nFor Us: Efficiently support charities by ensuring they meet legal requirements and train our volunteers on managing compliance, business formation processes, and IRS applications." |              |
@@ -276,7 +276,7 @@ Describe the programs or services your charity offers.
 
 ### Call to Action
 
-| Section  | Variable        | Current Sporting2Impact Content     | Your Content |
+| Section  | Variable        | Current Sporting2Impact Content      | Your Content |
 | -------- | --------------- | ------------------------------------ | ------------ |
 | Programs | CTA Heading     | "Ready to Get Started Now?"          |              |
 | Programs | CTA Button Text | "Application Form"                   |              |
@@ -291,29 +291,29 @@ _Note: You can add more programs or remove programs by duplicating this section 
 Frequently Asked Questions help address common inquiries about your charity.
 
 | Section | Variable        | Current Sporting2Impact Content | Your Content |
-| ------- | --------------- | -------------------------------- | ------------ |
-| FAQ     | Section Heading | "Frequently Asked Questions"     |              |
+| ------- | --------------- | ------------------------------- | ------------ |
+| FAQ     | Section Heading | "Frequently Asked Questions"    |              |
 
 ### Individual FAQ Items
 
-| #   | Question                                                                                                               | Answer                                                                                                                                                                       | Your Question | Your Answer |
-| --- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ----------- |
-| 1   | "What is the organization aiming to accomplish?"                                                                       | "While in the technical process of setting up free charity hosting we discovered that many small or new organizations are stuck well below the need for full web hosting..." |               |             |
-| 2   | "What are the organization's key strategies for making this happen?"                                                   | "FFC assists by paying the full cost of the .org domain name if available..."                                                                                                |               |             |
-| 3   | "What are the organization's capabilities for doing this?"                                                             | "We already have the accounts set up in eNOM to provide enterprise level domain procurement..."                                                                              |               |             |
-| 4   | "What have and haven't they accomplished so far?"                                                                      | "While a lot has been accomplished on the IT hosting side and to a certain degree the IT project management..."                                                              |               |             |
-| 5   | "Is there a need for a charity to provide help for charities?"                                                         | "Yes there is a need to provide help for charities in many ways!..."                                                                                                         |               |             |
-| 6   | "Where did the idea come from?"                                                                                        | "Sporting2Impact was started when the founder first started as a board member..."                                                                                           |               |             |
-| 7   | "Why do charities pay for items they can get for free?"                                                                | "The first reaction to uncovering these issues with the board was anger..."                                                                                                  |               |             |
-| 8   | "Where does Sporting2Impact come in to help our charity or nonprofit?"                                                | "Sporting2Impact will fill these vital roles for non profits and charities..."                                                                                              |               |             |
-| 9   | "How can I tell if we have high overhead? / My charity does not have high overhead!"                                   | "Sporting2Impact is all about efficiency. Many charities 'fix' this overhead problem..."                                                                                    |               |             |
-| 10  | "How do you provide your program services?"                                                                            | "We provide help for charities with efficiency..."                                                                                                                           |               |             |
-| 11  | "Are you like Idealist.org or other matching agencies?"                                                                | "Not exactly. That type of charity matches workers with charities..."                                                                                                        |               |             |
-| 12  | "What do I need to get started?"                                                                                       | "All you need to do to get Sporting2Impact to provide help for your charities mission..."                                                                                   |               |             |
-| 13  | "How can you afford to give away free domain names?"                                                                   | "As a 501(c)3 charity ourselves we seek individual, business, and grant sources of funding..."                                                                               |               |             |
-| 14  | "Where do you get your domain name packages?"                                                                          | "We are a registered reseller of eNom domain names..."                                                                                                                       |               |             |
-| 15  | "Are you really a charity?"                                                                                            | "Yes, We have had IRS designation since 2014..."                                                                                                                             |               |             |
-| 16  | "Why do I not see hosting as an option?"                                                                               | "We have a large backlog for new sites and support..."                                                                                                                       |               |             |
+| #   | Question                                                                                                              | Answer                                                                                                                                                                       | Your Question | Your Answer |
+| --- | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ----------- |
+| 1   | "What is the organization aiming to accomplish?"                                                                      | "While in the technical process of setting up free charity hosting we discovered that many small or new organizations are stuck well below the need for full web hosting..." |               |             |
+| 2   | "What are the organization's key strategies for making this happen?"                                                  | "FFC assists by paying the full cost of the .org domain name if available..."                                                                                                |               |             |
+| 3   | "What are the organization's capabilities for doing this?"                                                            | "We already have the accounts set up in eNOM to provide enterprise level domain procurement..."                                                                              |               |             |
+| 4   | "What have and haven't they accomplished so far?"                                                                     | "While a lot has been accomplished on the IT hosting side and to a certain degree the IT project management..."                                                              |               |             |
+| 5   | "Is there a need for a charity to provide help for charities?"                                                        | "Yes there is a need to provide help for charities in many ways!..."                                                                                                         |               |             |
+| 6   | "Where did the idea come from?"                                                                                       | "Sporting2Impact was started when the founder first started as a board member..."                                                                                            |               |             |
+| 7   | "Why do charities pay for items they can get for free?"                                                               | "The first reaction to uncovering these issues with the board was anger..."                                                                                                  |               |             |
+| 8   | "Where does Sporting2Impact come in to help our charity or nonprofit?"                                                | "Sporting2Impact will fill these vital roles for non profits and charities..."                                                                                               |               |             |
+| 9   | "How can I tell if we have high overhead? / My charity does not have high overhead!"                                  | "Sporting2Impact is all about efficiency. Many charities 'fix' this overhead problem..."                                                                                     |               |             |
+| 10  | "How do you provide your program services?"                                                                           | "We provide help for charities with efficiency..."                                                                                                                           |               |             |
+| 11  | "Are you like Idealist.org or other matching agencies?"                                                               | "Not exactly. That type of charity matches workers with charities..."                                                                                                        |               |             |
+| 12  | "What do I need to get started?"                                                                                      | "All you need to do to get Sporting2Impact to provide help for your charities mission..."                                                                                    |               |             |
+| 13  | "How can you afford to give away free domain names?"                                                                  | "As a 501(c)3 charity ourselves we seek individual, business, and grant sources of funding..."                                                                               |               |             |
+| 14  | "Where do you get your domain name packages?"                                                                         | "We are a registered reseller of eNom domain names..."                                                                                                                       |               |             |
+| 15  | "Are you really a charity?"                                                                                           | "Yes, We have had IRS designation since 2014..."                                                                                                                             |               |             |
+| 16  | "Why do I not see hosting as an option?"                                                                              | "We have a large backlog for new sites and support..."                                                                                                                       |               |             |
 | 17  | "If I am an individual or business and donate money for a domain package to Sporting2Impact, is this tax-deductible?" | "While any official tax guidance should come from your accountant..."                                                                                                        |               |             |
 
 _Note: You should customize these FAQs to match your charity's mission and services. Add or remove questions as needed._
@@ -325,13 +325,13 @@ _Note: You should customize these FAQs to match your charity's mission and servi
 Introduce your charity's leadership team or key staff members.
 
 | Section | Variable        | Current Sporting2Impact Content | Your Content                                  |
-| ------- | --------------- | -------------------------------- | --------------------------------------------- |
+| ------- | --------------- | ------------------------------- | --------------------------------------------- |
 | Team    | Section Heading | "The Sporting2Impact Team"      | _(e.g., "Meet Our Team" or "Our Leadership")_ |
 
 ### Team Members
 
-| #   | Photo                  | Name              | Title                                              | LinkedIn URL                                            | Your Photo                                        | Your Name | Your Title | Your LinkedIn |
-| --- | ---------------------- | ----------------- | -------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------- | --------- | ---------- | ------------- |
+| #   | Photo                  | Name              | Title                                             | LinkedIn URL                                            | Your Photo                                        | Your Name | Your Title | Your LinkedIn |
+| --- | ---------------------- | ----------------- | ------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------- | --------- | ---------- | ------------- |
 | 1   | `/Images/member1.webp` | "Clarke Moyer"    | "Sporting2Impact Founder/ President of the Board" | "https://www.linkedin.com/in/clarkemoyer/"              | _(Photo file, recommended: 400px × 400px square)_ |           |            |               |
 | 2   | `/Images/member2.webp` | "Chris Rae"       | "Sporting2Impact Vice President"                  | "https://www.linkedin.com/in/christopher-rae-540493a5/" |                                                   |           |            |               |
 | 3   | `/Images/member3.webp` | "Tyler Carlotto"  | "Sporting2Impact Secretary"                       | "https://www.linkedin.com/in/tylercarlotto/"            |                                                   |           |            |               |
@@ -348,7 +348,7 @@ The footer appears at the bottom of every page and contains important links and 
 
 ### Column 1 - Endorsements
 
-| Section | Variable                     | Current Sporting2Impact Content                                                | Your Content                                                        |
+| Section | Variable                     | Current Sporting2Impact Content                                                 | Your Content                                                        |
 | ------- | ---------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | Footer  | Column 1 Heading             | "Endorsements"                                                                  | _(You might use "Certifications", "Verified By", or similar)_       |
 | Footer  | Endorsement Image 1          | `/Svgs/footerImage.svg` (GuideStar Platinum Seal)                               | _(Logo/seal image from your endorsing organizations)_               |
@@ -356,11 +356,11 @@ The footer appears at the bottom of every page and contains important links and 
 | Footer  | Endorsement Image 1 Link     | "https://www.guidestar.org/profile/33-4148206"                                  | _(Link to your profile page)_                                       |
 | Footer  | Direct Profile Link Text     | "Direct GuideStar Profile Link"                                                 | _(Or your equivalent verification link)_                            |
 | Footer  | Direct Profile Link URL      | "https://www.guidestar.org/profile/shared/bbbe173a-87b9-4af9-a8a2-cae255a95742" |                                                                     |
-| Footer  | EIN Display Text             | "Sporting2Impact EIN: 33-4148206"                                              | _(Your charity's EIN number, e.g., "Your Charity EIN: XX-XXXXXXX")_ |
+| Footer  | EIN Display Text             | "Sporting2Impact EIN: 33-4148206"                                               | _(Your charity's EIN number, e.g., "Your Charity EIN: XX-XXXXXXX")_ |
 
 ### Column 2 - Quick Links
 
-| Section | Variable            | Current Sporting2Impact Content  | Your Content                       |
+| Section | Variable            | Current Sporting2Impact Content   | Your Content                       |
 | ------- | ------------------- | --------------------------------- | ---------------------------------- |
 | Footer  | Column 2 Heading    | "Quick Links"                     |                                    |
 | Footer  | Quick Link 1 - Text | "Home"                            |                                    |
@@ -385,34 +385,34 @@ The footer appears at the bottom of every page and contains important links and 
 ### Column 2 - Policy Links
 
 | Section | Variable               | Current Sporting2Impact Content                   | Your Content                         |
-| ------- | ---------------------- | -------------------------------------------------- | ------------------------------------ |
+| ------- | ---------------------- | ------------------------------------------------- | ------------------------------------ |
 | Footer  | Policy Section Heading | "Sporting2Impact Policy"                          | _(e.g., "[Your Charity] Policies")_  |
 | Footer  | Policy Link 1 - Text   | "Sporting2Impact Donation Policy"                 | _(Customize with your charity name)_ |
-| Footer  | Policy Link 1 - URL    | "/free-for-charity-donation-policy"                | "/donation-policy"                   |
-| Footer  | Policy Link 2 - Text   | "Donation Policy"                                  |                                      |
-| Footer  | Policy Link 2 - URL    | "/donation-policy"                                 |                                      |
+| Footer  | Policy Link 1 - URL    | "/free-for-charity-donation-policy"               | "/donation-policy"                   |
+| Footer  | Policy Link 2 - Text   | "Donation Policy"                                 |                                      |
+| Footer  | Policy Link 2 - URL    | "/donation-policy"                                |                                      |
 | Footer  | Policy Link 3 - Text   | "Sporting2Impact Privacy Policy"                  | _(Customize with your charity name)_ |
-| Footer  | Policy Link 3 - URL    | "/privacy-policy"                                  |                                      |
+| Footer  | Policy Link 3 - URL    | "/privacy-policy"                                 |                                      |
 | Footer  | Policy Link 4 - Text   | "Sporting2Impact Cookie Policy"                   | _(Customize with your charity name)_ |
-| Footer  | Policy Link 4 - URL    | "/cookie-policy"                                   |                                      |
+| Footer  | Policy Link 4 - URL    | "/cookie-policy"                                  |                                      |
 | Footer  | Policy Link 5 - Text   | "Sporting2Impact Terms of Service"                | _(Customize with your charity name)_ |
-| Footer  | Policy Link 5 - URL    | "/terms-of-service"                                |                                      |
+| Footer  | Policy Link 5 - URL    | "/terms-of-service"                               |                                      |
 | Footer  | Policy Link 6 - Text   | "Sporting2Impact Vulnerability Disclosure Policy" | _(Customize with your charity name)_ |
-| Footer  | Policy Link 6 - URL    | "/vulnerability-disclosure-policy"                 |                                      |
+| Footer  | Policy Link 6 - URL    | "/vulnerability-disclosure-policy"                |                                      |
 | Footer  | Policy Link 7 - Text   | "Sporting2Impact Security Acknowledgement"        | _(Customize with your charity name)_ |
-| Footer  | Policy Link 7 - URL    | "/security-acknowledgements"                       |                                      |
+| Footer  | Policy Link 7 - URL    | "/security-acknowledgements"                      |                                      |
 
 _Note: These policy pages will need to be created with your charity's specific policies._
 
 ### Column 3 - Contact Information
 
-| Section | Variable                           | Current Sporting2Impact Content                                                                    | Your Content                                         |
+| Section | Variable                           | Current Sporting2Impact Content                                                                     | Your Content                                         |
 | ------- | ---------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
 | Footer  | Column 3 Heading                   | "Contact Us"                                                                                        |                                                      |
 | Footer  | Email Label                        | "E-mail"                                                                                            |                                                      |
-| Footer  | Email Address                      | "info@sporting2impact.org"                                                                    | _(Your charity's contact email)_                     |
+| Footer  | Email Address                      | "info@sporting2impact.org"                                                                          | _(Your charity's contact email)_                     |
 | Footer  | Phone Label                        | "Call Us Today"                                                                                     |                                                      |
-| Footer  | Phone Number                       | "+1 (667) 479-2048"                                                                                    | _(Your charity's phone number)_                      |
+| Footer  | Phone Number                       | "+1 (667) 479-2048"                                                                                 | _(Your charity's phone number)_                      |
 | Footer  | Phone Number (dialable format)     | "6674792048"                                                                                        | _(Numbers only, no spaces or dashes)_                |
 | Footer  | Main Address Label                 | "Main Address"                                                                                      |                                                      |
 | Footer  | Main Address Line 1                | "4030 Wake Forrest Road"                                                                            |                                                      |
@@ -428,9 +428,9 @@ _Note: If you don't have a second location, you can remove the secondary address
 
 ### Social Media Links
 
-| Section | Variable              | Current Sporting2Impact Content                             | Your Content                                         |
+| Section | Variable              | Current Sporting2Impact Content                              | Your Content                                         |
 | ------- | --------------------- | ------------------------------------------------------------ | ---------------------------------------------------- |
-| Footer  | Facebook URL          | "https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr"                    | _(Your Facebook page URL)_                           |
+| Footer  | Facebook URL          | "https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr" | _(Your Facebook page URL)_                           |
 | Footer  | Twitter/X URL         | "https://x.com/freeforcharity1"                              | _(Your Twitter/X profile URL)_                       |
 | Footer  | LinkedIn URL          | "https://www.linkedin.com/company/freeforcharity/"           | _(Your LinkedIn company page URL)_                   |
 | Footer  | GitHub URL            | "https://github.com/FreeForCharity/FFC_Single_Page_Template" | _(Your GitHub organization URL, or leave blank)_     |
@@ -438,11 +438,11 @@ _Note: If you don't have a second location, you can remove the secondary address
 
 ### Copyright / Bottom Bar
 
-| Section | Variable          | Current Sporting2Impact Content                                             | Your Content                                          |
-| ------- | ----------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------- |
+| Section | Variable          | Current Sporting2Impact Content                                             | Your Content                                         |
+| ------- | ----------------- | --------------------------------------------------------------------------- | ---------------------------------------------------- |
 | Footer  | Copyright Text    | "© {year} All Rights Are Reserved by Sporting2Impact a US 501c3 Non Profit" | _(Replace "Sporting2Impact" with your charity name)_ |
-| Footer  | Project Link Text | "A project of"                                                               | _(Optional - if part of a larger organization)_       |
-| Footer  | Project Link URL  | "https://freeforcharity.org"                                                 |                                                       |
+| Footer  | Project Link Text | "A project of"                                                              | _(Optional - if part of a larger organization)_      |
+| Footer  | Project Link URL  | "https://freeforcharity.org"                                                |                                                      |
 
 _Note: The {year} will automatically update to the current year._
 
@@ -453,15 +453,15 @@ _Note: The {year} will automatically update to the current year._
 This information helps your website appear correctly in search results and social media.
 
 | Section  | Variable                            | Current Sporting2Impact Content                                                                                                                                                   | Your Content                                                              |
-| -------- | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| -------- | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | Metadata | Page Title                          | "Sporting2Impact - Connecting Students, Professionals, & Businesses with Charities in Need"                                                                                       | _(Your charity name and tagline, under 60 characters for best SEO)_       |
 | Metadata | Meta Description                    | "Sporting2Impact reduces costs and increases revenues for nonprofits by connecting them with students, professionals, and businesses. Join our mission to help charities thrive." | _(Brief description of your charity, 150-160 characters for best SEO)_    |
 | Metadata | Open Graph Title (for social media) | "Sporting2Impact"                                                                                                                                                                 | _(Your charity name)_                                                     |
-| Metadata | Open Graph Description              | "Connecting Students, Professionals, & Businesses with Charities in Need"                                                                                                          | _(Your tagline/mission)_                                                  |
-| Metadata | Open Graph Image                    | `/Images/og-image.png`                                                                                                                                                             | _(Image shown when sharing on social media, recommended: 1200px × 630px)_ |
-| Metadata | Twitter Card Type                   | "summary_large_image"                                                                                                                                                              | _(Usually keep as "summary_large_image")_                                 |
-| Metadata | Favicon                             | `/favicon.ico`                                                                                                                                                                     | _(Small icon shown in browser tab, 32px × 32px .ico file)_                |
-| Metadata | Apple Touch Icon                    | `/apple-touch-icon.png`                                                                                                                                                            | _(Icon for iOS devices, 180px × 180px)_                                   |
+| Metadata | Open Graph Description              | "Connecting Students, Professionals, & Businesses with Charities in Need"                                                                                                         | _(Your tagline/mission)_                                                  |
+| Metadata | Open Graph Image                    | `/Images/og-image.png`                                                                                                                                                            | _(Image shown when sharing on social media, recommended: 1200px × 630px)_ |
+| Metadata | Twitter Card Type                   | "summary_large_image"                                                                                                                                                             | _(Usually keep as "summary_large_image")_                                 |
+| Metadata | Favicon                             | `/favicon.ico`                                                                                                                                                                    | _(Small icon shown in browser tab, 32px × 32px .ico file)_                |
+| Metadata | Apple Touch Icon                    | `/apple-touch-icon.png`                                                                                                                                                           | _(Icon for iOS devices, 180px × 180px)_                                   |
 
 ---
 

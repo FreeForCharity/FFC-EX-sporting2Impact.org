@@ -14,11 +14,11 @@ const index = () => {
         <div>
           <FrequentlyAskedQuestions title="What is the organization aiming to accomplish?">
             <p className="mb-[30px]">
-              Sporting2Impact is a nonprofit that is commited to provide free fitness, heath talks, and 
-              conduct sports tournaments to bring awareness in the community and to help those in need.
+              Sporting2Impact is a nonprofit that is commited to provide free fitness, heath talks,
+              and conduct sports tournaments to bring awareness in the community and to help those
+              in need.
             </p>
           </FrequentlyAskedQuestions>
-          
         </div>
       </div>
     </div>

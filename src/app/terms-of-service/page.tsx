@@ -137,10 +137,10 @@ export default function TermsOfService() {
           </h1>
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
             Our Services may contain links to third-party websites or services that are not owned or
-            controlled by Sporting2Impact. We are not responsible for the content, privacy
-            policies, or practices of any third-party websites or services. You acknowledge and
-            agree that Sporting2Impact shall not be liable for any damages or loss caused by or in
-            connection with your use of any third-party websites or services.
+            controlled by Sporting2Impact. We are not responsible for the content, privacy policies,
+            or practices of any third-party websites or services. You acknowledge and agree that
+            Sporting2Impact shall not be liable for any damages or loss caused by or in connection
+            with your use of any third-party websites or services.
           </p>
 
           {/* Disclaimer of Warranties */}

@@ -10,7 +10,11 @@ import { FaXTwitter } from 'react-icons/fa6'
 const Footer: React.FC = () => {
   const currentYear = React.useMemo(() => new Date().getFullYear(), [])
   const socialLinks = [
-    { icon: FaFacebookF, href: 'https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr', label: 'Facebook' },
+    {
+      icon: FaFacebookF,
+      href: 'https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr',
+      label: 'Facebook',
+    },
     {
       icon: FaLinkedinIn,
       href: 'https://www.linkedin.com/company/sporting2impact/',
