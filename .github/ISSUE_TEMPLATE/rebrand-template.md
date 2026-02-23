@@ -1,7 +1,7 @@
 ---
 name: Rebrand Template To A New Brand
 about: Complete rebranding checklist for adapting this template to a new nonprofit organization
-title: 'Rebrand Template: [Organization Name]'
+title: 'Rebrand Template: [Sporting2Impact]'
 labels: 'documentation, customization, rebrand'
 assignees: ''
 ---
@@ -119,7 +119,7 @@ Country: ___________________
 
 **Primary Website Domain:** `___________________`
 
-**GitHub Organization Name:** `___________________`
+**GitHub Sporting2Impact:** `___________________`
 
 **Repository Name:** `___________________`
 
@@ -445,9 +445,9 @@ Copy and paste this template into a comment on this issue, filling in the values
 ```
 @copilot, based on the information provided in this issue, please update the repository:
 
-1. Replace all instances of "Free For Charity" with "[Your Organization Name]"
-2. Replace all instances of "46-2471893" with "[Your EIN]"
-3. Replace all instances of "ffcworkingsite1.org" with "[your-domain.org]"
+1. Replace all instances of "Sporting2Impact" with "[Your Sporting2Impact]"
+2. Replace all instances of "33-4148206" with "[Your EIN]"
+3. Replace all instances of "sporting2impact.org" with "[your-domain.org]"
 4. Update CODEOWNERS file to list: @[username1], @[username2], @[username3]
 5. Update NEXT_PUBLIC_BASE_PATH in .github/workflows/deploy.yml and .github/workflows/lighthouse.yml to /[your-repo-name]
 6. Update all social media links in footer component to:

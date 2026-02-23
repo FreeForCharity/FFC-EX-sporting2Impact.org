@@ -1,6 +1,6 @@
 # Contributors
 
-Thank you to all the people who have contributed to the Free For Charity website project! 🎉
+Thank you to all the people who have contributed to the Sporting2Impact website project! 🎉
 
 This document recognizes everyone who has helped make this project better through code, documentation, reviews, testing, feedback, and more.
 
@@ -27,9 +27,9 @@ Contributors are recognized in several ways:
 **Clarke Moyer** ([@clarkemoyer](https://github.com/clarkemoyer))
 
 - **Role**: Founder, Lead Maintainer, Project Owner
-- **Email**: clarkemoyer@freeforcharity.org
+- **Email**: info@sporting2impact.org
 - **Contributions**: Project vision, architecture, initial codebase, ongoing maintenance
-- **Organization**: Free For Charity (501(c)(3) nonprofit)
+- **Organization**: Sporting2Impact (501(c)(3) nonprofit)
 
 ### Active Contributors
 
@@ -173,7 +173,7 @@ Special recognition for significant contributions:
 
 ### Founding Supporters
 
-- **Free For Charity Board of Directors** - Strategic guidance and nonprofit governance
+- **Sporting2Impact Board of Directors** - Strategic guidance and nonprofit governance
 - **Early testers and reviewers** - Providing valuable feedback
 
 ### Technology Partners
@@ -203,7 +203,7 @@ All contributors are expected to:
 
 If you have questions about contributor recognition:
 
-- **Email**: clarkemoyer@freeforcharity.org
+- **Email**: info@sporting2impact.org
 - **GitHub Discussions**: [Ask a question](https://github.com/FreeForCharity/FFC_Single_Page_Template/discussions)
 - **Support Guide**: [SUPPORT.md](./SUPPORT.md)
 
@@ -226,11 +226,11 @@ This contributors document follows CNCF best practices for:
 
 ---
 
-**Thank you to everyone who contributes to making Free For Charity's mission possible!** 💙
+**Thank you to everyone who contributes to making Sporting2Impact's mission possible!** 💙
 
 Your work helps nonprofits reduce operating costs and focus more resources on their charitable missions.
 
 ---
 
 **Last Updated**: December 13, 2025  
-**Maintained By**: Free For Charity Maintainers
+**Maintained By**: Sporting2Impact Maintainers

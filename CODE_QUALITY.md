@@ -1,6 +1,6 @@
 # Code Quality Standards
 
-This document outlines the code quality standards, tools, and best practices for the Free For Charity project.
+This document outlines the code quality standards, tools, and best practices for the Sporting2Impact project.
 
 ## Table of Contents
 
@@ -523,7 +523,7 @@ NEXT_PUBLIC_API_KEY=your-key-here
 
 ```env
 # .env (can be committed)
-NEXT_PUBLIC_APP_NAME=Free For Charity
+NEXT_PUBLIC_APP_NAME=Sporting2Impact
 ```
 
 ### Content Security Policy

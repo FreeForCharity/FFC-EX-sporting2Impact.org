@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: Free For Charity Website Template
+title: Sporting2Impact Website Template
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -10,13 +10,13 @@ type: software
 authors:
   - given-names: Clarke
     family-names: Moyer
-    email: clarkemoyer@freeforcharity.org
-    affiliation: Free For Charity
+    email: info@sporting2impact.org
+    affiliation: Sporting2Impact
 repository-code: 'https://github.com/FreeForCharity/FFC_Single_Page_Template'
-url: 'https://ffcworkingsite1.org'
+url: 'https://sporting2impact.org'
 abstract: >-
   Single-page Next.js 16.0.7 website template built with App
-  Router for Free For Charity nonprofit organization. This
+  Router for Sporting2Impact nonprofit organization. This
   template provides a professional, accessible, and
   performant foundation for nonprofit websites, featuring
   global popups for donations and volunteer applications,

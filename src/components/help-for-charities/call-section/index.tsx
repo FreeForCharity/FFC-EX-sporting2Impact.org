@@ -12,8 +12,8 @@ const index = () => {
           </h1>
           <p className="text-[22px] font-[500] text-black" id="lato-font">
             Clarke Moyer{' '}
-            <Link className="text-[#f58c23]" href="tel:+15202228104">
-              (520) 222-8104
+            <Link className="text-[#f58c23]" href="tel:+16674792048">
+              +1 (667) 479-2048
             </Link>
           </p>
         </div>

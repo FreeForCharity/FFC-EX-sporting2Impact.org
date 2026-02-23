@@ -33,7 +33,7 @@ Edit `tests/test.config.ts` with your organization's information:
 ```typescript
 export const testConfig = {
   organization: {
-    name: 'Your Organization Name',
+    name: 'Your Sporting2Impact',
     type: 'Your Organization Type',
     website: 'https://yourwebsite.org',
   },

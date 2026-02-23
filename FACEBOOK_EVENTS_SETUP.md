@@ -2,7 +2,7 @@
 
 **Last Updated:** December 9, 2024
 
-This guide provides step-by-step instructions for implementing the Facebook Events integration on the Free For Charity homepage. Follow this guide after reviewing `FACEBOOK_EVENTS_REQUIREMENTS.md`.
+This guide provides step-by-step instructions for implementing the Facebook Events integration on the Sporting2Impact homepage. Follow this guide after reviewing `FACEBOOK_EVENTS_REQUIREMENTS.md`.
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ This guide provides step-by-step instructions for implementing the Facebook Even
 Before starting implementation, ensure you have:
 
 - [x] Read and understood `FACEBOOK_EVENTS_REQUIREMENTS.md`
-- [x] Confirmed Free For Charity Facebook page URL: `https://www.facebook.com/freeforcharity`
+- [x] Confirmed Sporting2Impact Facebook page URL: `https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr`
 - [x] Verified Facebook page has upcoming events posted
 - [x] Development environment set up (Node.js 20.x, npm)
 - [x] Access to repository: `FreeForCharity/FFC_Single_Page_Template`
@@ -112,7 +112,7 @@ const Events: React.FC = () => {
           <p className="text-[20px] lg:text-[25px] font-[400]" id="lato-font">
             Join us for upcoming volunteer opportunities, training sessions, and community events.{' '}
             <a
-              href="https://www.facebook.com/freeforcharity"
+              href="https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#2EA3F2] hover:underline"
@@ -126,7 +126,7 @@ const Events: React.FC = () => {
           <div className="flex justify-center">
             <div
               className="fb-page"
-              data-href="https://www.facebook.com/freeforcharity"
+              data-href="https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr"
               data-tabs="events"
               data-width="500"
               data-height="600"
@@ -136,10 +136,10 @@ const Events: React.FC = () => {
               data-show-facepile="false"
             >
               <blockquote
-                cite="https://www.facebook.com/freeforcharity"
+                cite="https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr"
                 className="fb-xfbml-parse-ignore"
               >
-                <a href="https://www.facebook.com/freeforcharity">Free For Charity</a>
+                <a href="https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr">Sporting2Impact</a>
               </blockquote>
             </div>
           </div>
@@ -184,11 +184,10 @@ import Hero from '@/components/home-page/Hero'
 import Mission from '@/components/home-page/Mission'
 import SupportFreeForCharity from '@/components/home-page/SupportFreeForCharity'
 import EndowmentFeatures from '@/components/home-page/Endowment-Features'
-import OurPrograms from '@/components/home-page/Our-Programs'
 import VolunteerwithUs from '@/components/home-page/Volunteer-with-Us'
 import Results2023 from '@/components/home-page/Results-2023'
 import Testimonials from '@/components/home/Testimonials'
-import TheFreeForCharityTeam from '@/components/home-page/TheFreeForCharityTeam'
+import TheSporting2ImpactTeam from '@/components/home-page/TheSporting2ImpactTeam'
 import FrequentlyAskedQuestions from '@/components/home-page/FrequentlyAskedQuestions'
 import Events from '@/components/home-page/Events' // Add this import
 
@@ -205,7 +204,7 @@ const index = () => {
       <EndowmentFeatures />
       <OurPrograms />
       <FrequentlyAskedQuestions />
-      <TheFreeForCharityTeam />
+      <TheSporting2ImpactTeam/>
     </div>
   )
 }
@@ -353,7 +352,7 @@ Find the "Direct Integrations" section and add after the Meta Pixel entry:
 ```markdown
 #### 8. Facebook Page Plugin (Events)
 
-- **Purpose:** Display upcoming events from Free For Charity Facebook page
+- **Purpose:** Display upcoming events from Sporting2Impact Facebook page
 - **Implementation:** Embedded widget via iframe
 - **Domain:** `www.facebook.com`, `connect.facebook.net`
 - **Load Strategy:** Conditional (only after marketing cookie consent)
@@ -546,16 +545,16 @@ These steps must be completed **outside the codebase** before implementation:
 #### 1. Create Facebook Developer Account
 
 1. Go to [Facebook for Developers](https://developers.facebook.com/)
-2. Log in with Free For Charity Facebook account credentials
+2. Log in with Sporting2Impact Facebook account credentials
 3. Click "My Apps" in the top navigation
 4. Click "Create App"
 
 #### 2. Create Facebook App
 
 1. **Choose App Type:** Select "Business"
-2. **App Name:** "Free For Charity Events Integration"
-3. **App Contact Email:** Use privacy@freeforcharity.org or clarkemoyer@freeforcharity.org
-4. **Business Account:** Select or create Free For Charity business account
+2. **App Name:** "Sporting2Impact Events Integration"
+3. **App Contact Email:** Use privacy@freeforcharity.org or info@sporting2impact.org
+4. **Business Account:** Select or create Sporting2Impact business account
 5. Click "Create App"
 
 #### 3. Configure App Settings
@@ -563,14 +562,14 @@ These steps must be completed **outside the codebase** before implementation:
 1. Go to App Dashboard
 2. Navigate to **Settings > Basic**
 3. Note your **App ID** and **App Secret** (keep these secure)
-4. Add **App Domains:** `ffcworkingsite1.org`, `freeforcharity.github.io`
-5. Add **Privacy Policy URL:** `https://ffcworkingsite1.org/privacy-policy`
-6. Add **Terms of Service URL:** `https://ffcworkingsite1.org/terms-of-service`
+4. Add **App Domains:** `sporting2impact.org`, `freeforcharity.github.io`
+5. Add **Privacy Policy URL:** `https://sporting2impact.org/privacy-policy`
+6. Add **Terms of Service URL:** `https://sporting2impact.org/terms-of-service`
 7. Save changes
 
 #### 4. Get Page Access Token
 
-**Important:** You must be an admin of the Free For Charity Facebook page.
+**Important:** You must be an admin of the Sporting2Impact Facebook page.
 
 1. Go to [Graph API Explorer](https://developers.facebook.com/tools/explorer/)
 2. Select your app from the dropdown
@@ -584,7 +583,7 @@ These steps must be completed **outside the codebase** before implementation:
 #### 5. Get Page ID
 
 1. In Graph API Explorer, make a request to `/me/accounts`
-2. Find Free For Charity page in the response
+2. Find Sporting2Impact page in the response
 3. Copy the **Page ID** (numeric ID)
 
 #### 6. Exchange for Long-Lived Page Access Token
@@ -914,7 +913,7 @@ const Events: React.FC = async () => {
               No upcoming events at this time. Check back soon!
             </p>
             <a
-              href="https://www.facebook.com/freeforcharity"
+              href="https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#2EA3F2] hover:underline text-lg mt-4 inline-block"
@@ -1009,7 +1008,7 @@ The GitHub Actions workflow will:
 
 ### Verify Deployment
 
-1. Visit https://ffcworkingsite1.org
+1. Visit https://sporting2impact.org
 2. Scroll to Events section
 3. Test cookie consent flow
 4. Verify events load correctly
@@ -1125,7 +1124,7 @@ Set up monitoring for:
 **Technical Issues:**
 
 - Repository: https://github.com/FreeForCharity/FFC_Single_Page_Template/issues
-- Email: clarkemoyer@freeforcharity.org
+- Email: info@sporting2impact.org
 
 **Facebook Developer Support:**
 

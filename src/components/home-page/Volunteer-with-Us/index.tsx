@@ -15,12 +15,10 @@ const index = () => {
           className="mb-[13px] w-[85%] mx-auto font-[500] text-[20px] leading-[30px] text-center text-white"
           id="lato-font"
         >
-          Your time and skills can create a lasting impact. Whether youre assisting with outreach,
-          providing technical expertise, or supporting our programs, your contributions are
-          invaluable to our mission.
+          Hello
         </p>
         <a
-          href="https://www.idealist.org/en/nonprofit/356bfc8e2ae64f83beea4a4e677e99d7-free-for-charity-state-college#opportunities"
+          href="https://www.idealist.org/en/nonprofit/f70e4f401859448cb4304eed9f2a00a0-sporting2impact-inc-ellicott-city#opportunities"
           target="_blank"
           rel="noopener noreferrer"
           className="w-[216px] h-[62px] top-[261px] left-[611px] rounded-[27px] 
@@ -30,7 +28,7 @@ const index = () => {
         >
           Volunteer
         </a>
-
+{/* 
         <Image
           src="/Images/Volunteer-with-Us.webp"
           alt="Volunteer-with-Us"
@@ -38,7 +36,7 @@ const index = () => {
           height={607}
           className="mx-auto mt-[40px]"
           loading="lazy"
-        ></Image>
+        ></Image> */}
       </div>
     </div>
   )

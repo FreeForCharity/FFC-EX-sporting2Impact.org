@@ -19,21 +19,22 @@ import {
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://ffcworkingsite1.org'),
+  metadataBase: new URL('https://sporting2impact.org'),
   title: {
-    default: 'Free For Charity | Reduce Costs, Increase Impact',
-    template: '%s | Free For Charity',
+    default: 'Sporting2Impact | Stay Active, Stay Healthy and Make an Impact',
+    template: '%s | Sporting2Impact',
   },
   description:
-    'Free For Charity connects students, professionals, and businesses with nonprofits to reduce costs and increase revenues—putting more resources back into their missions.',
+    'Sporting2Impact - At Sporting2Impact, we bring people together through the power of movement by organizing inclusive, community-driven exercise events. From weekend hikes to Pilates, Yoga sessions, we design activities that welcome participants of all ages, abilities, and backgrounds. Our programs aim to attract people that want to become more active and energetic while being an active member of their community.',
   keywords: [
     'nonprofit',
     'charity',
     'volunteer',
     'donate',
-    'free hosting',
+    'free fitness',
+    'free health talks',
+    'sports tournaments',
     'domains',
-    'Microsoft 365',
   ],
   robots: {
     index: true,
@@ -51,26 +52,26 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    url: 'https://ffcworkingsite1.org/',
-    siteName: 'Free For Charity',
-    title: 'Free For Charity | Reduce Costs, Increase Impact',
+    url: 'https://sporting2impact.org/',
+    siteName: 'Sporting2Impact',
+    title: 'Sporting2Impact | Stay Active, Stay Healthy and Make an Impact',
     description:
-      'Connecting students, professionals, and businesses with nonprofits to reduce costs and increase revenues.',
+      'At Sporting2Impact, we bring people together through the power of movement by organizing inclusive, community-driven exercise events. From weekend hikes to Pilates, Yoga sessions, we design activities that welcome participants of all ages, abilities, and backgrounds. Our programs aim to attract people that want to become more active and energetic while being an active member of their community.',
     images: [
       {
         url: '/web-app-manifest-512x512.png',
         width: 512,
         height: 512,
-        alt: 'Free For Charity',
+        alt: 'Sporting2Impact',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@freeforcharity',
-    title: 'Free For Charity | Reduce Costs, Increase Impact',
+    site: '@sporting2impact',
+    title: 'Sporting2Impact | Stay Active, Stay Healthy and Make an Impact',
     description:
-      'Connecting students, professionals, and businesses with nonprofits to reduce costs and increase revenues.',
+      'At Sporting2Impact, we bring people together through the power of movement by organizing inclusive, community-driven exercise events. From weekend hikes to Pilates, Yoga sessions, we design activities that welcome participants of all ages, abilities, and backgrounds. Our programs aim to attract people that want to become more active and energetic while being an active member of their community.',
     images: ['/web-app-manifest-512x512.png'],
   },
   icons: {
@@ -92,11 +93,9 @@ export default function RootLayout({
       <head>
         {/* Preconnect to external domains for faster resource loading */}
         <link rel="preconnect" href="https://www.googletagmanager.com" />
-        <link rel="preconnect" href="https://ffcsites.org" />
         <link rel="preconnect" href="https://www.zeffy.com" />
         <link rel="preconnect" href="https://widgets.guidestar.org" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        <link rel="dns-prefetch" href="https://ffcsites.org" />
         <link rel="dns-prefetch" href="https://www.zeffy.com" />
         <link rel="dns-prefetch" href="https://www.idealist.org" />
 

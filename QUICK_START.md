@@ -207,7 +207,7 @@ NEXT_PUBLIC_GTM_ID=
 Open `src/app/page.tsx` and find the hero section:
 
 ```tsx
-<h1 className="text-4xl font-bold">Free For Charity</h1>
+<h1 className="text-4xl font-bold">Sporting2Impact</h1>
 ```
 
 Change the text, save, and see it update instantly in your browser!

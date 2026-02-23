@@ -96,7 +96,7 @@ const Index = () => {
             <div className="text-[18px] leading-[24px] font-[500] text-[#666]" id="lato-font">
               My personal charity focused on bridging the gaps between the big players in the
               charity for charities section. Focus is on IT Project Management support and other
-              business level support. Free For Charity leverages and simplifies the plethora of
+              business level support. Sporting2Impact leverages and simplifies the plethora of
               options each charity has to provide what is needed most by the individual
               organization.
             </div>

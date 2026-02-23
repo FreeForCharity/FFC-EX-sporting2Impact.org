@@ -1,6 +1,6 @@
 # Issue Resolution Guide
 
-This document provides solutions to common issues, troubleshooting steps, and frequently asked questions for the Free For Charity project.
+This document provides solutions to common issues, troubleshooting steps, and frequently asked questions for the Sporting2Impact project.
 
 ## Table of Contents
 
@@ -423,7 +423,7 @@ npm run test:e2e
    ```bash
    # Should be in public/CNAME
    cat public/CNAME
-   # Should contain: ffcworkingsite1.org
+   # Should contain: sporting2impact.org
    ```
 
 ### Issue: Images Load Locally but Not in Production

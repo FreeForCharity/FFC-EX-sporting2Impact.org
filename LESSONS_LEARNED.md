@@ -25,7 +25,7 @@ This document captures key lessons learned during the development and evolution 
 
 ### Origins
 
-The FFC Single Page Template was created as a standardized, reusable foundation for Free For Charity web projects. It evolved from the production `freeforcharity-web` repository and has been enhanced with modern development practices.
+The FFC Single Page Template was created as a standardized, reusable foundation for Sporting2Impact web projects. It evolved from the production `freeforcharity-web` repository and has been enhanced with modern development practices.
 
 ### Key Milestones
 

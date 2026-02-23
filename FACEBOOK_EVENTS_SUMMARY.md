@@ -5,7 +5,7 @@
 
 ## Overview
 
-This document provides a high-level summary of the Facebook Events integration requirements and recommendations for the Free For Charity homepage. For detailed technical specifications, see the companion documents.
+This document provides a high-level summary of the Facebook Events integration requirements and recommendations for the Sporting2Impact homepage. For detailed technical specifications, see the companion documents.
 
 ## Quick Reference
 
@@ -18,7 +18,7 @@ This document provides a high-level summary of the Facebook Events integration r
 
 ## The Problem
 
-Free For Charity maintains an active Facebook page ([facebook.com/freeforcharity](https://www.facebook.com/freeforcharity)) with events for volunteers, training sessions, and community engagement. Currently, these events are only visible to users who visit Facebook directly, limiting visibility and engagement.
+Sporting2Impact maintains an active Facebook page ([facebook.com/freeforcharity](https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr)) with events for volunteers, training sessions, and community engagement. Currently, these events are only visible to users who visit Facebook directly, limiting visibility and engagement.
 
 ## The Solution
 
@@ -172,7 +172,7 @@ Unlike the Facebook Page Plugin, the Graph API approach (when implemented server
 
 ### Section Placement
 
-The Events section will be placed between "Volunteer with Us" and "Support Free For Charity" sections, creating a natural flow from volunteer engagement to event participation.
+The Events section will be placed between "Volunteer with Us" and "Support Sporting2Impact" sections, creating a natural flow from volunteer engagement to event participation.
 
 **Homepage Order:**
 
@@ -182,7 +182,7 @@ The Events section will be placed between "Volunteer with Us" and "Support Free 
 4. Testimonials
 5. Volunteer with Us
 6. **Events** ← NEW
-7. Support Free For Charity
+7. Support Sporting2Impact
 8. Endowment Features
 9. Our Programs
 10. FAQ
@@ -233,7 +233,7 @@ The Events section will be placed between "Volunteer with Us" and "Support Free 
 
 1. **Create Facebook Developer Account**
    - Register at developers.facebook.com
-   - Create new app for "Free For Charity Events"
+   - Create new app for "Sporting2Impact Events"
 
 2. **Configure App Settings**
    - Set app domains
@@ -354,7 +354,7 @@ After implementation, track these metrics to measure success:
 
 **A:** Ad blockers won't affect the Graph API approach since it's server-side. The events are fetched and rendered as regular HTML/React components, not third-party widgets.
 
-### Q: What happens if Free For Charity has no upcoming events?
+### Q: What happens if Sporting2Impact has no upcoming events?
 
 **A:** We'll implement a custom "No upcoming events" message with a link to the Facebook page. The developer has full control over the empty state.
 
@@ -378,7 +378,7 @@ See implementation guide for specific approaches.
 
 ## Conclusion
 
-The Facebook Events integration will significantly increase visibility of Free For Charity events and drive engagement from website visitors. The Graph API approach is **required** to meet the specific requirement of showing individual event cards with direct links.
+The Facebook Events integration will significantly increase visibility of Sporting2Impact events and drive engagement from website visitors. The Graph API approach is **required** to meet the specific requirement of showing individual event cards with direct links.
 
 **Recommendation:** ✅ Proceed with Graph API implementation
 
@@ -400,9 +400,9 @@ The Facebook Events integration will significantly increase visibility of Free F
 
 **Questions about this integration:**
 
-- Technical: Repository issues or clarkemoyer@freeforcharity.org
+- Technical: Repository issues or info@sporting2impact.org
 - Privacy/Legal: privacy@freeforcharity.org
-- General: clarkemoyer@freeforcharity.org | (520) 222-8104
+- General: info@sporting2impact.org | +1 (667) 479-2048
 
 ---
 

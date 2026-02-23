@@ -46,7 +46,7 @@ Our README includes:
 Our license:
 
 - Apache 2.0 open source license
-- Copyright by Free For Charity (EIN: 46-2471893)
+- Copyright by Sporting2Impact (EIN: 33-4148206)
 - Full text of Apache 2.0 terms
 
 #### ✅ CODE_OF_CONDUCT.md
@@ -309,10 +309,10 @@ Follow these conventions:
 
 For questions about community health files or documentation:
 
-- **Email**: clarkemoyer@freeforcharity.org
+- **Email**: info@sporting2impact.org
 - **Create an issue**: [Documentation issue](https://github.com/FreeForCharity/FFC_Single_Page_Template/issues/new?template=documentation.md)
 
 ---
 
 **Last Updated:** December 2025  
-**Maintained By:** Free For Charity (@clarkemoyer)
+**Maintained By:** Sporting2Impact (@clarkemoyer)

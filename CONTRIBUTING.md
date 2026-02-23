@@ -1,6 +1,6 @@
-# Contributing to Free For Charity
+# Contributing to Sporting2Impact
 
-Thank you for your interest in contributing to Free For Charity! This document provides guidelines and instructions for contributing to the project.
+Thank you for your interest in contributing to Sporting2Impact! This document provides guidelines and instructions for contributing to the project.
 
 ## Table of Contents
 
@@ -150,7 +150,7 @@ You can choose among available AI models using Copilot's model selector feature.
 
 ### What is a Fresh Review?
 
-A fresh review is a comprehensive evaluation of the live Free For Charity website from a new user's perspective. As a new reviewer, your first contribution will be to:
+A fresh review is a comprehensive evaluation of the live Sporting2Impact website from a new user's perspective. As a new reviewer, your first contribution will be to:
 
 1. **Explore the live application** thoroughly
 2. **Document your findings** - both positive and negative
@@ -168,9 +168,9 @@ This approach helps you:
 
 #### Step 1: Visit the Live Site
 
-Start by exploring the live Free For Charity website:
+Start by exploring the live Sporting2Impact website:
 
-- **Production Site:** [https://ffcworkingsite1.org](https://ffcworkingsite1.org)
+- **Production Site:** [https://sporting2impact.org](https://sporting2impact.org)
 - **GitHub Pages:** [https://freeforcharity.github.io/FFC_Single_Page_Template/](https://freeforcharity.github.io/FFC_Single_Page_Template/)
 
 #### Step 2: Comprehensive Evaluation
@@ -333,13 +333,13 @@ Starting your contribution journey with a fresh review:
 
 ### Ready to Review?
 
-1. Visit [https://ffcworkingsite1.org](https://ffcworkingsite1.org)
+1. Visit [https://sporting2impact.org](https://sporting2impact.org)
 2. Explore thoroughly and take notes
 3. [Create your review issue](https://github.com/FreeForCharity/FFC_Single_Page_Template/issues/new?assignees=&labels=documentation%2Creview%2Conboarding&template=reviewer-onboarding.md)
 4. Report individual issues you discover
 5. Engage with the team on your findings
 
-**Thank you for helping make Free For Charity better! Your fresh perspective is valuable.**
+**Thank you for helping make Sporting2Impact better! Your fresh perspective is valuable.**
 
 ---
 
@@ -791,11 +791,11 @@ All contributors will be recognized in multiple ways:
 - **[CHANGELOG.md](./CHANGELOG.md)** - Mentioned in release notes
 - **Git History** - Credited in commit messages
 - **Pull Requests** - Acknowledged in PR descriptions and comments
-- **Annual Reports** - Featured in Free For Charity's annual reports
+- **Annual Reports** - Featured in Sporting2Impact's annual reports
 
 We value all contributions, whether code, documentation, design, testing, or community support. Visit our [CONTRIBUTORS.md](./CONTRIBUTORS.md) page to see all the amazing people who have helped make this project possible.
 
-Thank you for helping make Free For Charity better!
+Thank you for helping make Sporting2Impact better!
 
 ---
 

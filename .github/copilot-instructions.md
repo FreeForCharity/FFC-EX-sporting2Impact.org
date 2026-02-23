@@ -1,6 +1,6 @@
-# Free For Charity Web Application
+# Sporting2Impact Web Application
 
-Free For Charity is a Next.js 16.0.7 single-page static website that connects students, professionals, and businesses with nonprofits to reduce operating costs and increase impact. Built with TypeScript, Tailwind CSS, and configured for static export to GitHub Pages.
+Sporting2Impact is a Next.js 16.0.7 single-page static website that connects students, professionals, and businesses with nonprofits to reduce operating costs and increase impact. Built with TypeScript, Tailwind CSS, and configured for static export to GitHub Pages.
 
 **ALWAYS reference these instructions first and fallback to search or bash commands only when you encounter unexpected information that does not match the info here.**
 
@@ -139,7 +139,7 @@ src/
 │   ├── home-page/                             # Homepage components (formerly Figma-Home-page)
 │   ├── cookie-policy/                         # Cookie Policy page
 │   ├── donation-policy/                       # Donation Policy page
-│   ├── free-for-charity-donation-policy/      # Free For Charity Donation Policy page
+│   ├── sporting2impact-donation-policy/      # Sporting2Impact Donation Policy page
 │   ├── privacy-policy/                        # Privacy Policy page
 │   ├── security-acknowledgements/             # Security Acknowledgements page
 │   ├── terms-of-service/                      # Terms of Service page
@@ -157,8 +157,6 @@ src/
 │   ├── domains/                               # Domain-related components
 │   ├── donate/                                # Donation components
 │   ├── volunteer/                             # Volunteer components
-│   ├── 501c3/                                 # 501c3 charity components
-│   ├── about-us/                              # About page components
 │   ├── charity-validation-guide/              # Charity validation guide components
 │   ├── contact-us/                            # Contact form components
 │   ├── endowment-fund/                        # Endowment fund components
@@ -256,7 +254,7 @@ import { assetPath } from "../lib/assetPath";
 
 **Why this is needed:**
 
-- Custom domain (ffcworkingsite1.org): images at `/my-image.png`
+- Custom domain (sporting2impact.org): images at `/my-image.png`
 - GitHub Pages: images at `/FFC_Single_Page_Template/my-image.png`
 - The helper automatically handles both scenarios based on the `NEXT_PUBLIC_BASE_PATH` environment variable
 
@@ -278,7 +276,7 @@ The site auto-deploys to GitHub Pages via `.github/workflows/deploy.yml` when pu
 
 **Dual Deployment:**
 
-- **Custom domain**: https://ffcworkingsite1.org (CNAME configured, no basePath needed)
+- **Custom domain**: https://sporting2impact.org (CNAME configured, no basePath needed)
 - **GitHub Pages**: https://freeforcharity.github.io/FFC_Single_Page_Template/ (basePath required)
 
 ## Known Issues and Limitations

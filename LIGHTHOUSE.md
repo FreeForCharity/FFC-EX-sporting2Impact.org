@@ -1,6 +1,6 @@
 # Lighthouse CI - Performance Monitoring
 
-This document explains how to use Lighthouse CI to monitor the performance, accessibility, SEO, and best practices of the Free For Charity website.
+This document explains how to use Lighthouse CI to monitor the performance, accessibility, SEO, and best practices of the Sporting2Impact website.
 
 ## Table of Contents
 

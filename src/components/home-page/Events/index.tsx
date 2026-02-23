@@ -13,29 +13,32 @@ const Events = () => {
 
         <div className="text-center mb-8">
           <p className="text-[20px] lg:text-[25px] font-[500]" id="lato-font">
-            Join us for upcoming volunteer opportunities, training sessions, and community events.
+            Join us for upcoming fitness, health talks, and sports events.
+            <br/>
+            Check our Facebook Events page for more details on upcoming events.
           </p>
         </div>
 
         {/* SociableKit Facebook Events Widget */}
         <div className="flex justify-center">
           <iframe
-            src="https://widgets.sociablekit.com/facebook-page-events/iframe/25631700"
-            frameBorder={0}
+            src={`https://www.facebook.com/plugins/page.php?href=${encodeURIComponent(
+              'https://www.facebook.com/profile.php?id=61586413341306&sk=events'
+            )}&tabs=events&width=1200&height=1000`}
+            style={{ border: 'none', overflow: 'hidden', maxWidth: '1200px' }}
             width="100%"
             height="1000"
-            style={{ maxWidth: '1200px' }}
-            title="Facebook Events"
             loading="lazy"
-            className="rounded-lg"
-            sandbox="allow-scripts allow-same-origin"
-          ></iframe>
+            title="Facebook Events"
+            frameBorder={0}
+            allow="encrypted-media"
+          />
         </div>
-
+{/* 
         <div className="text-center mt-8">
           <p className="text-[18px] font-[400] text-gray-600" id="lato-font">
             <a
-              href="https://www.facebook.com/freeforcharity"
+              href="https://www.facebook.com/events/calendar"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#2EA3F2] hover:underline"
@@ -43,7 +46,7 @@ const Events = () => {
               View all events on Facebook
             </a>
           </p>
-        </div>
+        </div> */}
       </div>
 
       <div className="w-[95%] mt-[50px] mx-auto border border-[#2B627B]"></div>

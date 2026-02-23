@@ -20,7 +20,7 @@ const Index = () => {
           hours to fully reach Platinum the first time and then 30 minutes a year to keep it
           updated.{' '}
           <strong>
-            To be supported by Free For Charity, we require organizations to be at least Gold
+            To be supported by Sporting2Impact, we require organizations to be at least Gold
           </strong>{' '}
           and to upload info for your board and IRS Designation Documents. See the highlighted areas
           below.
@@ -30,7 +30,7 @@ const Index = () => {
         <div className="relative w-full h-auto">
           <Image
             src="/Images/free-for-charity.webp"
-            alt="Free For Charity GuideStar onboarding requirements and highlighted fields"
+            alt="Sporting2Impact GuideStar onboarding requirements and highlighted fields"
             width={780}
             height={100}
             className="w-[780px] h-auto object-cover"

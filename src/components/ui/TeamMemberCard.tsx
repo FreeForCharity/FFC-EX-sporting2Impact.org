@@ -7,20 +7,20 @@ interface TeamMemberCardProps {
   imageUrl: string
   name: string
   title: string
-  linkedinUrl: string
+  // linkedinUrl: string
 }
 
 export default function TeamMemberCard({
-  imageUrl,
+  // imageUrl,
   name,
   title,
-  linkedinUrl,
+  // linkedinUrl,
 }: TeamMemberCardProps) {
   return (
     <>
       <div className="flex flex-col items-center max-w-[388px] w-full mx-auto">
         {/* Circular Image Container */}
-        <div className="relative w-[300px] h-[300px] mb-6 rounded-full overflow-hidden ring-4 ring-white shadow-xl">
+        {/* <div className="relative w-[300px] h-[300px] mb-6 rounded-full overflow-hidden ring-4 ring-white shadow-xl">
           <Image
             src={imageUrl}
             alt={name}
@@ -29,7 +29,7 @@ export default function TeamMemberCard({
             sizes="(max-width: 768px) 100vw, 192px"
             priority
           />
-        </div>
+        </div> */}  
 
         {/* Text Content */}
         <div className="text-center space-y-2">
@@ -42,9 +42,9 @@ export default function TeamMemberCard({
         </div>
 
         {/* LinkedIn Button */}
-        <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="mt-6">
+        {/* <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="mt-6">
           <Image src="/Svgs/linkedin-icon.svg" width={63} height={63} alt="linkedin icon"></Image>
-        </a>
+        </a> */}
       </div>
 
       {/* Optional: Add global styles if needed */}

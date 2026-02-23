@@ -52,7 +52,7 @@ Use this checklist to track your progress when setting up a new repository from 
 > This detailed guide provides a 4-column table identifying every piece of content to replace, including:
 >
 > - All website sections from Navigation to Footer
-> - Current Free For Charity example content
+> - Current Sporting2Impact example content
 > - Blank fields for your charity's information
 > - Recommended image sizes and file formats
 > - Step-by-step instructions for non-technical users
@@ -60,7 +60,7 @@ Use this checklist to track your progress when setting up a new repository from 
 Quick checklist of major content areas:
 
 - [ ] Review [CONTENT_REPLACEMENT_GUIDE.md](./CONTENT_REPLACEMENT_GUIDE.md) and gather all required content
-- [ ] Update organization name and EIN in all files
+- [ ] Update Sporting2Impact and EIN in all files
 - [ ] Update social media links in footer
 - [ ] Update contact information
 - [ ] Update team member information
@@ -484,8 +484,8 @@ The template includes a FUNDING.yml file for GitHub Sponsors button:
 ```yaml
 github: FreeForCharity
 custom:
-  - 'https://ffcworkingsite1.org'
-  - 'https://ffcworkingsite1.org/#donate'
+  - 'https://sporting2impact.org'
+  - 'https://sporting2impact.org/#donate'
 ```
 
 **To customize**:
@@ -618,23 +618,23 @@ GitHub merge queues help prevent merge conflicts and ensure all PRs are tested t
 
 Search and replace these values throughout the repository:
 
-**Organization name**: "Free For Charity" → "Your Nonprofit Name"
+**Sporting2Impact**: "Sporting2Impact" → "Your Nonprofit Name"
 
 ```bash
 # Use your editor's find-and-replace or:
-grep -r "Free For Charity" . --exclude-dir=node_modules --exclude-dir=.git
+grep -r "Sporting2Impact" . --exclude-dir=node_modules --exclude-dir=.git
 ```
 
-**EIN**: "46-2471893" → "Your EIN"
+**EIN**: "33-4148206" → "Your EIN"
 
 ```bash
-grep -r "46-2471893" . --exclude-dir=node_modules --exclude-dir=.git
+grep -r "33-4148206" . --exclude-dir=node_modules --exclude-dir=.git
 ```
 
-**Domain**: "ffcworkingsite1.org" → "yourwebsite.org"
+**Domain**: "sporting2impact.org" → "yourwebsite.org"
 
 ```bash
-grep -r "ffcworkingsite1.org" . --exclude-dir=node_modules --exclude-dir=.git
+grep -r "sporting2impact.org" . --exclude-dir=node_modules --exclude-dir=.git
 ```
 
 **Social media links**: Update in `src/components/footer/index.tsx`
@@ -862,7 +862,7 @@ These settings cannot be included in the template files and must be configured t
 
 These items are specific to your organization and must be customized:
 
-- Organization name, EIN, and contact information
+- Sporting2Impact, EIN, and contact information
 - Logo and branding assets
 - Social media links
 - Team member information
@@ -909,9 +909,9 @@ When adapting this template for a new charity, many tasks can be automated using
 
 After completing the "Rebrand Template To A New Brand" issue with all required information, you can assign these tasks to Copilot:
 
-- Organization name replacement: "Free For Charity" → Your charity name
-- EIN replacement: "46-2471893" → Your EIN
-- Domain replacement: "ffcworkingsite1.org" → Your domain
+- Sporting2Impact replacement: "Sporting2Impact" → Your charity name
+- EIN replacement: "33-4148206" → Your EIN
+- Domain replacement: "sporting2impact.org" → Your domain
 - Contact email updates: Multiple files with contact information
 - Social media links: Footer and other components
 - CODEOWNERS updates: GitHub usernames
@@ -921,9 +921,9 @@ After completing the "Rebrand Template To A New Brand" issue with all required i
 
 ```
 Based on the information in issue #[number], update all instances of:
-- "Free For Charity" to "[New Org Name]"
-- "46-2471893" to "[New EIN]"
-- "ffcworkingsite1.org" to "[new-domain.org]"
+- "Sporting2Impact" to "[New Org Name]"
+- "33-4148206" to "[New EIN]"
+- "sporting2impact.org" to "[new-domain.org]"
 - Update CODEOWNERS with @[username1], @[username2]
 - Update NEXT_PUBLIC_BASE_PATH in both workflow files to /[new-repo-name]
 - Update all social media links in footer components

@@ -17,8 +17,8 @@ export const testConfig = {
    * Used in: tests/mission-video.spec.ts
    */
   missionVideo: {
-    ariaLabel: 'Free For Charity mission video',
-    title: "Learn about Free For Charity's mission to help nonprofits reduce costs",
+    ariaLabel: 'Sporting2Impact mission video',
+    title: "Learn about Sporting2Impact's mission to help nonprofits reduce costs",
   },
 
   /**
@@ -42,7 +42,7 @@ export const testConfig = {
     footerLinkText: 'Events',
     iframeTitle: 'Facebook Events',
     facebookLinkText: 'View all events on Facebook',
-    facebookUrl: 'https://www.facebook.com/freeforcharity',
+    facebookUrl: 'https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr',
     descriptionText: 'volunteer opportunities',
   },
 
@@ -74,7 +74,7 @@ export const testConfig = {
    * Used in: tests/copyright.spec.ts
    */
   copyright: {
-    text: 'All Rights Are Reserved by Free For Charity a US 501c3 Non Profit',
+    text: 'All Rights Are Reserved by Sporting2Impact a US 501c3 Non Profit',
     searchText: 'All Rights Are Reserved',
     linkUrl: 'https://freeforcharity.org',
     linkText: 'https://freeforcharity.org',
@@ -110,9 +110,9 @@ export const testConfig = {
    * Used in: tests/logo.spec.ts
    */
   logo: {
-    headerAlt: 'Free For Charity',
+    headerAlt: 'Sporting2Impact',
     heroAlt: 'Hero image',
-    navBarAriaLabel: 'Free For Charity home',
+    navBarAriaLabel: 'Sporting2Impact home',
   },
 
   /**

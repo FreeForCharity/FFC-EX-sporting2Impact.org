@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Donation Policy | Free For Charity',
-  description: 'Donation Policy for Free For Charity website',
+  title: 'Donation Policy | Sporting2Impact',
+  description: 'Donation Policy for Sporting2Impact website',
 }
 
 export default function DonationPolicy() {
@@ -15,14 +15,14 @@ export default function DonationPolicy() {
 
         <div className="prose max-w-none font-[var(--font-lato)] text-[18px] leading-[28px]">
           <p>
-            <strong>Effective Date:</strong> January 1, 2024
+            <strong>Effective Date:</strong> Jan 1, 2026
           </p>
 
           <h2 className="font-[var(--font-faustina)] text-[32px] leading-[40px] mt-8 mb-4">
             Tax Deductibility
           </h2>
           <p>
-            Free For Charity is a qualified 501(c)(3) nonprofit organization (EIN: 46-2471893).
+            Sporting2Impact is a qualified 501(c)(3) nonprofit organization (EIN: 33-4148206).
             Donations are tax-deductible to the full extent allowed by law.
           </p>
 
@@ -34,10 +34,10 @@ export default function DonationPolicy() {
             providing:
           </p>
           <ul>
-            <li>Free domain registration and hosting services</li>
-            <li>Technology consultation and support</li>
-            <li>Volunteer coordination and training</li>
-            <li>Administrative costs necessary to operate our programs</li>
+            <li>Free Fitness Sessions</li>
+            <li>Free Health Talks by Doctors</li>
+            <li>Conducting Sports Touraments</li>
+            <li>Donate the necessary people in the community</li>
           </ul>
 
           <h2 className="font-[var(--font-faustina)] text-[32px] leading-[40px] mt-8 mb-4">
@@ -71,13 +71,13 @@ export default function DonationPolicy() {
           <p>
             Email:{' '}
             <a
-              href="mailto:clarkemoyer@freeforcharity.org"
+              href="mailto:info@sporting2impact.org"
               className="text-primary hover:underline"
             >
-              clarkemoyer@freeforcharity.org
+              info@sporting2impact.org
             </a>
             <br />
-            Phone: (520) 222-8104
+            Phone: +1 (667) 479-2048
           </p>
         </div>
       </div>

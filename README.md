@@ -1,6 +1,6 @@
-# Free For Charity Website
+# Sporting2Impact Website
 
-Single-page Next.js 16.0.7 website built with App Router for Free For Charity nonprofit organization.
+Single-page Next.js 16.0.7 website built with App Router for Sporting2Impact nonprofit organization.
 
 ## 🎉 Phase 5 Implementation Complete
 
@@ -21,7 +21,7 @@ Single-page Next.js 16.0.7 website built with App Router for Free For Charity no
 
 ## Organization
 
-**Free For Charity** is a 501(c)(3) nonprofit organization (EIN: 46-2471893) dedicated to supporting other nonprofits.
+**Sporting2Impact** is a 501(c)(3) nonprofit organization (EIN: 33-4148206) dedicated to supporting other nonprofits.
 
 ## CNCF-Compliant Open Source Project
 
@@ -45,7 +45,7 @@ This repository follows **Cloud Native Computing Foundation (CNCF)** standards f
 
 **Why CNCF Alignment?** Following CNCF standards strengthens project credibility, simplifies onboarding of contributors, and prepares us for cloud-native ecosystem integrations. It demonstrates our commitment to open source best practices and professional project management.
 
-**Primary Contact**: Clarke Moyer ([@clarkemoyer](https://github.com/clarkemoyer)) - clarkemoyer@freeforcharity.org
+**Primary Contact**: Clarke Moyer ([@clarkemoyer](https://github.com/clarkemoyer)) - info@sporting2impact.org
 
 ## Using This Repository as a Template
 
@@ -63,7 +63,7 @@ This repository is configured as a GitHub template, making it easy to create you
 The **[Content Replacement Guide](./CONTENT_REPLACEMENT_GUIDE.md)** provides a comprehensive 4-column table identifying every piece of content you need to provide:
 
 - **All website sections** - From navigation to footer, every section documented
-- **Current example content** - See what Free For Charity uses
+- **Current example content** - See what Sporting2Impact uses
 - **Your content column** - Fill in your charity's information
 - **Technical guidance** - Image sizes, file formats, and implementation notes
 
@@ -105,7 +105,7 @@ The [**Template Usage Guide (TEMPLATE_USAGE.md)**](./TEMPLATE_USAGE.md) provides
 
 ## Purpose
 
-Free For Charity connects students, professionals, and businesses with nonprofits to reduce operating costs and increase impact. By providing free web hosting, domain names, Microsoft 365 grants assistance, and consulting services, we help nonprofits put more resources back into their charitable missions.
+Sporting2Impact connects students, professionals, and businesses with nonprofits to reduce operating costs and increase impact. By providing free web hosting, domain names, Microsoft 365 grants assistance, and consulting services, we help nonprofits put more resources back into their charitable missions.
 
 ## Main Calls-to-Action
 
@@ -116,7 +116,7 @@ The site features two primary CTAs accessible throughout the experience via glob
 
 ## Deployment
 
-- **Live Site**: [https://ffcworkingsite1.org](https://ffcworkingsite1.org)
+- **Live Site**: [https://sporting2impact.org](https://sporting2impact.org)
 - **GitHub Pages**: [https://freeforcharity.github.io/FFC_Single_Page_Template/](https://freeforcharity.github.io/FFC_Single_Page_Template/)
 - **Hosting**: GitHub Pages
 - **Deployment**: Automated via GitHub Actions on push to `main` branch
@@ -132,11 +132,11 @@ The site is live and fully functional with the following features:
 - Core navigation and layout (mobile and desktop responsive)
 - SEO optimization (metadata, sitemap, robots.txt)
 - Static site generation and deployment pipeline
-- All 7 policy pages created and linked (Privacy Policy, Cookie Policy, Terms of Service, Donation Policy, Free For Charity Donation Policy, Vulnerability Disclosure Policy, Security Acknowledgements)
+- All 7 policy pages created and linked (Privacy Policy, Cookie Policy, Terms of Service, Donation Policy, Sporting2Impact Donation Policy, Vulnerability Disclosure Policy, Security Acknowledgements)
 - Social media links configured (Facebook, Twitter/X, LinkedIn, GitHub)
 - Footer links fully functional with proper destinations
 - Contact information complete (email, phone, addresses)
-- Deployed to live domain: [https://ffcworkingsite1.org](https://ffcworkingsite1.org)
+- Deployed to live domain: [https://sporting2impact.org](https://sporting2impact.org)
 - Dual deployment: Custom domain and GitHub Pages
 
 ⚠️ **Known Limitations:**
@@ -150,7 +150,7 @@ The site is live and fully functional with the following features:
 
 ## Overview
 
-This is a single-page website with **100+ component files** organized into multiple sections that showcase Free For Charity's programs, services, and resources. The homepage is composed of scrollable sections (Hero, Mission, Programs, Team, FAQ, etc.), with 7 additional policy pages for legal content. The site includes a global popup system for donations and volunteer signups (codebase includes the infrastructure, though the popups are currently commented out in `layout.tsx`).
+This is a single-page website with **100+ component files** organized into multiple sections that showcase Sporting2Impact's programs, services, and resources. The homepage is composed of scrollable sections (Hero, Mission, Programs, Team, FAQ, etc.), with 7 additional policy pages for legal content. The site includes a global popup system for donations and volunteer signups (codebase includes the infrastructure, though the popups are currently commented out in `layout.tsx`).
 
 ### Site Structure
 
@@ -177,7 +177,7 @@ The main page (`/`) is a single-page application composed of scrollable sections
 - Cookie Policy (`/cookie-policy`)
 - Terms of Service (`/terms-of-service`)
 - Donation Policy (`/donation-policy`)
-- Free For Charity Donation Policy (`/free-for-charity-donation-policy`)
+- Sporting2Impact Donation Policy (`/free-for-charity-donation-policy`)
 - Vulnerability Disclosure Policy (`/vulnerability-disclosure-policy`)
 - Security Acknowledgements (`/security-acknowledgements`)
 
@@ -442,7 +442,7 @@ Preview deployments allow reviewers to see and test changes in a live environmen
 
 #### Recommended Options for Nonprofits: Vercel vs Cloudflare Pages
 
-For Free For Charity as a nonprofit organization, we evaluated the best preview deployment platforms based on free tier sustainability and features.
+For Sporting2Impact as a nonprofit organization, we evaluated the best preview deployment platforms based on free tier sustainability and features.
 
 **Platform Comparison for Nonprofits:**
 
@@ -463,7 +463,7 @@ For Free For Charity as a nonprofit organization, we evaluated the best preview 
 
 **🏆 Recommendation: Cloudflare Pages**
 
-For Free For Charity, **Cloudflare Pages is the better choice** for these reasons:
+For Sporting2Impact, **Cloudflare Pages is the better choice** for these reasons:
 
 1. **Most Likely to Stay Free Long-Term**
    - Cloudflare's business model is built on enterprise customers, not small sites
@@ -515,7 +515,7 @@ Both platforms provide identical workflows:
 
 **Coexistence with GitHub Pages:**
 
-- Keep GitHub Pages for production (ffcworkingsite1.org)
+- Keep GitHub Pages for production (sporting2impact.org)
 - Use Cloudflare Pages or Vercel for PR previews only
 - No conflicts between systems
 
@@ -611,7 +611,7 @@ src/
 │   ├── home-page/                             # Homepage sections (single-page structure)
 │   ├── cookie-policy/                         # Cookie Policy page
 │   ├── donation-policy/                       # Donation Policy page
-│   ├── free-for-charity-donation-policy/      # Free For Charity Donation Policy page
+│   ├── free-for-charity-donation-policy/      # Sporting2Impact Donation Policy page
 │   ├── privacy-policy/                        # Privacy Policy page
 │   ├── security-acknowledgements/             # Security Acknowledgements page
 │   ├── terms-of-service/                      # Terms of Service page
@@ -686,7 +686,7 @@ The site is configured for static export and deployed to GitHub Pages:
 
 **Production:**
 
-- Live at: [https://ffcworkingsite1.org](https://ffcworkingsite1.org)
+- Live at: [https://sporting2impact.org](https://sporting2impact.org)
 - GitHub Pages URL: [https://freeforcharity.github.io/FFC_Single_Page_Template/](https://freeforcharity.github.io/FFC_Single_Page_Template/)
 - Deployment: Automatic via GitHub Actions (`.github/workflows/deploy.yml`)
 - Trigger: Push to `main` branch
@@ -724,7 +724,7 @@ We welcome new contributors and believe fresh perspectives are invaluable! **You
 
 #### How to Get Started
 
-1. **Explore the live site:** [https://ffcworkingsite1.org](https://ffcworkingsite1.org)
+1. **Explore the live site:** [https://sporting2impact.org](https://sporting2impact.org)
 2. **Test thoroughly:** Try all features, navigation, and responsive behavior
 3. **Document findings:** Create a review issue using our template
 4. **Report issues:** File separate issues for bugs and enhancements you discover
@@ -755,7 +755,7 @@ Once your review is complete:
 - Start contributing code improvements
 - Help review other contributions
 
-**Ready to help make Free For Charity better? Start your review today!**
+**Ready to help make Sporting2Impact better? Start your review today!**
 
 ---
 

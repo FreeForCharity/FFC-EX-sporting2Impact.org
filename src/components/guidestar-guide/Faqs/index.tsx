@@ -223,7 +223,7 @@ const index = () => {
 
         <div className="pt-[26px] max-w-[90%] sm:max-w-[90%] mx-auto">
           <h1 className="text-[25px] md:text-[30px] font-[500] text-[#333] pb-[1em]" id="aria-font">
-            2. Preparing to share your profile with Free For Charity
+            2. Preparing to share your profile with Sporting2Impact
           </h1>
           <p className="text-[14px] font-[500] text-[#666] mb-[30px]" id="aria-font">
             Once you have published your report you will then be given a link to share your profile
@@ -231,7 +231,7 @@ const index = () => {
           </p>
           <Image
             src="/Images/preparing-to-share.webp"
-            alt="Free For Charity GuideStar onboarding requirements and highlighted fields"
+            alt="Sporting2Impact GuideStar onboarding requirements and highlighted fields"
             width={780}
             height={100}
             className="w-[780px] h-auto object-cover"
@@ -256,10 +256,10 @@ const index = () => {
             FFC ‘Public Profile’ GuideStar Link:
           </p>
           <a
-            href="https://www.guidestar.org/profile/46-2471893"
+            href="https://www.guidestar.org/profile/33-4148206"
             className="text-[#2ea3f2] break-all"
           >
-            https://www.guidestar.org/profile/46-2471893
+            https://www.guidestar.org/profile/33-4148206
           </a>
           <p className="font-[500] text-[#666] pb-[1em] pt-[1em]">
             FFC GuideStar Seal Code (This isn’t needed for the onboarding form, but will be needed
@@ -282,7 +282,7 @@ const index = () => {
         </div>
 
         <div className="pt-[26px] max-w-[90%] sm:max-w-[90%] mx-auto text-[14px] flex items-center justify-center">
-          <Transparentbtn text="Continue Onboarding with Free For Charity" href="/501c3" />
+          <Transparentbtn text="Continue Onboarding with Sporting2Impact" href="/501c3" />
         </div>
       </div>
     </div>

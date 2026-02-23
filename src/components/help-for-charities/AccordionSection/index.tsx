@@ -9,7 +9,7 @@ const index = () => {
           Empower Your Charity with Cutting-Edge Technology
         </h1>
         <p className="text-[18px] font-[500] color-black text-left" id="lato-font">
-          At Free For Charity, we believe that every non-profit deserves a powerful digital
+          At Sporting2Impact, we believe that every non-profit deserves a powerful digital
           presence. That’s why we offer a comprehensive, modern tech stack to 501(c)(3)
           organizations – completely free of charge. When you partner with us, you’re not just
           getting a website; you’re embracing a full suite of top-tier digital tools.
@@ -20,7 +20,7 @@ const index = () => {
           Our Tech Stack: Your Gateway to Digital Excellence
         </h1>
         <p className="text-[18px] font-[500] color-black text-left" id="lato-font">
-          By choosing Free For Charity, you’re agreeing to adopt our carefully curated tech stack:
+          By choosing Sporting2Impact, you’re agreeing to adopt our carefully curated tech stack:
         </p>
       </div>
 
