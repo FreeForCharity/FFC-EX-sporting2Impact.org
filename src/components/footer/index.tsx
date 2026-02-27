@@ -5,21 +5,19 @@ import Link from 'next/link'
 import { Mail, Phone, MapPin, ArrowRight } from 'lucide-react'
 
 import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa'
-import { FaXTwitter } from 'react-icons/fa6'
 
 const Footer: React.FC = () => {
   const currentYear = React.useMemo(() => new Date().getFullYear(), [])
   const socialLinks = [
-    { icon: FaFacebookF, href: 'https://www.facebook.com/freeforcharity', label: 'Facebook' },
-    { icon: FaXTwitter, href: 'https://x.com/freeforcharity1', label: 'X (Twitter)' },
-    {
-      icon: FaLinkedinIn,
-      href: 'https://www.linkedin.com/company/freeforcharity/',
-      label: 'LinkedIn',
-    },
+    { icon: FaFacebookF, href: 'https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr', label: 'Facebook' },  
+    // {
+    //   icon: FaLinkedinIn,
+    //   href: 'https://www.linkedin.com/company/sporting2impact/',
+    //   label: 'LinkedIn',
+    // },
     {
       icon: FaGithub,
-      href: 'https://github.com/FreeForCharity/FFC_Single_Page_Template',
+      href: 'https://github.com/FreeForCharity/FFC-EX-sporting2Impact.org',
       label: 'GitHub',
     },
   ]
@@ -31,14 +29,12 @@ const Footer: React.FC = () => {
           <h3 className="text-[28px] text-white">Endorsements</h3>
 
           <div className="space-y-4">
-            <a
-              href="https://www.guidestar.org/profile/46-2471893"
-              aria-label="View Free For Charity GuideStar Profile"
-            >
-              <img src="/Svgs/footerImage.svg" alt="GuideStar Platinum Seal of Transparency" />
+            <a aria-label="SPORTING2IMPACT INC" href="https://app.candid.org/profile/16347048/sporting2impact-inc-33-4148206/?pkId=5d2b9f42-146a-49bd-ac2c-273092ba7307" target="_blank"> 
+              <img alt="" src="https://widgets.guidestar.org/prod/v1/pdp/transparency-seal/16347048/svg" /> 
             </a>
+              
             <Link
-              href="https://www.guidestar.org/profile/shared/bbbe173a-87b9-4af9-a8a2-cae255a95742"
+              href="https://app.candid.org/profile/16347048/sporting2impact-inc/?pkId=5d2b9f42-146a-49bd-ac2c-273092ba7307&isActive=true"
               className="group relative my-4 flex w-full max-w-[230px] items-center justify-between
                 border-2 border-[#2ea3f2] bg-black px-5 py-2.5 text-[#2ea3f2]
                 transition-all duration-300 hover:border-transparent"
@@ -55,7 +51,7 @@ const Footer: React.FC = () => {
             </Link>
 
             <p>
-              <span className="font-[500] text-[22px]">Free For Charity EIN: 46-2471893</span>
+              <span className="font-[500] text-[22px]">Sporting2Impact EIN: 33-4148206</span>
             </p>
           </div>
         </div>
