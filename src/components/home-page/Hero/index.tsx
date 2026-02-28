@@ -28,13 +28,13 @@ const CharityHeroBackground = () => {
             className="text-[50px] lg:text-[60px] font-[500] text-[#FFFFFF] leading-[120%] mb-[20px]"
             id="faustina-font"
           >
-            Welcome to <br /> Free For Charity
+            Welcome to <br /> Sporting2Impact
           </h1>
           <p
             className="text-[24px] font-[400] leading-[120%] text-[#FFFFFF] mb-[20px]"
             id="lato-font"
           >
-            Connecting Students, Professionals, & Businesses with Charities in Need
+            Building Healthier Communities Through Sports, Fitness and Charity
           </p>
           <a
             href="#volunteer"

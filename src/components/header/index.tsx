@@ -98,12 +98,24 @@ const Header: React.FC = () => {
             >
               <Link href="/" onClick={handleLinkClick} className="block">
                 <img
-                  src="https://freeforcharity.org/wp-content/uploads/2024/04/Screenshot_145.png"
-                  alt="Free For Charity"
+                  src="Images/logo.webp"
+                  alt="Sporting2Impact"
                   className={`transition-all duration-300 ${isScrolled ? 'h-7' : 'h-11'}`}
                 />
               </Link>
             </div>
+            {/* <div
+              className={`transition-all duration-300 ${isScrolled ? 'w-[110px]' : 'w-[150px]'}`}
+            >
+              <Link href="/" onClick={handleLinkClick} className="block">
+                <img
+                  src="Images/logo_v2.png "
+                  alt="Sporting2Impact"
+                  className={`transition-all duration-300 ${isScrolled ? 'h-7' : 'h-11'}`}
+                />
+                
+              </Link>
+            </div> */}
 
             {/* Menu or Search */}
             {!isSearchOpen ? (
