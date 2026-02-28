@@ -9,7 +9,11 @@ import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa'
 const Footer: React.FC = () => {
   const currentYear = React.useMemo(() => new Date().getFullYear(), [])
   const socialLinks = [
-    { icon: FaFacebookF, href: 'https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr', label: 'Facebook' },  
+    {
+      icon: FaFacebookF,
+      href: 'https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr',
+      label: 'Facebook',
+    },
     // {
     //   icon: FaLinkedinIn,
     //   href: 'https://www.linkedin.com/company/sporting2impact/',
@@ -29,10 +33,17 @@ const Footer: React.FC = () => {
           <h3 className="text-[28px] text-white">Endorsements</h3>
 
           <div className="space-y-4">
-            <a aria-label="SPORTING2IMPACT INC" href="https://app.candid.org/profile/16347048/sporting2impact-inc-33-4148206/?pkId=5d2b9f42-146a-49bd-ac2c-273092ba7307" target="_blank"> 
-              <img alt="" src="https://widgets.guidestar.org/prod/v1/pdp/transparency-seal/16347048/svg" /> 
+            <a
+              aria-label="SPORTING2IMPACT INC"
+              href="https://app.candid.org/profile/16347048/sporting2impact-inc-33-4148206/?pkId=5d2b9f42-146a-49bd-ac2c-273092ba7307"
+              target="_blank"
+            >
+              <img
+                alt=""
+                src="https://widgets.guidestar.org/prod/v1/pdp/transparency-seal/16347048/svg"
+              />
             </a>
-              
+
             <Link
               href="https://app.candid.org/profile/16347048/sporting2impact-inc/?pkId=5d2b9f42-146a-49bd-ac2c-273092ba7307&isActive=true"
               className="group relative my-4 flex w-full max-w-[230px] items-center justify-between
@@ -70,10 +81,6 @@ const Footer: React.FC = () => {
               { name: 'Volunteer', href: '/#volunteer' },
               { name: 'FAQ', href: '/#faq' },
               { name: 'Team', href: '/#team' },
-              {
-                name: 'Supported Charity Login',
-                href: 'https://freeforcharity.org/hub/',
-              },
             ].map((link) => (
               <li key={link.name}>
                 <Link
@@ -92,31 +99,31 @@ const Footer: React.FC = () => {
             <ul className="space-y-1 text-sm" id="lato-font">
               {[
                 {
-                  name: 'Free For Charity Donation Policy',
-                  href: '/free-for-charity-donation-policy',
+                  name: 'Sporting2Impact Donation Policy',
+                  href: '/sporting2impact-donation-policy',
                 },
                 {
                   name: 'Donation Policy',
                   href: '/donation-policy',
                 },
                 {
-                  name: 'Free For Charity Privacy Policy',
+                  name: 'Sporting2Impact Privacy Policy',
                   href: '/privacy-policy',
                 },
                 {
-                  name: 'Free For Charity Cookie Policy',
+                  name: 'Sporting2Impact Cookie Policy',
                   href: '/cookie-policy',
                 },
                 {
-                  name: 'Free For Charity Terms of Service',
+                  name: 'Sporting2Impact Terms of Service',
                   href: '/terms-of-service',
                 },
                 {
-                  name: 'Free For Charity Vulnerability Disclosure Policy',
+                  name: 'Sporting2Impact Vulnerability Disclosure Policy',
                   href: '/vulnerability-disclosure-policy',
                 },
                 {
-                  name: 'Free For Charity Security Acknowledgement',
+                  name: 'Sporting2Impact Security Acknowledgement',
                   href: '/security-acknowledgements',
                 },
               ].map((link) => (
@@ -143,11 +150,11 @@ const Footer: React.FC = () => {
               <div>
                 <p className="font-[500] text-[22px]">E-mail</p>
                 <a
-                  href="mailto:clarkemoyer@freeforcharity.org"
+                  href="mailto:info@sporting2impact.org"
                   className="font-[500] text-[15px] hover:text-cyan-400 transition-colors break-all"
                   id="aria-font"
                 >
-                  clarkemoyer@freeforcharity.org
+                  info@sporting2impact.org
                 </a>
               </div>
             </div>
@@ -157,17 +164,17 @@ const Footer: React.FC = () => {
               <div>
                 <p className="font-[500] text-[22px]">Call Us Today</p>
                 <a
-                  href="tel:5202228104"
+                  href="tel:6674792048"
                   className="font-[500] text-[16px] hover:text-cyan-400 transition-colors"
                   id="aria-font"
                 >
-                  (520) 222-8104
+                  (667) 479-2048
                 </a>
               </div>
             </div>
 
             <a
-              href="https://www.google.com/maps/search/?api=1&query=4030+Wake+Forrest+Road+Suite+349+Raleigh+NC+27609"
+              href="https://www.google.com/maps/place/4308+Rolling+Brook+Way,+Ellicott+City,+MD+21043/@39.2523776,-76.7861592,19.03"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Open main address in Google Maps"
@@ -177,29 +184,9 @@ const Footer: React.FC = () => {
               <div>
                 <p className="font-[500] text-[22px]">Main Address</p>
                 <p className="font-[500] text-[16px]" id="aria-font">
-                  4030 Wake Forrest Road
+                  4308 ROLLING BROOK WAY
                   <br />
-                  Suite 349 Raleigh North
-                  <br />
-                  Carolina 27609
-                </p>
-              </div>
-            </a>
-
-            <a
-              href="https://www.google.com/maps/place/Free+For+Charity/@40.7768455,-77.8963305,17z/data=!3m1!4b1!4m6!3m5!1s0x89cea944b44a2e01:0x6fc2d6bf09e00a0f!8m2!3d40.7768415!4d-77.8937556!16s%2Fg%2F11vzvbl2d7?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Open PA office address in Google Maps"
-              className="flex items-start gap-3 hover:opacity-80 transition-opacity"
-            >
-              <MapPin className="w-10 h-10 text-orange-500 flex-shrink-0 mt-0.5" />
-              <div>
-                <p className="font-[500] text-[22px]">PA Office Address</p>
-                <p className="font-[500] text-[16px]" id="aria-font">
-                  301 Science Park Road Suite
-                  <br />
-                  119 State College PA 16803
+                  Ellicott City, Maryland 21043
                 </p>
               </div>
             </a>
@@ -228,13 +215,13 @@ const Footer: React.FC = () => {
         id="aria-font"
       >
         <p>
-          © {currentYear} All Rights Are Reserved by Free For Charity a US 501c3 Non Profit | A
+          © {currentYear} All Rights Are Reserved by Sporting2Impact a US 501c3 Non Profit | A
           project of{' '}
           <Link
-            href="https://freeforcharity.org"
+            href="https://sporting2impact.org"
             className="underline text-[#2EA3F2] hover:text-[#2EA3F2] transition-colors"
           >
-            https://freeforcharity.org
+            https://sporting2impact.org
           </Link>
         </p>
       </div>

@@ -12,15 +12,15 @@ const index = () => {
       <div className="py-[21px] w-[90%] md:w-[80%] mx-auto max-w-[1080px]">
         <div id="aria-font">
           <h1 className="text-[30px] text-[#333] pb-[10px] leading-[30px] font-[500]">
-            Free For Charity Donation Policy
+            Sporiting2Impact INC Donation Policy
           </h1>
 
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
-            Legal Donation Policy for Free For Charity
+            Legal Donation Policy for Sporting2Impact
           </p>
 
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
-            <em>Effective Date: 11-20-2024</em>
+            <em>Effective Date: 02-27-2026</em>
           </p>
 
           <h1 className="text-[30px] text-[#333] pb-[10px] leading-[30px] font-[500]">
@@ -28,11 +28,12 @@ const index = () => {
           </h1>
 
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
-            Free For Charity, a US 501(c)(3) non-profit organization, is dedicated to improving our
-            support to other charitable entities through our various programs and initiatives. This
-            donation policy outlines the guidelines and principles governing the acceptance,
-            management, and acknowledgment of donations to ensure transparency, accountability, and
-            compliance with applicable laws and regulations.
+            Sporting2Impact INC, a US 501(c)(3) non-profit organization, is dedicated to improving
+            free fitness sessions and conduct sporting activities and tounaments, while keeping our
+            focus on the well-being of the community and helping the needed. This donation policy
+            outlines the guidelines and principles governing the acceptance, management, and
+            acknowledgment of donations to ensure transparency, accountability, and compliance with
+            applicable laws and regulations.
           </p>
 
           <h1 className="text-[30px] text-[#333] pb-[10px] leading-[30px] font-[500]">
@@ -41,12 +42,12 @@ const index = () => {
 
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
             The purpose of this policy is to provide clarity and guidance on the types of donations
-            Free For Charity will accept, the process for evaluating and accepting donations, and
+            Sporting2Impact INC will accept, the process for evaluating and accepting donations, and
             the responsibilities of both the donor and the organization. This policy applies to all
             forms of donations, including cash, securities, real estate, personal property, and
-            in-kind contributions. By adhering to this policy, Free For Charity aims to maintain the
-            trust and confidence of our donors while advancing our mission to improve the services
-            for our supported nonprofits.
+            in-kind contributions. By adhering to this policy, Sporting2Impact INC aims to maintain
+            the trust and confidence of our donors while advancing our mission to improve the
+            services for our supported nonprofits.
           </p>
 
           <h1 className="text-[30px] text-[#333] pb-[10px] leading-[30px] font-[500]">
@@ -54,7 +55,8 @@ const index = () => {
           </h1>
 
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
-            Free For Charity accepts a wide range of donations, subject to the following criteria:
+            Sporting2Impact INC accepts a wide range of donations, subject to the following
+            criteria:
           </p>
 
           <h2 className="text-[26px] text-[#333] pb-[10px] leading-[26px] font-[500]">
@@ -82,32 +84,7 @@ const index = () => {
           </p>
 
           <h2 className="text-[26px] text-[#333] pb-[10px] leading-[26px] font-[500]">
-            3. Real Estate
-          </h2>
-
-          <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
-            Donations of real estate will be considered on a case-by-case basis. The organization
-            will conduct a thorough evaluation, including environmental assessments, title searches,
-            and market analyses, to determine the suitability and potential liabilities associated
-            with the property. Real estate donations can provide significant support for our
-            long-term sustainability and growth, but it is essential to ensure that the property
-            aligns with our mission and does not pose undue financial or legal risks.
-          </p>
-
-          <h2 className="text-[26px] text-[#333] pb-[10px] leading-[26px] font-[500]">
-            4. Personal Property
-          </h2>
-
-          <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
-            Tangible personal property, such as art, antiques, and vehicles, may be accepted if
-            deemed useful to the organization’s mission or if the property can be sold for financial
-            gain. Donors are encouraged to provide a detailed description and valuation of the
-            property to facilitate the acceptance process. Personal property donations can enhance
-            our fundraising efforts and provide unique opportunities for donor engagement.
-          </p>
-
-          <h2 className="text-[26px] text-[#333] pb-[10px] leading-[26px] font-[500]">
-            5. In-Kind Contributions
+            3. In-Kind Contributions
           </h2>
 
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
@@ -137,8 +114,8 @@ const index = () => {
           </h1>
 
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
-            All donations are subject to a review process to ensure they align with Free For
-            Charity’s mission and values. The evaluation process includes:
+            All donations are subject to a review process to ensure they align with
+            Sporting2Impact’s mission and values. The evaluation process includes:
           </p>
 
           <h2 className="text-[26px] text-[#333] pb-[10px] leading-[26px] font-[500]">
@@ -153,19 +130,7 @@ const index = () => {
           </p>
 
           <h2 className="text-[26px] text-[#333] pb-[10px] leading-[26px] font-[500]">
-            2. Due Diligence
-          </h2>
-
-          <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
-            For donations of real estate, securities, and personal property, Free For Charity will
-            perform due diligence to assess any potential liabilities or obligations. This may
-            include environmental assessments, legal reviews, and market analyses. Due diligence
-            ensures that the organization fully understands the implications of accepting the
-            donation and can make informed decisions in the best interest of our mission.
-          </p>
-
-          <h2 className="text-[26px] text-[#333] pb-[10px] leading-[26px] font-[500]">
-            3. Board Approval
+            2. Board Approval
           </h2>
 
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
@@ -181,7 +146,7 @@ const index = () => {
           </h1>
 
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
-            Free For Charity is committed to recognizing and appreciating the generosity of our
+            Sporting2Impact INC is committed to recognizing and appreciating the generosity of our
             donors. Upon receipt of a donation, donors will receive:
           </p>
 
@@ -200,7 +165,7 @@ const index = () => {
           </h2>
 
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
-            With the donor’s consent, Free For Charity will recognize significant contributions
+            With the donor’s consent, Sporting2Impact INC will recognize significant contributions
             through various channels, including our website, annual reports, newsletters, and
             events. Donors may also choose to remain anonymous if they prefer. Public recognition
             helps celebrate the impact of our donors’ generosity and inspires others to contribute
@@ -232,7 +197,7 @@ const index = () => {
           </h1>
 
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
-            Free For Charity is committed to maintaining the highest ethical standards. All
+            Sporting2Impact INC is committed to maintaining the highest ethical standards. All
             individuals involved in the donation process are required to disclose any potential
             conflicts of interest and recuse themselves from decisions where a conflict may exist.
             This policy helps prevent undue influence and ensures that all decisions are made in the
@@ -255,7 +220,7 @@ const index = () => {
           </h1>
 
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
-            Free For Charity deeply values the support of our donors and is committed to ensuring
+            Sporting2Impact INC deeply values the support of our donors and is committed to ensuring
             that their contributions make a meaningful impact. By adhering to this donation policy,
             we aim to maintain the trust and confidence of our donors while advancing our mission to
             improve the quality of life for those in need. We are grateful for the generosity of our
@@ -264,10 +229,10 @@ const index = () => {
 
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
             For any questions or further information about our donation policy, please contact us at{' '}
-            <a href="mailto:clarkemoyer@freeforcharity.org" className="text-[#2ea3f2] break-words">
-              clarkemoyer@freeforcharity.org
+            <a href="mailto:info@sporting2impact.org" className="text-[#2ea3f2] break-words">
+              info@sporting2impact.org
             </a>{' '}
-            520-222-8104
+            667-479-2048
           </p>
         </div>
       </div>

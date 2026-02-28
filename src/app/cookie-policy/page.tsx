@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Cookie Policy | Free For Charity',
-  description: 'Cookie Policy for Free For Charity website',
+  title: 'Cookie Policy | Sporting2Impact',
+  description: 'Cookie Policy for Sporting2Impact website',
 }
 
 // Update this date when the policy changes
-const LAST_UPDATED = 'December 7, 2025'
+const LAST_UPDATED = 'February 27, 2026'
 
 export default function CookiePolicy() {
   return (
@@ -110,7 +110,7 @@ export default function CookiePolicy() {
           </p>
 
           {/* Microsoft Forms */}
-          <div className="bg-gray-50 p-4 rounded-lg mb-4">
+          {/* <div className="bg-gray-50 p-4 rounded-lg mb-4">
             <h4 className="font-semibold mb-2 text-[#333]">Microsoft Forms</h4>
             <p className="text-sm mb-2 text-[#666]">
               Used for our charity application form. Microsoft Forms may load additional third-party
@@ -164,7 +164,7 @@ export default function CookiePolicy() {
                 https://legal.hubspot.com/privacy-policy
               </a>
             </p>
-          </div>
+          </div> */}
 
           {/* Zeffy */}
           <div className="bg-gray-50 p-4 rounded-lg mb-4">
@@ -492,17 +492,20 @@ export default function CookiePolicy() {
           <ul className="list-inside list-disc space-y-[4px] pb-[1em]">
             <li className="text-[14px] text-[#666] leading-[24px] font-[500]">
               <strong>Email:</strong>{' '}
-              <a href="mailto:privacy@freeforcharity.org" className="text-blue-600 hover:underline">
-                privacy@freeforcharity.org
+              <a
+                href="mailto:privacy@sporting2impact.org"
+                className="text-blue-600 hover:underline"
+              >
+                privacy@sporting2impact.org
               </a>
             </li>
             <li className="text-[14px] text-[#666] leading-[24px] font-[500]">
-              <strong>Emergency Contact:</strong> Clarke Moyer
+              <strong>Emergency Contact:</strong> Sporting2Impact Privacy Team
             </li>
             <li className="text-[14px] text-[#666] leading-[24px] font-[500]">
               <strong>Phone:</strong>{' '}
-              <a href="tel:520-222-8104" className="text-blue-600 hover:underline">
-                520-222-8104
+              <a href="tel:667-479-2048" className="text-blue-600 hover:underline">
+                667-479-2048
               </a>
             </li>
           </ul>
