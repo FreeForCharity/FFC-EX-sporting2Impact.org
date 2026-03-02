@@ -68,7 +68,7 @@ Free For Charity offers various services to nonprofits:
 
 - **Organization Website**: [ffcworkingsite1.org](https://ffcworkingsite1.org)
 - **GitHub Organization**: [@FreeForCharity](https://github.com/FreeForCharity)
-- **EIN**: 46-2471893 (501(c)(3) nonprofit)
+- **EIN**: 33-4148206 (501(c)(3) nonprofit)
 
 ## ⏱️ Response Times
 

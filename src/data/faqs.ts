@@ -91,6 +91,6 @@ If you can provide your own qualified WordPress webmaster you may be moved up in
   {
     question:
       'If I am an individual or business and donate money for a domain package to Free for Charity is this tax-deductible?',
-    answer: `While any official tax guidance should come from your accountant or other tax advisor Free For Charity is a registered 501(c)(3) organization and donations are tax-deductible. Our IRS designation number (EIN) is 46-2471893. Upon checkout you will receive a receipt to provide to your accountant. Specifically, if you represent a business you can elect to deduct this as an expense versus as a donation depending on the guidance of your tax advisor.`,
+    answer: `While any official tax guidance should come from your accountant or other tax advisor Free For Charity is a registered 501(c)(3) organization and donations are tax-deductible. Our IRS designation number (EIN) is 33-4148206. Upon checkout you will receive a receipt to provide to your accountant. Specifically, if you represent a business you can elect to deduct this as an expense versus as a donation depending on the guidance of your tax advisor.`,
   },
 ]

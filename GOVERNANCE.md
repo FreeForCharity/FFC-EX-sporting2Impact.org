@@ -4,7 +4,7 @@ This document outlines the governance model for the Free For Charity website rep
 
 ## Overview
 
-Free For Charity (FFC) is a 501(c)(3) nonprofit organization (EIN: 46-2471893) committed to open-source principles and transparent governance. This repository follows a benevolent dictatorship model with collaborative decision-making for technical matters.
+Free For Charity (FFC) is a 501(c)(3) nonprofit organization (EIN: 33-4148206) committed to open-source principles and transparent governance. This repository follows a benevolent dictatorship model with collaborative decision-making for technical matters.
 
 ## Organization Structure
 

@@ -46,7 +46,7 @@ Our README includes:
 Our license:
 
 - Apache 2.0 open source license
-- Copyright by Free For Charity (EIN: 46-2471893)
+- Copyright by Free For Charity (EIN: 33-4148206)
 - Full text of Apache 2.0 terms
 
 #### ✅ CODE_OF_CONDUCT.md

@@ -625,10 +625,10 @@ Search and replace these values throughout the repository:
 grep -r "Free For Charity" . --exclude-dir=node_modules --exclude-dir=.git
 ```
 
-**EIN**: "46-2471893" → "Your EIN"
+**EIN**: "33-4148206" → "Your EIN"
 
 ```bash
-grep -r "46-2471893" . --exclude-dir=node_modules --exclude-dir=.git
+grep -r "33-4148206" . --exclude-dir=node_modules --exclude-dir=.git
 ```
 
 **Domain**: "ffcworkingsite1.org" → "yourwebsite.org"
@@ -910,7 +910,7 @@ When adapting this template for a new charity, many tasks can be automated using
 After completing the "Rebrand Template To A New Brand" issue with all required information, you can assign these tasks to Copilot:
 
 - Organization name replacement: "Free For Charity" → Your charity name
-- EIN replacement: "46-2471893" → Your EIN
+- EIN replacement: "33-4148206" → Your EIN
 - Domain replacement: "ffcworkingsite1.org" → Your domain
 - Contact email updates: Multiple files with contact information
 - Social media links: Footer and other components
@@ -922,7 +922,7 @@ After completing the "Rebrand Template To A New Brand" issue with all required i
 ```
 Based on the information in issue #[number], update all instances of:
 - "Free For Charity" to "[New Org Name]"
-- "46-2471893" to "[New EIN]"
+- "33-4148206" to "[New EIN]"
 - "ffcworkingsite1.org" to "[new-domain.org]"
 - Update CODEOWNERS with @[username1], @[username2]
 - Update NEXT_PUBLIC_BASE_PATH in both workflow files to /[new-repo-name]

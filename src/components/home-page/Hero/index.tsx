@@ -34,7 +34,10 @@ const CharityHeroBackground = () => {
             className="text-[24px] font-[400] leading-[120%] text-[#FFFFFF] mb-[20px]"
             id="lato-font"
           >
-            Building Healthier Communities Through Sports, Fitness and Charity
+            Building Healthier Communities
+            <br />
+            <br />
+            SPORTS | FITNESS | CHARITY
           </p>
           <a
             href="#volunteer"

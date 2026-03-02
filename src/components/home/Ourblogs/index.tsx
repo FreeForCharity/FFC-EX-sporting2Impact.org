@@ -23,7 +23,7 @@ const OutBlogs: React.FC = () => {
       heading: 'Our organization earned a 2021 Platinum Seal of Transparency!',
       date: 'Jun 1, 2021',
       description:
-        'Our organization earned a 2021 Platinum Seal of Transparency! Now, everyone can see our strategy, metrics, and achievements. Check out our updated #NonprofitProfile on Candid https://www.guidestar.org/profile/46-2471893',
+        'Our organization earned a 2021 Platinum Seal of Transparency! Now, everyone can see our strategy, metrics, and achievements. Check out our updated #NonprofitProfile on Candid https://www.guidestar.org/profile/33-4148206',
       href: 'https://freeforcharity.org/our-organization-earned-a-2021-platinum-seal-of-transparency/', // example link
     },
     {

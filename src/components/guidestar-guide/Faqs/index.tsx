@@ -256,10 +256,10 @@ const index = () => {
             FFC ‘Public Profile’ GuideStar Link:
           </p>
           <a
-            href="https://www.guidestar.org/profile/46-2471893"
+            href="https://www.guidestar.org/profile/33-4148206"
             className="text-[#2ea3f2] break-all"
           >
-            https://www.guidestar.org/profile/46-2471893
+            https://www.guidestar.org/profile/33-4148206
           </a>
           <p className="font-[500] text-[#666] pb-[1em] pt-[1em]">
             FFC GuideStar Seal Code (This isn’t needed for the onboarding form, but will be needed

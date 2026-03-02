@@ -21,7 +21,7 @@ const Index = () => {
   const donationFormProps: ExtendedIframeProps = {
     title: 'Donation form powered by Zeffy',
     style: donationFormStyle,
-    src: 'https://www.zeffy.com/embed/donation-form/free-for-charity-endowment-fund',
+    src: 'https://www.zeffy.com/en-US/donation-form/donate-to-keep-community-healthy',
     allowpaymentrequest: '',
     allowtransparency: 'true',
   }
@@ -33,7 +33,7 @@ const Index = () => {
           className="font-[400] text-[40px] lg:text-[48px] leading-[100%] tracking-[0] text-center mx-auto mb-[60px]"
           id="faustina-font"
         >
-          Support Free For Charity
+          Support Sporting2Impact
         </h1>
 
         <div className="flex items-center flex-col lg:flex-row gap-[40px] lg:gap-[20px]">
@@ -43,9 +43,10 @@ const Index = () => {
               className="mb-[20px] font-[400] text-[25px] leading-[150%] tracking-[0] text-center lg:text-left"
               id="lato-font"
             >
-              By donating you help drive our mission and allow us to support more charities with our
-              Domain, Website, and other services.
+              By donating you help drive our mission and allow us to build healther communities by
+              providing free fitness session, health talks, and more.
             </p>
+
             {/* Pointing hands image - flipped horizontally to point toward the form on the right */}
             <div className="w-full flex justify-center lg:justify-end">
               <div className="relative w-full max-w-[400px] aspect-[578/386]">

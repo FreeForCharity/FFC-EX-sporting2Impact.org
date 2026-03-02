@@ -21,7 +21,7 @@ Single-page Next.js 16.0.7 website built with App Router for Free For Charity no
 
 ## Organization
 
-**Free For Charity** is a 501(c)(3) nonprofit organization (EIN: 46-2471893) dedicated to supporting other nonprofits.
+**Free For Charity** is a 501(c)(3) nonprofit organization (EIN: 33-4148206) dedicated to supporting other nonprofits.
 
 ## CNCF-Compliant Open Source Project
 

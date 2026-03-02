@@ -10,23 +10,23 @@ const Home: React.FC = () => {
             className="font-[400] text-[40px] lg:text-[48px] leading-[100%] tracking-[0] text-center mx-auto mb-[30px]"
             id="faustina-font"
           >
-            Free For Charity Endowment Features
+            Sporting2Impact Endowment Features
           </h1>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-[24px]">
             <SustainableFundingCard
               imageUrl="/Svgs/sustainable-funding.svg"
               title="Sustainable Funding"
-              text="The Endowment ensures that only the investment gains are used, providing a sustainable funding source for the Free For Charity Domain Program."
+              text="The Endowment ensures that only the investment gains are used, providing a sustainable funding source for the Sporting2Impact mission."
             />
             <SustainableFundingCard
               imageUrl="/Svgs/Long-Term-Impact.svg"
               title="Long-Term Impact"
-              text="By supporting the Endowment, you contribute to a lasting legacy that will continuously support charities in need of digital resources."
+              text="By supporting the Endowment, you contribute to a lasting legacy that will continuously support the needy in our community."
             />
             <SustainableFundingCard
               imageUrl="/Svgs/Goal-of-$1,000,000.svg"
               title="Goal of $1,000,000"
-              text="Our target is to raise $1,000,000 to secure the future of the program, ensuring ongoing support for countless charities."
+              text="Our target is to raise $10,000 to secure the future of the program, ensuring ongoing support for community needs."
             />
             <SustainableFundingCard
               imageUrl="/Svgs/Be-a-Champion.svg"

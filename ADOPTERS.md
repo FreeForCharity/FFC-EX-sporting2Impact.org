@@ -41,7 +41,7 @@ If you're using this template, we'd love to hear from you! Add your organization
 
 - **Type**: 501(c)(3) Nonprofit Organization
 - **Location**: Tucson, Arizona, USA
-- **EIN**: 46-2471893
+- **EIN**: 33-4148206
 - **Use Case**: Primary website to promote Free For Charity's mission of connecting students, professionals, and businesses with nonprofits to reduce operating costs
 - **Deployment**: GitHub Pages with custom domain
 - **Launch Date**: December 2025

@@ -353,10 +353,10 @@ The footer appears at the bottom of every page and contains important links and 
 | Footer  | Column 1 Heading             | "Endorsements"                                                                  | _(You might use "Certifications", "Verified By", or similar)_       |
 | Footer  | Endorsement Image 1          | `/Svgs/footerImage.svg` (GuideStar Platinum Seal)                               | _(Logo/seal image from your endorsing organizations)_               |
 | Footer  | Endorsement Image 1 Alt Text | "GuideStar Platinum Seal of Transparency"                                       |                                                                     |
-| Footer  | Endorsement Image 1 Link     | "https://www.guidestar.org/profile/46-2471893"                                  | _(Link to your profile page)_                                       |
+| Footer  | Endorsement Image 1 Link     | "https://www.guidestar.org/profile/33-4148206"                                  | _(Link to your profile page)_                                       |
 | Footer  | Direct Profile Link Text     | "Direct GuideStar Profile Link"                                                 | _(Or your equivalent verification link)_                            |
 | Footer  | Direct Profile Link URL      | "https://www.guidestar.org/profile/shared/bbbe173a-87b9-4af9-a8a2-cae255a95742" |                                                                     |
-| Footer  | EIN Display Text             | "Free For Charity EIN: 46-2471893"                                              | _(Your charity's EIN number, e.g., "Your Charity EIN: XX-XXXXXXX")_ |
+| Footer  | EIN Display Text             | "Free For Charity EIN: 33-4148206"                                              | _(Your charity's EIN number, e.g., "Your Charity EIN: XX-XXXXXXX")_ |
 
 ### Column 2 - Quick Links
 

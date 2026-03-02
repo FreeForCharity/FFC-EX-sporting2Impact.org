@@ -98,7 +98,7 @@ Create ruleset named "Protect Main":
 ### Organization Information
 
 - [ ] Search and replace "Free For Charity" with your org name
-- [ ] Search and replace EIN "46-2471893" with your EIN
+- [ ] Search and replace EIN "33-4148206" with your EIN
 - [ ] Search and replace "ffcworkingsite1.org" with your domain
 
 ### Contact Information

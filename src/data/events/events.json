@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "title": "Free Pilates Session",
+    "date": "2026-03-07T10:00",
+    "location": "Urbana Library, Frederick, Maryland",
+    "registrationLink": "https://www.zeffy.com/en-US/ticketing/free-pilates-session--03072026",
+    "type": "pilates"
+  },
+  {
+    "id": 2,
+    "title": "Free Yoga Session",
+    "date": "2026-03-08T14:00",
+    "location": "Miller Branch Library, Ellicott City, Maryland",
+    "registrationLink": "https://www.zeffy.com/en-US/ticketing/free-yoga-session--03082026",
+    "type": "yoga"
+  },
+
+  {
+    "id": 3,
+    "title": "Chess Meetup",
+    "date": "2026-03-14T14:00",
+    "location": "Miller Branch Library, Avalon Room, Ellicott City, Maryland",
+    "registrationLink": "",
+    "type": "chess"
+  },
+  {
+    "id": 4,
+    "title": "Free Pilates Session",
+    "date": "2026-03-22T14:15",
+    "location": "Miller Branch Library, Ellicott City, Maryland",
+    "registrationLink": "https://www.zeffy.com/en-US/ticketing/free-pilates-session--03222026",
+    "type": "pilates"
+  },
+  {
+    "id": 5,
+    "title": "Free Pilates Session",
+    "date": "2026-02-15T14:15",
+    "location": "Miller Branch Library, Ellicott City, Maryland",
+    "registrationLink": "https://www.zeffy.com/en-US/ticketing/free-pilates-session",
+    "type": "pilates"
+  },
+  {
+    "id": 6,
+    "title": "Free Pilates Session",
+    "date": "2026-01-17T14:15",
+    "location": "Miller Branch Library, Ellicott City, Maryland",
+    "registrationLink": "https://www.zeffy.com/en-US/ticketing/free-pilates-session",
+    "type": "pilates"
+  },
+  {
+    "id": 7,
+    "title": "Free Yoga Session",
+    "date": "2026-01-10T14:00",
+    "location": "Miller Branch Library, Ellicott City, Maryland",
+    "registrationLink": "https://www.zeffy.com/en-US/ticketing/free-yoga-session",
+    "type": "yoga"
+  }
+]
