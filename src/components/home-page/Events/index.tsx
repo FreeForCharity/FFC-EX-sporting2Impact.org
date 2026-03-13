@@ -1,6 +1,6 @@
-import React from 'react'
+import React, {  useMemo }  from 'react'
 import events from '@/data/events/events.json'
-import { get } from 'http'
+import PastEvents from "./PastEvents";
 
 const Events = () => {
   return (
@@ -26,7 +26,7 @@ const Events = () => {
               className="events-page-event-card"
               style={{ backgroundImage: `url(/events/${event.type}.png)` }}
             >
-              <div className="events-page-date-badge">
+              <div className="events-page-date-badge text-center">
                 <span className="month">
                   {new Date(event.date).toLocaleDateString('en-US', { month: 'short' })}
                 </span>
@@ -76,28 +76,17 @@ const Events = () => {
           ))}
         </ul>
 
-        <div className="text-center mt-8">
-          <p className="text-[18px] font-[400] text-gray-600" id="lato-font">
-            <a
-              href="https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#2EA3F2] hover:underline"
-            >
-              View all events on Facebook
-            </a>
-          </p>
-        </div>
-      </div>
 
+        {/* Divider */}
+        <div className="w-[95%] mt-[50px] mx-auto border border-[#2B627B]"></div>
+
+        {/* Insert Past Events Here */}
+        <PastEvents events={events} />
+        
+      </div>
       <div className="w-[95%] mt-[50px] mx-auto border border-[#2B627B]"></div>
     </div>
   )
-}
-
-interface Event {
-  date: string
-  eventDateEST: Date
 }
 
 interface Event {
@@ -108,6 +97,7 @@ interface Event {
   registrationLink: string
   type: string
 }
+
 
 function getUpcomingEvents(): Event[] {
   // Current time in EST
@@ -134,4 +124,5 @@ function getUpcomingEvents(): Event[] {
         a.eventDateEST.getTime() - b.eventDateEST.getTime()
     )
 }
+
 export default Events

@@ -24,8 +24,8 @@ const Header: React.FC = () => {
     () => [
       { label: 'Home', path: '/#hero' },
       { label: 'Mission', path: '/#mission' },
-      // { label: 'Programs', path: '/#programs' },
-      { label: 'Volunteer', path: '/#volunteer' },
+      { label: 'Events', path: '/#events' },
+      { label: 'Join Us', path: '/#volunteer' },
       { label: 'Donate', path: '/#donate' },
       { label: 'FAQ', path: '/#faq' },
       { label: 'Team', path: '/#team' },
@@ -94,7 +94,7 @@ const Header: React.FC = () => {
           <div className="flex items-center px-2 transition-all duration-300">
             {/* Logo */}
             <div
-              className={`transition-all duration-300 ${isScrolled ? 'w-[110px]' : 'w-[150px]'}`}
+              className={`transition-all logo duration-300 ${isScrolled ? 'w-[110px]' : 'w-[150px]'}`} 
             >
               <Link href="/" onClick={handleLinkClick} className="block">
                 <img
@@ -102,7 +102,12 @@ const Header: React.FC = () => {
                   alt="Sporting2Impact"
                   className={`transition-all duration-300 ${isScrolled ? 'h-7' : 'h-11'}`}
                 />
+                
               </Link>
+              
+            </div>
+            <div className='logo'>
+              <span className="ml-2">Sporting2Impact</span>
             </div>
             {/* <div
               className={`transition-all duration-300 ${isScrolled ? 'w-[110px]' : 'w-[150px]'}`}

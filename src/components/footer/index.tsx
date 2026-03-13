@@ -9,11 +9,11 @@ import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa'
 const Footer: React.FC = () => {
   const currentYear = React.useMemo(() => new Date().getFullYear(), [])
   const socialLinks = [
-    {
-      icon: FaFacebookF,
-      href: 'https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr',
-      label: 'Facebook',
-    },
+    // {
+    //   icon: FaFacebookF,
+    //   href: 'https://www.facebook.com/share/1Ng59r4s8V/?mibextid=wwXIfr',
+    //   label: 'Facebook',
+    // },
     // {
     //   icon: FaLinkedinIn,
     //   href: 'https://www.linkedin.com/company/sporting2impact/',
@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
   ]
   return (
     <footer className="bg-black text-white">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-12 px-4 md:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-12 px-4 md:px-6 lg:px-8">
         {/* Column 1: Endorsements */}
         <div className="space-y-6 px-4 sm:px-0">
           <h3 className="text-[28px] text-white">Endorsements</h3>
@@ -62,7 +62,7 @@ const Footer: React.FC = () => {
             </Link>
 
             <p>
-              <span className="font-[500] text-[22px]">Sporting2Impact EIN: 33-4148206</span>
+              <span className="font-[500] text-[22px]">Sporting2Impact <br /> EIN: 33-4148206</span>
             </p>
           </div>
         </div>
@@ -93,9 +93,10 @@ const Footer: React.FC = () => {
               </li>
             ))}
           </ul>
-
+        </div>
+        <div className="space-y-6 px-4 sm:px-0">
           <div className="space-y-3">
-            <h4 className="text-[28px] text-white">Free For Charity Policy</h4>
+            <h4 className="text-[28px] text-white">Sporting2Impact Policies</h4>
             <ul className="space-y-1 text-sm" id="lato-font">
               {[
                 {
@@ -189,9 +190,9 @@ const Footer: React.FC = () => {
                   Ellicott City, Maryland 21043
                 </p>
               </div>
-            </a>
+            </a>  
 
-            <div className="flex gap-3 pt-4">
+            {/* <div className="flex gap-3 pt-4">
               {socialLinks.map(({ icon: Icon, href, label }, index) => (
                 <a
                   key={index}
@@ -204,7 +205,7 @@ const Footer: React.FC = () => {
                   <Icon className="w-6 h-6 text-white" />
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
