@@ -7,14 +7,14 @@
 
 /* Brand tokens */
 :root {
-  --ffc-primary: #2a6682;
-  --ffc-accent: #f58629;
-  --ffc-yellow: #f5c045;
-  --ffc-black: #000000;
-  --ffc-white: #ffffff;
+  --s2i-primary: #2a6682;
+  --s2i-accent: #f58629;
+  --s2i-yellow: #f5c045;
+  --s2i-black: #000000;
+  --s2i-white: #ffffff;
 
-  --ffc-container: 1248px;
-  --ffc-radius-xl: 20px;
+  --s2i-container: 1248px;
+  --s2i-radius-xl: 20px;
 
   /* Option 4 brand system */
   --brand-blue: #2a6682;
@@ -35,18 +35,24 @@
   --shadow-strong: 0 12px 28px rgba(0, 0, 0, 0.18);
 
   --transition-base: 0.3s ease;
+
+  --team-bg: #f7f9fc;
+  --team-card-bg: #ffffff;
+  --team-border: #e2e8f0;
+  --team-accent: #2a6682; /* brand blue */
+  --team-muted: #6b7280;
 }
 
 /* Tailwind theme mapping */
 @theme inline {
-  --color-primary: var(--ffc-primary);
-  --color-accent: var(--ffc-accent);
-  --color-yellow: var(--ffc-yellow);
-  --color-ink: var(--ffc-black);
-  --color-paper: var(--ffc-white);
+  --color-primary: var(--s2i-primary);
+  --color-accent: var(--s2i-accent);
+  --color-yellow: var(--s2i-yellow);
+  --color-ink: var(--s2i-black);
+  --color-paper: var(--s2i-white);
 
-  --radius-xl: var(--ffc-radius-xl);
-  --container: var(--ffc-container);
+  --radius-xl: var(--s2i-radius-xl);
+  --container: var(--s2i-container);
 
   --font-serif-display: var(--font-faustina);
   --font-serif: var(--font-fauna-one);
@@ -300,7 +306,7 @@ section {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('/Sporting2Impact.png');
+  background-image: url('/Images/logo.webp');
   background-size: 70%;
   background-position: center;
   background-repeat: no-repeat;
@@ -538,7 +544,6 @@ section {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('/Sporting2Impact.png');
   background-size: 65%;
   background-position: center;
   background-repeat: no-repeat;
@@ -753,7 +758,6 @@ section {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('/Sporting2Impact.png');
   background-size: 65%;
   background-position: center;
   background-repeat: no-repeat;
@@ -791,7 +795,6 @@ section {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('/Sporting2Impact.png');
   background-size: 70%;
   background-position: center;
   background-repeat: no-repeat;
@@ -834,6 +837,9 @@ section {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 12px;
   overflow: hidden;
   min-height: 30vh;
@@ -841,6 +847,7 @@ section {
   align-items: flex-end;
   animation: fadeUp 0.6s ease forwards;
   border-left: 6px solid var(--brand-blue);
+  padding: 15rem 1.5rem 1.5rem 1.5rem;
 }
 .events-page-event-card:nth-child(2) {
   border-left-color: var(--brand-green);
@@ -870,7 +877,7 @@ section {
   position: relative;
   z-index: 2;
   color: white;
-  padding: 1rem;
+  padding: rem;
 }
 .events-page-event-content h3 {
   margin: 0 0 0.4rem 0;
@@ -879,6 +886,10 @@ section {
 .events-page-event-content p {
   margin: 0.2rem 0;
   font-size: 0.95rem;
+}
+.event-label {
+  font-weight: 800;
+  margin-right: 4px;
 }
 
 /* Footer */
@@ -1033,6 +1044,119 @@ section {
   .events-page-events-hero h1 {
     font-size: 2.1rem;
   }
+}
+
+/* =======================================================
+   TEAM PAGE STYLES
+======================================================= */
+/* Page container */
+.team-container {
+  background-color: var(--team-bg);
+  color: var(--team-accent);
+  padding: 3rem 0;
+}
+
+/* Section wrapper */
+.team-section {
+  max-width: 1200px;
+  margin: 0 auto 4rem auto;
+  padding: 0 1.5rem;
+}
+
+/* Section title */
+.section-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--team-accent);
+  margin-bottom: 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Soft divider line */
+.section-title::after {
+  content: '';
+  height: 1px;
+  flex-grow: 1;
+  background: #d1d5db;
+}
+
+/* Grid layout */
+.team-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+/* Team card */
+.team-card {
+  background: var(--team-card-bg);
+  border-radius: 14px;
+  padding: 1.75rem;
+  border: 1px solid var(--team-border);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.team-card:nth-child(2) {
+  border-top-color: var(--brand-green);
+}
+.team-card:nth-child(3) {
+  border-top-color: var(--brand-yellow);
+}
+.team-card:nth-child(4) {
+  border-top-color: var(--brand-orange);
+}
+
+.team-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+/* Founder variation */
+.founder-card {
+  border-top: 4px solid var(--team-accent);
+}
+
+/* Name */
+.team-name {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--team-accent);
+  margin-bottom: 0.35rem;
+}
+
+/* Role */
+.role-text {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--team-muted);
+  letter-spacing: 0.04em;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+/* Bio / details */
+.details {
+  border-top: 1px solid #edf2f7;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.details p {
+  font-size: 0.95rem;
+  color: var(--team-muted);
+  margin-bottom: 0.4rem;
+  line-height: 1.55;
+}
+
+/* Board layout variation */
+.board-grid {
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
 }
 
 /* =======================================================

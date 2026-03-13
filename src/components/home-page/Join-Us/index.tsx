@@ -9,7 +9,7 @@ const index = () => {
           className="mt-[2px] mb-[42px] pb-[10px] text-[30px] md:text-[48px] font-[400] leading-[46px] text-center text-white"
           id="faustina-font"
         >
-          Volunteer with Us
+          Join with Us
         </h1>
         <div className="joinus-page-container">
           {/* HERO BANNER */}

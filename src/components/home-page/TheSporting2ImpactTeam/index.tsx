@@ -1,58 +1,51 @@
 import React from 'react'
-import TeamMemberCard from '@/components/ui/TeamMemberCard'
+import team from '@/data/team/team.json'
 
-const index = () => {
+const Index = () => {
+  const founders = team.filter((member) => member.group === 'Core Team')
+  const boardOfDirectors = team.filter((member) => member.group === 'Board of Directors')
+
   return (
-    <div id="team" className="py-[50px]">
-      <h1
-        className="font-[400] text-[40px] lg:text-[48px]  tracking-[0] text-center mx-auto mb-[50px]"
-        id="faustina-font"
-      >
+    <div id="team" className="team-container py-16">
+      <h1 className="text-4xl lg:text-5xl text-center mb-16" id="faustina-font">
         The Sporting2Impact Team
       </h1>
 
+      {/* Founders Section */}
       <section className="team-section">
-        <h2 className="section-title">Founders</h2>
-        <div className="team-grid w-[90%] mx-auto py-[40px]">
-          <div className="team-card founder-card">
-            <h3 className="team-name">k</h3>
-            <p>
-              <strong>Role:</strong>
-            </p>
-            <p className="team-bio">
-              <strong>Biography:</strong>
-            </p>
-          </div>
+        <h2 className="section-title text-blue-800">Founders</h2>
+        <div className="team-grid">
+          {founders.map((founder, idx) => (
+            <div key={`founder-${idx}`} className="team-card founder-card">
+              <h3 className="team-name">{founder.name}</h3>
+              <p className="role-text">{founder.role}</p>
+            </div>
+          ))}
         </div>
       </section>
 
+      {/* Board of Directors Section */}
       <section className="team-section">
         <h2 className="section-title">Board of Directors</h2>
-        <div className="team-grid borad-grid w-[90%] mx-auto py-[40px]">
-          <div className="team-card horizontal">
-            <div className="details">
-              <h3 className="team-name">k</h3>
-              <p>
-                <strong>School:</strong>
-              </p>
-              <p>
-                <strong>Grade:</strong>
-              </p>
-              <p>
-                <strong>Duration:</strong>
-              </p>
-              <p>
-                <strong>Role:</strong>
-              </p>
-              <p className="team-bio">
-                <strong>Biography:</strong>
-              </p>
+        <div className="team-grid board-grid">
+          {boardOfDirectors.map((member, idx) => (
+            <div key={`board-${idx}`} className="team-card">
+              <div className="details">
+                <h3 className="team-name text-lg">{member.name}</h3>
+                <p className="role-text !mb-3">{member.role}</p>
+                <p>
+                  <strong>School:</strong> {member.school}
+                </p>
+                <p>
+                  <strong>Grade:</strong> {member.grade}
+                </p>
+              </div>
             </div>
-          </div>
+          ))}
         </div>
       </section>
     </div>
   )
 }
 
-export default index
+export default Index

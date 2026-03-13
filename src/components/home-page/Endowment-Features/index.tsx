@@ -25,7 +25,7 @@ const Home: React.FC = () => {
             />
             <SustainableFundingCard
               imageUrl="/Svgs/Goal-of-$1,000,000.svg"
-              title="Goal of $1,000,000"
+              title="Goal of $10,000"
               text="Our target is to raise $10,000 to secure the future of the program, ensuring ongoing support for community needs."
             />
             <SustainableFundingCard

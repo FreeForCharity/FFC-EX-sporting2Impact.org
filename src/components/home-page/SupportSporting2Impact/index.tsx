@@ -1,5 +1,4 @@
 import React, { CSSProperties, IframeHTMLAttributes } from 'react'
-import Image from 'next/image'
 
 interface ExtendedIframeProps extends IframeHTMLAttributes<HTMLIFrameElement> {
   allowpaymentrequest?: string
@@ -27,44 +26,45 @@ const Index = () => {
   }
 
   return (
-    <div id="donate">
-      <div className="w-[90%] mx-auto py-[27px] mb-[60px] px-[20px] max-w-[1280px]">
+    <div id="donate" className="bg-[#f7f9fc] py-[60px]">
+      <div className="w-[90%] mx-auto px-[20px] max-w-[1280px]">
+        {/* Heading */}
         <h1
-          className="font-[400] text-[40px] lg:text-[48px] leading-[100%] tracking-[0] text-center mx-auto mb-[60px]"
+          className="font-[700] text-[42px] lg:text-[52px] leading-[110%] text-center mx-auto mb-[40px] text-[#2a6682]"
           id="faustina-font"
         >
           Support Sporting2Impact
         </h1>
 
-        <div className="flex items-center flex-col lg:flex-row gap-[40px] lg:gap-[20px]">
-          {/* Left side: Description and pointing hands image */}
+        <div className="flex items-start flex-col lg:flex-row gap-[50px] lg:gap-[40px]">
+          {/* Left side: Description + Impact Box */}
           <div className="flex flex-col w-full lg:w-[50%]">
             <p
-              className="mb-[20px] font-[400] text-[25px] leading-[150%] tracking-[0] text-center lg:text-left"
+              className="mb-[20px] font-[400] text-[22px] lg:text-[24px] leading-[160%] text-center lg:text-left text-[#374151]"
               id="lato-font"
             >
-              By donating you help drive our mission and allow us to build healther communities by
-              providing free fitness session, health talks, and more.
+              Your generosity helps us build healthier communities by providing free fitness
+              sessions, wellness education, and accessible health resources for all.
             </p>
 
-            {/* Pointing hands image - flipped horizontally to point toward the form on the right */}
-            <div className="w-full flex justify-center lg:justify-end">
-              <div className="relative w-full max-w-[400px] aspect-[578/386]">
-                <Image
-                  src="/Images/support-free-for-charity.webp"
-                  alt="support free for charity image"
-                  fill
-                  className="object-contain scale-x-[-1]"
-                  loading="lazy"
-                />
-              </div>
-            </div>
+            {/* Impact Box */}
+            {/* <div className="bg-white border border-[#e5e7eb] rounded-xl shadow-md p-6 mt-4">
+              <h3 className="text-[20px] font-[700] text-[#2a6682] mb-3" id="faustina-font">
+                Your Impact
+              </h3>
+              <ul className="text-[#374151] text-[16px] leading-[150%] space-y-2" id="lato-font">
+                <li>• Funds free community fitness sessions</li>
+                <li>• Supports health education workshops</li>
+                <li>• Helps provide wellness resources to families</li>
+                <li>• Strengthens community health and engagement</li>
+              </ul>
+            </div> */}
           </div>
 
-          {/* Right side: Zeffy Donation Form */}
+          {/* Right side: Donation Form */}
           <div className="w-full lg:w-[50%] flex justify-center">
             <div
-              className="relative w-full max-w-[500px] h-[600px] bg-white rounded-lg shadow-lg overflow-hidden"
+              className="relative w-full max-w-[500px] h-[600px] bg-white rounded-xl shadow-xl border border-[#e5e7eb] overflow-hidden"
               role="region"
               aria-label="Donation form"
             >
@@ -72,6 +72,11 @@ const Index = () => {
             </div>
           </div>
         </div>
+
+        {/* Trust Badge */}
+        <p className="text-center text-[14px] text-[#6b7280] mt-4">
+          100% secure donation form powered by Zeffy — no platform fees.
+        </p>
       </div>
     </div>
   )

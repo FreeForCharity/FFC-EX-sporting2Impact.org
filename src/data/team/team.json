@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "name": "Sridhar U",
+    "name": "Sridhar",
     "role": "Vice President",
     "image": "/images/team/sridhar.jpg",
     "group": "Core Team",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "name": "Vamsi K",
+    "name": "Vamsi",
     "role": "Secretary",
     "image": "/images/team/vamsi.jpg",
     "group": "Core Team",
@@ -25,12 +25,12 @@
   },
   {
     "id": 4,
-    "name": "Akshat K",
+    "name": "Akshat Ch",
     "role": "Outreach Coordinator",
     "image": "/images/team/akshat.jpg",
     "group": "Board of Directors",
     "school": "Mt. Hebron High School",
-    "Grade": "Senior"
+    "grade": "Senior"
   },
   {
     "id": 5,
@@ -39,7 +39,7 @@
     "image": "/images/team/tanya.jpg",
     "group": "Board of Directors",
     "school": "Marriotts Ridge High School",
-    "Grade": "Senior"
+    "grade": "Senior"
   },
   {
     "id": 6,
@@ -48,6 +48,6 @@
     "image": "/images/team/suchay.jpg",
     "group": "Board of Directors",
     "school": "Mt. Hebron High School",
-    "Grade": "Freshman"
+    "grade": "Freshman"
   }
 ]

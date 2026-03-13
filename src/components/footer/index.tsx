@@ -27,13 +27,13 @@ const Footer: React.FC = () => {
   ]
   return (
     <footer className="bg-black text-white">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-12 px-4 md:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-12 px-4 md:px-6 lg:px-8">
         {/* Column 1: Endorsements */}
         <div className="space-y-6 px-4 sm:px-0">
           <h3 className="text-[28px] text-white">Endorsements</h3>
 
           <div className="space-y-4">
-            <a
+            <Link
               aria-label="SPORTING2IMPACT INC"
               href="https://app.candid.org/profile/16347048/sporting2impact-inc-33-4148206/?pkId=5d2b9f42-146a-49bd-ac2c-273092ba7307"
               target="_blank"
@@ -42,10 +42,11 @@ const Footer: React.FC = () => {
                 alt=""
                 src="https://widgets.guidestar.org/prod/v1/pdp/transparency-seal/16347048/svg"
               />
-            </a>
+            </Link>
 
             <Link
               href="https://app.candid.org/profile/16347048/sporting2impact-inc/?pkId=5d2b9f42-146a-49bd-ac2c-273092ba7307&isActive=true"
+              target="_blank"
               className="group relative my-4 flex w-full max-w-[230px] items-center justify-between
                 border-2 border-[#2ea3f2] bg-black px-5 py-2.5 text-[#2ea3f2]
                 transition-all duration-300 hover:border-transparent"
@@ -70,7 +71,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Column 2: Quick Links */}
-        <div className="space-y-6 px-4 sm:px-0">
+        {/* <div className="space-y-6 px-4 sm:px-0">
           <h3 className="text-[28px] text-white">Quick Links</h3>
 
           <ul className="space-y-2 text-sm" id="lato-font">
@@ -95,7 +96,7 @@ const Footer: React.FC = () => {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
         <div className="space-y-6 px-4 sm:px-0">
           <div className="space-y-3">
             <h4 className="text-[28px] text-white">Sporting2Impact Policies</h4>
@@ -218,7 +219,7 @@ const Footer: React.FC = () => {
         id="aria-font"
       >
         <p>
-          © {currentYear} All Rights Are Reserved by Sporting2Impact a US 501c3 Non Profit | A
+          © {currentYear} All Rights Are Reserved by Sporting2Impact a US 501(c)(3) Non Profit | A
           project of{' '}
           <Link
             href="https://sporting2impact.org"

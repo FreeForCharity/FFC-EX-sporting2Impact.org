@@ -1,5 +1,21 @@
 [
   {
+    "id": 18,
+    "title": "Learn Basics of Chess with Suchay",
+    "date": "2026-04-12T14:00",
+    "location": "Miller Branch Library, Avalon Room, Ellicott City, Maryland",
+    "registrationLink": "",
+    "type": "chess"
+  },
+  {
+    "id": 17,
+    "title": "Free Yoga Session",
+    "date": "2026-04-18T10:00",
+    "location": "Miller Branch Library, Ellicott City, Maryland",
+    "registrationLink": "Coming Soon",
+    "type": "yoga"
+  },
+  {
     "id": 17,
     "title": "Free Pilates Session",
     "date": "2026-03-07T10:00",

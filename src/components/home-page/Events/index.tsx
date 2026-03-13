@@ -13,12 +13,6 @@ const Events = () => {
           Upcoming Events
         </h1>
 
-        <div className="text-center mb-8">
-          <p className="text-[20px] lg:text-[25px] font-[500]" id="lato-font">
-            Join us for upcoming events.
-          </p>
-        </div>
-
         <ul className="events-page-events-list">
           {getUpcomingEvents().map((event) => (
             <li
@@ -44,7 +38,7 @@ const Events = () => {
               <div className="events-page-event-content">
                 <h3>{event.title}</h3>
                 <p>
-                  Date:{' '}
+                  <span className="event-label">📅 Date:</span>{' '}
                   {new Date(event.date).toLocaleDateString('en-US', {
                     month: 'short',
                     day: 'numeric',
@@ -54,8 +48,9 @@ const Events = () => {
                     hour12: true,
                   })}
                 </p>
-                {/* <p>Date: {event.date.toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric', hour12: true })}</p> */}
-                <p>Location: {event.location}</p>
+                <p>
+                  <span className="event-label">📍 Location:</span> {event.location}
+                </p>
                 <div className="events-page-event-footer">
                   {!event.registrationLink && (
                     <button className="events-page-registeration">Walk In</button>
@@ -78,7 +73,12 @@ const Events = () => {
 
         {/* Divider */}
         <div className="w-[95%] mt-[50px] mx-auto border border-[#2B627B]"></div>
-
+        <h1
+          className="font-[400] text-[40px] lg:text-[48px] leading-[100%] tracking-[0] text-center mx-auto mb-[50px]"
+          id="faustina-font"
+        >
+          Past Events
+        </h1>
         {/* Insert Past Events Here */}
         <PastEvents events={events} />
       </div>
@@ -103,7 +103,7 @@ function getUpcomingEvents(): Event[] {
 
   // 2 weeks from now in EST
   const twoWeeksEST = new Date(nowEST)
-  twoWeeksEST.setDate(nowEST.getDate() + 21)
+  twoWeeksEST.setDate(nowEST.getDate() + 30)
 
   return events
     .map((e) => {

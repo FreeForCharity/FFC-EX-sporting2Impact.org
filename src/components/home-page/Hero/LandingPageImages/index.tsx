@@ -13,6 +13,7 @@ const galleryImages = [
   '/Gallery/yoga4.jpeg',
   'Gallery/Walk1.jpeg',
   '/Gallery/yoga5.jpeg',
+  'Gallery/2025_Jacket_Donation.jpeg',
   '/Gallery/yoga7.jpeg',
   'Gallery/Walk2.jpeg',
   '/Gallery/yoga9.jpeg',

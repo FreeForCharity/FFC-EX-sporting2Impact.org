@@ -20,7 +20,7 @@ const index = () => {
       {/* <OurPrograms /> */}
       <VolunteerwithUs />
       <SupportFreeForCharity />
-      <EndowmentFeatures />
+      {/* <EndowmentFeatures /> */}
       <FrequentlyAskedQuestions />
       <TheSporting2ImpactTeam />
     </div>
