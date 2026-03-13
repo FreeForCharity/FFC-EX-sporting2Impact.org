@@ -1,63 +1,63 @@
 'use client'
-import React, { useEffect, useState, useRef } from "react";
-import Image from "next/image";
+import React, { useEffect, useState, useRef } from 'react'
+import Image from 'next/image'
 
 const galleryImages = [
-  "/Images/figma-hero-img.webp",
-  "/Gallery/yoga1.jpeg",
-  "Gallery/Pilates1.jpeg",
-  "/Gallery/yoga2.jpeg",
-  "Gallery/Pilates2.jpeg",
-  "/Gallery/yoga3.jpeg",
-  "Gallery/Pilates3.jpeg",
-  "/Gallery/yoga4.jpeg",
-  "Gallery/Walk1.jpeg",
-  "/Gallery/yoga5.jpeg",
-  "/Gallery/yoga7.jpeg",
-  "Gallery/Walk2.jpeg",
-  "/Gallery/yoga9.jpeg",
-  "Gallery/Walk3.jpeg",
-  "/Gallery/yoga11.jpeg",
-];
+  '/Images/figma-hero-img.webp',
+  '/Gallery/yoga1.jpeg',
+  'Gallery/Pilates1.jpeg',
+  '/Gallery/yoga2.jpeg',
+  'Gallery/Pilates2.jpeg',
+  '/Gallery/yoga3.jpeg',
+  'Gallery/Pilates3.jpeg',
+  '/Gallery/yoga4.jpeg',
+  'Gallery/Walk1.jpeg',
+  '/Gallery/yoga5.jpeg',
+  '/Gallery/yoga7.jpeg',
+  'Gallery/Walk2.jpeg',
+  '/Gallery/yoga9.jpeg',
+  'Gallery/Walk3.jpeg',
+  '/Gallery/yoga11.jpeg',
+]
 
 const HeroSlideshow = () => {
-  const [index, setIndex] = useState(0);
-  const [paused, setPaused] = useState(false);
+  const [index, setIndex] = useState(0)
+  const [paused, setPaused] = useState(false)
 
-  const touchStartX = useRef(0);
-  const touchEndX = useRef(0);
+  const touchStartX = useRef(0)
+  const touchEndX = useRef(0)
 
   // Auto-slide
   useEffect(() => {
-    if (paused) return;
+    if (paused) return
 
     const interval = setInterval(() => {
-      setIndex((prev) => (prev + 1) % galleryImages.length);
-    }, 4000);
+      setIndex((prev) => (prev + 1) % galleryImages.length)
+    }, 4000)
 
-    return () => clearInterval(interval);
-  }, [paused]);
+    return () => clearInterval(interval)
+  }, [paused])
 
   const nextSlide = () => {
-    setIndex((prev) => (prev + 1) % galleryImages.length);
-  };
+    setIndex((prev) => (prev + 1) % galleryImages.length)
+  }
 
   const prevSlide = () => {
-    setIndex((prev) => (prev - 1 + galleryImages.length) % galleryImages.length);
-  };
+    setIndex((prev) => (prev - 1 + galleryImages.length) % galleryImages.length)
+  }
 
   // Swipe handlers
   const handleTouchStart = (e: React.TouchEvent) => {
-    touchStartX.current = e.changedTouches[0].clientX;
-  };
+    touchStartX.current = e.changedTouches[0].clientX
+  }
 
   const handleTouchEnd = (e: React.TouchEvent) => {
-    touchEndX.current = e.changedTouches[0].clientX;
-    const diff = touchStartX.current - touchEndX.current;
+    touchEndX.current = e.changedTouches[0].clientX
+    const diff = touchStartX.current - touchEndX.current
 
-    if (diff > 50) nextSlide();
-    if (diff < -50) prevSlide();
-  };
+    if (diff > 50) nextSlide()
+    if (diff < -50) prevSlide()
+  }
 
   return (
     <div
@@ -76,7 +76,7 @@ const HeroSlideshow = () => {
           fill
           className={`
             object-cover absolute inset-0 transition-opacity duration-1000
-            ${i === index ? "opacity-100 kenburns" : "opacity-0"}
+            ${i === index ? 'opacity-100 kenburns' : 'opacity-0'}
           `}
         />
       ))}
@@ -105,7 +105,7 @@ const HeroSlideshow = () => {
             onClick={() => setIndex(i)}
             className={`
               w-3 h-3 rounded-full transition-all
-              ${i === index ? "bg-white scale-125" : "bg-white/50"}
+              ${i === index ? 'bg-white scale-125' : 'bg-white/50'}
             `}
           />
         ))}
@@ -127,7 +127,7 @@ const HeroSlideshow = () => {
         }
       `}</style>
     </div>
-  );
-};
+  )
+}
 
-export default HeroSlideshow;
+export default HeroSlideshow

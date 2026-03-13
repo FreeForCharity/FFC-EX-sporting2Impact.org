@@ -62,7 +62,9 @@ const Footer: React.FC = () => {
             </Link>
 
             <p>
-              <span className="font-[500] text-[22px]">Sporting2Impact <br /> EIN: 33-4148206</span>
+              <span className="font-[500] text-[22px]">
+                Sporting2Impact <br /> EIN: 33-4148206
+              </span>
             </p>
           </div>
         </div>
@@ -190,7 +192,7 @@ const Footer: React.FC = () => {
                   Ellicott City, Maryland 21043
                 </p>
               </div>
-            </a>  
+            </a>
 
             {/* <div className="flex gap-3 pt-4">
               {socialLinks.map(({ icon: Icon, href, label }, index) => (

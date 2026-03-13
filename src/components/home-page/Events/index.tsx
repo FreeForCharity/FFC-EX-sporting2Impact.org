@@ -1,6 +1,6 @@
-import React, {  useMemo }  from 'react'
+import React, { useMemo } from 'react'
 import events from '@/data/events/events.json'
-import PastEvents from "./PastEvents";
+import PastEvents from './PastEvents'
 
 const Events = () => {
   return (
@@ -76,13 +76,11 @@ const Events = () => {
           ))}
         </ul>
 
-
         {/* Divider */}
         <div className="w-[95%] mt-[50px] mx-auto border border-[#2B627B]"></div>
 
         {/* Insert Past Events Here */}
         <PastEvents events={events} />
-        
       </div>
       <div className="w-[95%] mt-[50px] mx-auto border border-[#2B627B]"></div>
     </div>
@@ -97,7 +95,6 @@ interface Event {
   registrationLink: string
   type: string
 }
-
 
 function getUpcomingEvents(): Event[] {
   // Current time in EST

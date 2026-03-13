@@ -94,21 +94,26 @@ const Header: React.FC = () => {
           <div className="flex items-center px-2 transition-all duration-300">
             {/* Logo */}
             <div
-              className={`transition-all logo duration-300 ${isScrolled ? 'w-[110px]' : 'w-[150px]'}`} 
+              className={`transition-all logo duration-300 ${isScrolled ? 'w-[140px]' : 'w-[180px]'}`}
             >
               <Link href="/" onClick={handleLinkClick} className="block">
                 <img
                   src="Images/logo.webp"
                   alt="Sporting2Impact"
-                  className={`transition-all duration-300 ${isScrolled ? 'h-7' : 'h-11'}`}
+                  className={`transition-all duration-300 ${isScrolled ? 'h-14' : 'h-18'}`}
                 />
-                
               </Link>
-              
             </div>
-            <div className='logo'>
-              <span className="ml-2">Sporting2Impact</span>
+            <div className="logo flex items-center">
+              <span
+                className={`ml-2 font-faustina font-bold transition-all duration-300 ${
+                  isScrolled ? 'text-[22px]' : 'text-[26px]'
+                } text-[#2A6682]`}
+              >
+                Sporting2Impact
+              </span>
             </div>
+
             {/* <div
               className={`transition-all duration-300 ${isScrolled ? 'w-[110px]' : 'w-[150px]'}`}
             >

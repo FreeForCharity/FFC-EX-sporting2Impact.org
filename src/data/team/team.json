@@ -1,54 +1,53 @@
 [
-    {
-        "id":1,
-        "name": "Siva Ch",
-        "role": "President & Treasurer",
-        "image": "/images/team/siva.jpg",
-        "group": "Core Team",
-        "email": "sivaramakrishna.ch@sporting2impact.org"
-
-    },
-    {
-        "id":2,
-        "name": "Sridhar U",
-        "role": "Vice President",
-        "image": "/images/team/sridhar.jpg",
-        "group": "Core Team",
-        "email": "sridhar.u@sporting2impact.org"
-    },
-    {
-        "id":3,
-        "name": "Vamsi K",
-        "role": "Secretary",
-        "image": "/images/team/vamsi.jpg",
-        "group": "Core Team",
-        "email": "vamsi.k@sporting2impact.org"
-    },
-    {
-        "id":4,
-        "name": "Akshat K",
-        "role": "Outreach Coordinator",
-        "image": "/images/team/akshat.jpg",
-        "group": "Board of Directors",
-        "school": "Mt. Hebron High School",
-        "Grade": "Senior"
-    },
-    {
-        "id":5,
-        "name": "Tanya K",
-        "role": "Social Media Coordinator",
-        "image": "/images/team/tanya.jpg",
-        "group": "Board of Directors",
-        "school": "Marriotts Ridge High School",
-        "Grade": "Senior"
-    },
-    {
-        "id":6,
-        "name": "Suchay U",
-        "role": "Events Coordinator",
-        "image": "/images/team/suchay.jpg",
-        "group": "Board of Directors",
-        "school": "Mt. Hebron High School",
-        "Grade": "Freshman"
-    }
+  {
+    "id": 1,
+    "name": "Siva Ch",
+    "role": "President & Treasurer",
+    "image": "/images/team/siva.jpg",
+    "group": "Core Team",
+    "email": "sivaramakrishna.ch@sporting2impact.org"
+  },
+  {
+    "id": 2,
+    "name": "Sridhar U",
+    "role": "Vice President",
+    "image": "/images/team/sridhar.jpg",
+    "group": "Core Team",
+    "email": "sridhar.u@sporting2impact.org"
+  },
+  {
+    "id": 3,
+    "name": "Vamsi K",
+    "role": "Secretary",
+    "image": "/images/team/vamsi.jpg",
+    "group": "Core Team",
+    "email": "vamsi.k@sporting2impact.org"
+  },
+  {
+    "id": 4,
+    "name": "Akshat K",
+    "role": "Outreach Coordinator",
+    "image": "/images/team/akshat.jpg",
+    "group": "Board of Directors",
+    "school": "Mt. Hebron High School",
+    "Grade": "Senior"
+  },
+  {
+    "id": 5,
+    "name": "Tanya K",
+    "role": "Social Media Coordinator",
+    "image": "/images/team/tanya.jpg",
+    "group": "Board of Directors",
+    "school": "Marriotts Ridge High School",
+    "Grade": "Senior"
+  },
+  {
+    "id": 6,
+    "name": "Suchay U",
+    "role": "Events Coordinator",
+    "image": "/images/team/suchay.jpg",
+    "group": "Board of Directors",
+    "school": "Mt. Hebron High School",
+    "Grade": "Freshman"
+  }
 ]
