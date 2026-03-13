@@ -23,7 +23,7 @@ const PastEvents: React.FC<PastEventsProps> = ({ events }) => {
     return events
       .filter((e) => new Date(e.date) < now)
       .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-  }, [events,now])
+  }, [events, now])
 
   // 3. Extract years from the filtered past events
   const pastYears = useMemo(() => {
