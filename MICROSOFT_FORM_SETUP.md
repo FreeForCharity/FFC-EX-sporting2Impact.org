@@ -53,7 +53,7 @@ The following components now use the new `ApplicationFormButton`:
 
 2. **Help for Charities - Ready to Get Started**
    - File: `src/components/help-for-charities/Ready-to-Get-Started-Now/index.tsx`
-   - Used in 501c3 pages
+   - Used in 501(c)(3) pages
 
 3. **Free Charity Web Hosting - Ready to Get Started**
    - File: `src/components/free-charity-web-hosting/ReadyToGetStarted/index.tsx`
@@ -82,8 +82,8 @@ After updating the URL, test the popup by:
 
 The following old application URLs have been removed:
 
-- `https://freeforcharity.org/hub/cart.php?a=confproduct&i=0` (501c3)
-- `https://freeforcharity.org/hub/cart.php?a=confproduct&i=1` (Pre-501c3)
-- `https://freeforcharity.org/hub/cart.php?a=confproduct&i=8` (Hosting)
+- `https://sporting2impact.org/hub/cart.php?a=confproduct&i=0` (501c3)
+- `https://sporting2impact.org/hub/cart.php?a=confproduct&i=1` (Pre-501c3)
+- `https://sporting2impact.org/hub/cart.php?a=confproduct&i=8` (Hosting)
 
 All now use a single unified application form.

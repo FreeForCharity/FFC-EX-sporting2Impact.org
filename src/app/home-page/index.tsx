@@ -5,7 +5,6 @@ import SupportFreeForCharity from '@/components/home-page/SupportSporting2Impact
 import EndowmentFeatures from '@/components/home-page/Endowment-Features'
 import OurPrograms from '@/components/home-page/Our-Programs'
 import VolunteerwithUs from '@/components/home-page/Join-Us'
-import Testimonials from '@/components/home/Testimonials'
 import TheSporting2ImpactTeam from '@/components/home-page/TheSporting2ImpactTeam'
 import FrequentlyAskedQuestions from '@/components/home-page/FrequentlyAskedQuestions'
 import Events from '@/components/home-page/Events'

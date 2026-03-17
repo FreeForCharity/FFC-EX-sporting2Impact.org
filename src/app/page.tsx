@@ -5,7 +5,6 @@ import HomePage from '@/app/home-page'
 const page = () => {
   return (
     <div>
-      {/* <HomePage /> */}
       <HomePage />
     </div>
   )

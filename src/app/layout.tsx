@@ -19,21 +19,22 @@ import {
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://ffcworkingsite1.org'),
+  metadataBase: new URL('https://sporting2impact.org'),
   title: {
-    default: 'Free For Charity | Reduce Costs, Increase Impact',
-    template: '%s | Free For Charity',
+    default: 'Sporting2Impact | Building Healthier Communities',
+    template: '%s | Sporting2Impact',
   },
   description:
-    'Free For Charity connects students, professionals, and businesses with nonprofits to reduce costs and increase revenues—putting more resources back into their missions.',
+    'Sporting2Impact mission is to create a community driven sports club that fosters compassion, promotes healthy lifestyles, and bring real, tangible support to those who need it. We envision a future where sports and charity go hand in hand, empowering everyone involved to make a meaningful impact beyond the game..',
   keywords: [
     'nonprofit',
     'charity',
     'volunteer',
     'donate',
-    'free hosting',
-    'domains',
-    'Microsoft 365',
+    'sports',
+    'fitness',
+    'wellness',
+    'community',
   ],
   robots: {
     index: true,
@@ -51,26 +52,26 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    url: 'https://ffcworkingsite1.org/',
-    siteName: 'Free For Charity',
-    title: 'Free For Charity | Reduce Costs, Increase Impact',
+    url: 'https://sporting2impact.org/',
+    siteName: 'Sporting2Impact',
+    title: 'Sporting2Impact | Reduce Costs, Increase Impact',
     description:
-      'Connecting students, professionals, and businesses with nonprofits to reduce costs and increase revenues.',
+      'Building Healthier Communities | SPORTS | FITNESS | CHARITY | VOLUNTEER | DONATE | IMPACT',
     images: [
       {
         url: '/web-app-manifest-512x512.png',
         width: 512,
         height: 512,
-        alt: 'Free For Charity',
+        alt: 'Sporting2Impact',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@freeforcharity',
-    title: 'Free For Charity | Reduce Costs, Increase Impact',
+    site: '@sporting2impact',
+    title: 'Sporting2Impact | Building Healthier Communities',
     description:
-      'Connecting students, professionals, and businesses with nonprofits to reduce costs and increase revenues.',
+      'Building Healthier Communities | SPORTS | FITNESS | CHARITY | VOLUNTEER | DONATE | IMPACT',
     images: ['/web-app-manifest-512x512.png'],
   },
   icons: {

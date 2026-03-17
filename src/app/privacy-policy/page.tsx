@@ -459,7 +459,7 @@ export default function PrivacyPolicy() {
               <a href="mailto:info@sporting2impact.org" className="text-[#007bff] underline">
                 info@sporting2impact.org
               </a>{' '}
-              520-222-8104
+              667-479-2048
             </li>
           </ul>
 

@@ -17,8 +17,8 @@ export const testConfig = {
    * Used in: tests/mission-video.spec.ts
    */
   missionVideo: {
-    ariaLabel: 'Free For Charity mission video',
-    title: "Learn about Free For Charity's mission to help nonprofits reduce costs",
+    ariaLabel: 'Sporting2Impact mission video',
+    title: "Learn about Sporting2Impact's mission to help nonprofits reduce costs",
   },
 
   /**
@@ -51,20 +51,20 @@ export const testConfig = {
    * Used in: tests/social-links.spec.ts
    */
   socialLinks: {
-    facebook: {
-      url: 'facebook.com/freeforcharity',
-      ariaLabel: 'Facebook',
-    },
-    twitter: {
-      url: 'x.com/freeforcharity1',
-      ariaLabel: 'X (Twitter)',
-    },
-    linkedin: {
-      url: 'linkedin.com/company/freeforcharity',
-      ariaLabel: 'LinkedIn',
+    // facebook: {
+    //   url: 'facebook.com/sporting2impact',
+    //   ariaLabel: 'Facebook',
+    // },
+    // twitter: {
+    //   url: 'x.com/sporting2impact',
+    //   ariaLabel: 'X (Twitter)',
+    // },
+    instagram: {
+      url: 'instagram.com/sporting2impact',
+      ariaLabel: 'Instagram',
     },
     github: {
-      url: 'github.com/FreeForCharity/FFC_Single_Page_Template',
+      url: 'github.com/FreeForCharity/FFC-EX-sporting2Impact.org',
       ariaLabel: 'GitHub',
     },
   },
@@ -74,10 +74,10 @@ export const testConfig = {
    * Used in: tests/copyright.spec.ts
    */
   copyright: {
-    text: 'All Rights Are Reserved by Free For Charity a US 501c3 Non Profit',
+    text: 'All Rights Are Reserved by Sporting2Impact a US 501(c)(3) Non Profit',
     searchText: 'All Rights Are Reserved',
-    linkUrl: 'https://freeforcharity.org',
-    linkText: 'https://freeforcharity.org',
+    linkUrl: 'https://sporting2impact.org',
+    linkText: 'https://sporting2impact.org',
   },
 
   /**
@@ -110,9 +110,9 @@ export const testConfig = {
    * Used in: tests/logo.spec.ts
    */
   logo: {
-    headerAlt: 'Free For Charity',
+    headerAlt: 'Sporting2Impact',
     heroAlt: 'Hero image',
-    navBarAriaLabel: 'Free For Charity home',
+    navBarAriaLabel: 'Sporting2Impact home',
   },
 
   /**

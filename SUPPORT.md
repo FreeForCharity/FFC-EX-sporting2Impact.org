@@ -1,23 +1,23 @@
 # Support
 
-Thank you for using the Free For Charity website template! This document provides information on how to get help and support.
+Thank you for using the Sporting2Impact website template! This document provides information on how to get help and support.
 
 ## 📧 Getting Help
 
 ### For General Questions
 
-If you have general questions about using this template or Free For Charity's services:
+If you have general questions about using this template or Sporting2Impact's services:
 
-- **Email**: clarkemoyer@freeforcharity.org
-- **Phone**: 520-222-8104 (text preferred)
-- **Website**: [freeforcharity.org](https://ffcworkingsite1.org)
+- **Email**: info@sporting2impact.org
+- **Phone**: 667-479-2048 (text preferred)
+- **Website**: [sporting2impact.org](https://sporting2impact.org)
 
 ### For Technical Issues
 
 If you encounter technical issues, bugs, or need development help:
 
-1. **Search Existing Issues**: Check if your issue has already been reported in the [Issues](https://github.com/FreeForCharity/FFC_Single_Page_Template/issues) section
-2. **Open a New Issue**: If your issue is new, [create an issue](https://github.com/FreeForCharity/FFC_Single_Page_Template/issues/new) with detailed information:
+1. **Search Existing Issues**: Check if your issue has already been reported in the [Issues](https://github.com/FreeForCharity/FFC-EX-sporting2Impact.org/issues) section
+2. **Open a New Issue**: If your issue is new, [create an issue](https://github.com/FreeForCharity/FFC-EX-sporting2Impact.org/issues/new) with detailed information:
    - Description of the problem
    - Steps to reproduce
    - Expected vs actual behavior
@@ -30,7 +30,7 @@ If you encounter technical issues, bugs, or need development help:
 
 Please follow our [Security Policy](./SECURITY.md) and report vulnerabilities privately:
 
-- **Email**: clarkemoyer@freeforcharity.org
+- **Email**: info@sporting2impact.org
 - **Subject**: "SECURITY: [Brief Description]"
 
 We will respond within 48 hours and work with you to address the issue.
@@ -53,20 +53,20 @@ Want to contribute? Please read our [Contributing Guidelines](./CONTRIBUTING.md)
 
 All community interactions are governed by our [Code of Conduct](./CODE_OF_CONDUCT.md). Please review it to understand expected behavior.
 
-## 🎯 Free For Charity Services
+## 🎯 Sporting2Impact Services
 
-Free For Charity offers various services to nonprofits:
+Sporting2Impact offers various services to nonprofits:
 
 - **Free Web Hosting**: Professional hosting for nonprofit websites
 - **Domain Names**: Free domain registration and management
 - **Microsoft 365 Grants**: Assistance with Microsoft nonprofit programs
 - **Consulting Services**: Technical guidance and support
 
-**To apply for services**: Visit our [website](https://ffcworkingsite1.org) and click "Apply for Services" or contact us directly.
+**To apply for services**: Visit our [website](https://sporting2impact.org) and click "Apply for Services" or contact us directly.
 
 ## 🔗 Additional Resources
 
-- **Organization Website**: [ffcworkingsite1.org](https://ffcworkingsite1.org)
+- **Organization Website**: [sporting2impact.org](https://sporting2impact.org)
 - **GitHub Organization**: [@FreeForCharity](https://github.com/FreeForCharity)
 - **EIN**: 33-4148206 (501(c)(3) nonprofit)
 
@@ -83,4 +83,4 @@ Please note that this is a nonprofit project maintained by volunteers, so respon
 
 ---
 
-**Thank you for being part of the Free For Charity community!**
+**Thank you for being part of the Sporting2Impact community!**

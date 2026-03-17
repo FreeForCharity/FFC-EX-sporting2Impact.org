@@ -75,9 +75,9 @@ Create ruleset named "Protect Main":
 ### Update basePath in Workflows
 
 - [ ] Edit `.github/workflows/deploy.yml`
-  - In the job that builds the Next.js site (look for the `env` section where `NEXT_PUBLIC_BASE_PATH` is set), change `/FFC_Single_Page_Template` to `/YOUR-REPO-NAME`
+  - In the job that builds the Next.js site (look for the `env` section where `NEXT_PUBLIC_BASE_PATH` is set), change `/FFC-EX-sporting2Impact.org` to `/YOUR-REPO-NAME`
 - [ ] Edit `.github/workflows/lighthouse.yml`
-  - In the job that runs the Lighthouse checks (look for the `env` section where `NEXT_PUBLIC_BASE_PATH` is set), change `/FFC_Single_Page_Template` to `/YOUR-REPO-NAME`
+  - In the job that runs the Lighthouse checks (look for the `env` section where `NEXT_PUBLIC_BASE_PATH` is set), change `/FFC-EX-sporting2Impact.org` to `/YOUR-REPO-NAME`
 - [ ] OR remove `NEXT_PUBLIC_BASE_PATH` if using custom domain
 
 ### Update CODEOWNERS
@@ -97,9 +97,9 @@ Create ruleset named "Protect Main":
 
 ### Organization Information
 
-- [ ] Search and replace "Free For Charity" with your org name
+- [ ] Search and replace "Sporting2Impact" with your org name
 - [ ] Search and replace EIN "33-4148206" with your EIN
-- [ ] Search and replace "ffcworkingsite1.org" with your domain
+- [ ] Search and replace "sporting2impact.org" with your domain
 
 ### Contact Information
 
@@ -272,8 +272,8 @@ Create ruleset named "Protect Main":
 ## Need Help?
 
 - 📖 **Complete Guide**: [TEMPLATE_USAGE.md](./TEMPLATE_USAGE.md)
-- 🐛 **Report Issues**: [GitHub Issues](https://github.com/FreeForCharity/FFC_Single_Page_Template/issues)
-- 💬 **Ask Questions**: [GitHub Discussions](https://github.com/FreeForCharity/FFC_Single_Page_Template/discussions)
+- 🐛 **Report Issues**: [GitHub Issues](https://github.com/FreeForCharity/FFC-EX-sporting2Impact.org/issues)
+- 💬 **Ask Questions**: [GitHub Discussions](https://github.com/FreeForCharity/FFC-EX-sporting2Impact.org/discussions)
 - 📚 **Documentation**: Review all `.md` files in repository root
 
 ---

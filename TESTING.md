@@ -1,6 +1,6 @@
 # Testing Guide
 
-This guide helps you test the Free For Charity web application, including content management and automated UI tests.
+This guide helps you test the Sporting2Impact web application, including content management and automated UI tests.
 
 ## Quick Test Checklist
 
@@ -258,7 +258,7 @@ npm test -- -t "should not have accessibility violations"
 
 #### 1. Logo Visibility Tests (`tests/logo.spec.ts`)
 
-Tests that verify the Free For Charity logo displays correctly across the site.
+Tests that verify the Sporting2Impact logo displays correctly across the site.
 
 **Test Cases:**
 
@@ -267,16 +267,16 @@ Tests that verify the Free For Charity logo displays correctly across the site.
    - **Checks**:
      - Logo element is visible on page
      - Image src ends with `/web-app-manifest-512x512.png`
-     - Alt text equals "Free For Charity logo"
-   - **Selector**: `header a[aria-label="Free For Charity home"] img[alt="Free For Charity logo"]`
+     - Alt text equals "Sporting2Impact logo"
+   - **Selector**: `header a[aria-label="Sporting2Impact home"] img[alt="Sporting2Impact logo"]`
 
 2. **`should display logo in hero section`**
    - **Purpose**: Verifies logo appears in the main hero/landing section
    - **Checks**:
      - Logo element is visible on page
      - Image src ends with `/web-app-manifest-512x512.png`
-     - Alt text equals "Free For Charity mark"
-   - **Selector**: `section#home img[alt="Free For Charity mark"]`
+     - Alt text equals "Sporting2Impact mark"
+   - **Selector**: `section#home img[alt="Sporting2Impact mark"]`
 
 3. **`both logos should be present on the same page`**
    - **Purpose**: Verifies both logos exist simultaneously and are consistent
@@ -301,7 +301,7 @@ Tests that verify image loading works correctly for both custom domain and GitHu
      - Both logos use identical path
    - **Deployment Compatibility**:
      - Custom domain: `/web-app-manifest-512x512.png`
-   - GitHub Pages: `/FFC_Single_Page_Template/web-app-manifest-512x512.png`
+   - GitHub Pages: `/FFC-EX-sporting2Impact.org/web-app-manifest-512x512.png`
 
 5. **`images should return 200 status code`**
    - **Purpose**: Verifies images load successfully via HTTP
@@ -342,7 +342,7 @@ Tests run automatically in GitHub Actions with the following configuration:
 - **Trigger**: Every push to main branch
 - **Environment**: Ubuntu latest with Node.js 20
 - **Browser Setup**: `npx playwright install --with-deps chromium`
-- **Build**: Built with `NEXT_PUBLIC_BASE_PATH=/FFC_Single_Page_Template`
+- **Build**: Built with `NEXT_PUBLIC_BASE_PATH=/FFC-EX-sporting2Impact.org`
 - **Retry Logic**: Failed tests retry 2 times
 - **Failure Handling**: Deployment blocked if tests fail
 
@@ -650,7 +650,7 @@ npm audit
 
 ### Team Members (from JSON)
 
-1. Clarke Moyer - Founder/President
+1. Siva Rama Krishna Chagarlamudi - Founder/President
 2. Chris Rae - Vice President
 3. Tyler Carlotto - Secretary
 4. Brennan Darling - Treasurer
@@ -698,7 +698,7 @@ npm audit
 ## File Structure Reference
 
 ```
-FFC_Single_Page_Template/
+FFC-EX-sporting2Impact.org/
 ├── tests/                          # Test suite
 │   ├── logo.spec.ts               # Logo visibility tests (3 tests)
 │   ├── github-pages.spec.ts       # Deployment compatibility tests (3 tests)

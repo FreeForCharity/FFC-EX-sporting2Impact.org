@@ -2,7 +2,7 @@
 
 **Last Updated:** December 9, 2024
 
-This document outlines the technical and functional requirements for integrating Free For Charity's Facebook events into a new Events section on the homepage.
+This document outlines the technical and functional requirements for integrating Sporting2Impact's Facebook events into a new Events section on the homepage.
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ This document outlines the technical and functional requirements for integrating
 
 ## Overview
 
-Free For Charity maintains an active Facebook page at [https://www.facebook.com/freeforcharity](https://www.facebook.com/freeforcharity) that hosts events to engage with the community, volunteers, and supported charities. This integration will display upcoming Facebook events directly on the homepage to increase visibility and engagement.
+Sporting2Impact maintains an active Facebook page at [https://www.facebook.com/freeforcharity](https://www.facebook.com/freeforcharity) that hosts events to engage with the community, volunteers, and supported charities. This integration will display upcoming Facebook events directly on the homepage to increase visibility and engagement.
 
 ### Goals
 
@@ -104,7 +104,7 @@ Facebook uses different URL formats for events:
       "end_time": "2024-12-15T20:00:00-0500",
       "description": "Join us for a hands-on training...",
       "place": {
-        "name": "Free For Charity Office",
+        "name": "Sporting2Impact Office",
         "location": {
           "city": "State College",
           "state": "PA",
@@ -323,7 +323,7 @@ Update `EXTERNAL_DEPENDENCIES.md` to include:
 
 #### Facebook Page Plugin
 
-- **Purpose:** Display upcoming events from Free For Charity's Facebook page
+- **Purpose:** Display upcoming events from Sporting2Impact's Facebook page
 - **Implementation:** Embedded widget via iframe
 - **Domain:** `www.facebook.com`, `connect.facebook.net`
 - **Preconnect:** `<link rel="preconnect" href="https://connect.facebook.net" />`
@@ -347,7 +347,7 @@ Update `EXTERNAL_DEPENDENCIES.md` to include:
 
 The Events section should be placed on the homepage in a logical position:
 
-**Recommended Placement:** After "Volunteer with Us" and before "Support Free For Charity"
+**Recommended Placement:** After "Volunteer with Us" and before "Support Sporting2Impact"
 
 Rationale:
 
@@ -364,7 +364,7 @@ Rationale:
 4. Testimonials
 5. Volunteer with Us
 6. Events (NEW)
-7. Support Free For Charity
+7. Support Sporting2Impact
 8. Endowment Features
 9. Our Programs
 10. FAQ

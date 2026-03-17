@@ -1,16 +1,16 @@
 # Project Governance
 
-This document outlines the governance model for the Free For Charity website repository, including decision-making processes, maintainer roles, and community participation guidelines.
+This document outlines the governance model for the Sporting2Impact website repository, including decision-making processes, maintainer roles, and community participation guidelines.
 
 ## Overview
 
-Free For Charity (FFC) is a 501(c)(3) nonprofit organization (EIN: 33-4148206) committed to open-source principles and transparent governance. This repository follows a benevolent dictatorship model with collaborative decision-making for technical matters.
+Sporting2Impact is a 501(c)(3) nonprofit organization (EIN: 33-4148206) committed to open-source principles and transparent governance. This repository follows a benevolent dictatorship model with collaborative decision-making for technical matters.
 
 ## Organization Structure
 
-### Free For Charity Board
+### Sporting2Impact Board
 
-The Free For Charity organization is governed by its nonprofit board of directors, which has ultimate authority over organizational policy, legal matters, and strategic direction.
+The Sporting2Impact organization is governed by its nonprofit board of directors, which has ultimate authority over organizational policy, legal matters, and strategic direction.
 
 ### Project Leadership
 
@@ -20,7 +20,7 @@ The project is led by the **Founder** and **Board of Directors**, with day-to-da
 
 ### Founder
 
-**Clarke Moyer** serves as the Founder and primary decision-maker for the project.
+**Siva Rama Krishna Charagarlamudi** serves as the Founder and primary decision-maker for the project.
 
 **Responsibilities**:
 
@@ -32,8 +32,8 @@ The project is led by the **Founder** and **Board of Directors**, with day-to-da
 
 **Contact**:
 
-- Email: clarkemoyer@freeforcharity.org
-- Phone: 520-222-8104 (text preferred)
+- Email: info@sporting2impact.org
+- Phone: 667-479-2048 (text preferred)
 
 ### Maintainers
 
@@ -111,7 +111,7 @@ Contributors may be invited to become maintainers based on:
 - Demonstrated ability to review code effectively
 - Positive community interactions
 - Commitment to the Code of Conduct
-- Alignment with Free For Charity's mission
+- Alignment with Sporting2Impact's mission
 
 **Process**:
 
@@ -198,7 +198,7 @@ Primary communication platform:
 
 For private or sensitive matters:
 
-- Founder: clarkemoyer@freeforcharity.org
+- Founder: info@sporting2impact.org
 - Security: See [SECURITY.md](./SECURITY.md)
 
 ### Response Times
@@ -216,7 +216,7 @@ Note: These are goals, not guarantees. We're a small nonprofit with limited reso
 
 The [Code of Conduct](./CODE_OF_CONDUCT.md) is enforced by:
 
-1. **Primary Enforcer**: Clarke Moyer (Founder)
+1. **Primary Enforcer**: Siva Rama Krishna Chagarlamudi (Founder)
 2. **Secondary Enforcers**: Designated maintainers
 
 Reports are handled according to the enforcement guidelines in the Code of Conduct.
@@ -246,6 +246,6 @@ This governance model is inspired by:
 
 ---
 
-**Last Updated**: December 6, 2025  
+**Last Updated**: Mar 15, 2026 
 **Version**: 1.0  
 **CNCF Alignment**: This governance model aligns with CNCF project standards for transparency and community participation.

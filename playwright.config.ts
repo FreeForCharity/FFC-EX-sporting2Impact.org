@@ -39,7 +39,7 @@ function findChromiumExecutable(): string | undefined {
 }
 
 /**
- * Playwright configuration for Free For Charity web application
+ * Playwright configuration for Sporting2Impact web application
  * Tests run against the built static site served locally
  *
  * Performance Optimizations:

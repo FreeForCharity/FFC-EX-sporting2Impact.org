@@ -7,17 +7,17 @@ export default function TestimonialSlider() {
   const testimonials = [
     {
       name: 'Name',
-      text: '“Thanks to Free For Charity, our organization now has a professional online presence, which has significantly increased our visibility and donor engagement.”',
+      text: '“Thanks to Sporting2Impact, our organization now has a professional online presence, which has significantly increased our visibility and donor engagement.”',
       rating: 5,
     },
     {
       name: 'Name',
-      text: '“The free domain and email setup provided by Free For Charity have been invaluable in helping us streamline our communications and expand our reach.”',
+      text: '“The free domain and email setup provided by Sporting2Impact have been invaluable in helping us streamline our communications and expand our reach.”',
       rating: 5,
     },
     {
       name: 'Name',
-      text: '“We are grateful for the support from Free For Charity. Their services have allowed us to focus more on our core mission and less on administrative tasks.”',
+      text: '“We are grateful for the support from Sporting2Impact. Their services have allowed us to focus more on our core mission and less on administrative tasks.”',
       rating: 5,
     },
   ]

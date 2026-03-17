@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | Free For Charity',
-  description: 'Terms of Service for Free For Charity website',
+  title: 'Terms of Service | Sporting2Impact',
+  description: 'Terms of Service for Sporting2Impact website',
 }
 
 export default function TermsOfService() {
@@ -17,7 +17,7 @@ export default function TermsOfService() {
 
           {/* Main Title */}
           <h1 className="text-[30px] text-[#333] pb-[10px] leading-[1em] font-[500]">
-            Free For Charity Terms of Service
+            Sporting2Impact Terms of Service
           </h1>
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">&nbsp;</p>
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">&nbsp;</p>

@@ -2,7 +2,7 @@
 
 **Last Updated:** December 9, 2024
 
-This document provides a comprehensive list of all external dependencies and third-party services used by the Free For Charity website. This includes both direct integrations (services we explicitly configure) and transitive dependencies (services loaded by our direct integrations).
+This document provides a comprehensive list of all external dependencies and third-party services used by the Sporting2Impact website. This includes both direct integrations (services we explicitly configure) and transitive dependencies (services loaded by our direct integrations).
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ This document provides a comprehensive list of all external dependencies and thi
 
 ## Overview
 
-Free For Charity's website uses various third-party services to provide functionality, analytics, and enhanced user experience. All services are carefully selected to align with our mission while respecting user privacy.
+Sporting2Impact's website uses various third-party services to provide functionality, analytics, and enhanced user experience. All services are carefully selected to align with our mission while respecting user privacy.
 
 **Privacy Notice:** Users can control analytics and marketing cookies through our cookie consent banner. See our [Privacy Policy](/privacy-policy) and [Cookie Policy](/cookie-policy) for details.
 
@@ -123,7 +123,7 @@ These are services we directly integrate into our application code.
 
 - **Purpose:** Volunteer opportunity listings
 - **Implementation:** Link to external profile
-- **URL:** `https://www.idealist.org/en/nonprofit/356bfc8e2ae64f83beea4a4e677e99d7-free-for-charity-state-college#opportunities`
+- **URL:** `https://www.idealist.org/en/nonprofit/f70e4f401859448cb4304eed9f2a00a0-sporting2impact-inc-ellicott-city#opportunities`
 - **Data Collected:** None (external link only)
 - **Privacy Policy:** https://www.idealist.org/en/privacy
 
@@ -139,7 +139,7 @@ These are third-party services loaded by our direct integrations. We do not dire
 - **Implementation:** Automatically loaded by Microsoft Forms iframe
 - **User Control:** Only loads when application form modal is opened
 - **Privacy Policy:** https://legal.hubspot.com/privacy-policy
-- **Note:** This is a Microsoft-controlled service, not directly integrated by Free For Charity
+- **Note:** This is a Microsoft-controlled service, not directly integrated by Sporting2Impact
 
 **Discovery:** Identified through page speed analysis. See [HUBSPOT_INVESTIGATION.md](./HUBSPOT_INVESTIGATION.md) for full investigation report.
 
@@ -233,7 +233,7 @@ Users have the right to:
 - Opt-out of analytics and marketing
 - Withdraw consent at any time
 
-Contact: privacy@freeforcharity.org or 520-222-8104
+Contact: privacy@sporting2impact.org or 667-479-2048
 
 ## Performance Optimization
 
@@ -292,9 +292,9 @@ To improve performance, we preconnect to frequently used domains:
 
 For questions about our external dependencies or privacy practices:
 
-- **Email:** clarkemoyer@freeforcharity.org
-- **Phone:** 520-222-8104
-- **Privacy Contact:** privacy@freeforcharity.org
+- **Email:** info@sporting2impact.org
+- **Phone:** 667-479-2048
+- **Privacy Contact:** privacy@sporting2impact.org
 
 ## Related Documentation
 

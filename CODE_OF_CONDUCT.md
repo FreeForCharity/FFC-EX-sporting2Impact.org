@@ -61,10 +61,10 @@ representative at an online or offline event.
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at:
 
-**Clarke Moyer**  
-Founder, Free For Charity  
-Email: clarkemoyer@freeforcharity.org  
-Phone: 520-222-8104 (text preferred)
+**Siva Rama Krishna Chagarlamudi**  
+Founder, Sporting2Impact  
+Email: info@sporting2impact.org  
+Phone: 667-479-2048 (text preferred)
 
 All complaints will be reviewed and investigated promptly and fairly.
 

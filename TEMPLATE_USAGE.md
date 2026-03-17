@@ -52,7 +52,7 @@ Use this checklist to track your progress when setting up a new repository from 
 > This detailed guide provides a 4-column table identifying every piece of content to replace, including:
 >
 > - All website sections from Navigation to Footer
-> - Current Free For Charity example content
+> - Current Sporting2Impact example content
 > - Blank fields for your charity's information
 > - Recommended image sizes and file formats
 > - Step-by-step instructions for non-technical users
@@ -76,7 +76,7 @@ Quick checklist of major content areas:
 
 ### Step 1: Use GitHub Template Feature
 
-1. Navigate to https://github.com/FreeForCharity/FFC_Single_Page_Template
+1. Navigate to https://github.com/FreeForCharity/FFC-EX-sporting2Impact.org
 2. Click the green **"Use this template"** button at the top right
 3. Select **"Create a new repository"**
 4. Choose your organization or personal account as the owner
@@ -285,20 +285,20 @@ The deploy workflow sets `NEXT_PUBLIC_BASE_PATH` for GitHub Pages routing:
 
 ```yaml
 env:
-  NEXT_PUBLIC_BASE_PATH: /FFC_Single_Page_Template
+  NEXT_PUBLIC_BASE_PATH: /FFC-EX-sporting2Impact.org
 ```
 
 **This needs to be updated** in `.github/workflows/deploy.yml` and `.github/workflows/lighthouse.yml`:
 
 **Option A: Using AI/Copilot (Recommended)**
 
-- Ask Copilot: "Update `NEXT_PUBLIC_BASE_PATH` in both `.github/workflows/deploy.yml` and `.github/workflows/lighthouse.yml` from `/FFC_Single_Page_Template` to `/YOUR-REPO-NAME`"
+- Ask Copilot: "Update `NEXT_PUBLIC_BASE_PATH` in both `.github/workflows/deploy.yml` and `.github/workflows/lighthouse.yml` from `/FFC-EX-sporting2Impact.org` to `/YOUR-REPO-NAME`"
 - Copilot will automatically find and replace the values in both files
 
 **Option B: Manual Update**
 
 1. Open `.github/workflows/deploy.yml`
-2. Search for `NEXT_PUBLIC_BASE_PATH: /FFC_Single_Page_Template`
+2. Search for `NEXT_PUBLIC_BASE_PATH: /FFC-EX-sporting2Impact.org`
 3. Replace with your repository name, for example: `NEXT_PUBLIC_BASE_PATH: /YOUR-REPO-NAME`
 4. Repeat steps 1–3 for `.github/workflows/lighthouse.yml`
 5. Commit the changes
@@ -484,8 +484,8 @@ The template includes a FUNDING.yml file for GitHub Sponsors button:
 ```yaml
 github: FreeForCharity
 custom:
-  - 'https://ffcworkingsite1.org'
-  - 'https://ffcworkingsite1.org/#donate'
+  - 'https://sporting2impact.org'
+  - 'https://sporting2impact.org/#donate'
 ```
 
 **To customize**:
@@ -618,11 +618,11 @@ GitHub merge queues help prevent merge conflicts and ensure all PRs are tested t
 
 Search and replace these values throughout the repository:
 
-**Organization name**: "Free For Charity" → "Your Nonprofit Name"
+**Organization name**: "Sporting2Impact" → "Your Nonprofit Name"
 
 ```bash
 # Use your editor's find-and-replace or:
-grep -r "Free For Charity" . --exclude-dir=node_modules --exclude-dir=.git
+grep -r "Sporting2Impact" . --exclude-dir=node_modules --exclude-dir=.git
 ```
 
 **EIN**: "33-4148206" → "Your EIN"
@@ -631,10 +631,10 @@ grep -r "Free For Charity" . --exclude-dir=node_modules --exclude-dir=.git
 grep -r "33-4148206" . --exclude-dir=node_modules --exclude-dir=.git
 ```
 
-**Domain**: "ffcworkingsite1.org" → "yourwebsite.org"
+**Domain**: "sporting2impact.org" → "yourwebsite.org"
 
 ```bash
-grep -r "ffcworkingsite1.org" . --exclude-dir=node_modules --exclude-dir=.git
+grep -r "sporting2impact.org" . --exclude-dir=node_modules --exclude-dir=.git
 ```
 
 **Social media links**: Update in `src/components/footer/index.tsx`
@@ -823,8 +823,8 @@ After completing the setup:
 **Getting Help**:
 
 - Review existing documentation in the repository
-- Check the [GitHub Discussions](https://github.com/FreeForCharity/FFC_Single_Page_Template/discussions) for Q&A
-- Open an [Issue](https://github.com/FreeForCharity/FFC_Single_Page_Template/issues) for bugs or questions
+- Check the [GitHub Discussions](https://github.com/FreeForCharity/FFC-EX-sporting2Impact.org/discussions) for Q&A
+- Open an [Issue](https://github.com/FreeForCharity/FFC-EX-sporting2Impact.org/issues) for bugs or questions
 - Read [SUPPORT.md](./SUPPORT.md) for support resources
 
 ---
@@ -909,9 +909,9 @@ When adapting this template for a new charity, many tasks can be automated using
 
 After completing the "Rebrand Template To A New Brand" issue with all required information, you can assign these tasks to Copilot:
 
-- Organization name replacement: "Free For Charity" → Your charity name
+- Organization name replacement: "Sporting2Impact" → Your charity name
 - EIN replacement: "33-4148206" → Your EIN
-- Domain replacement: "ffcworkingsite1.org" → Your domain
+- Domain replacement: "sporting2impact.org" → Your domain
 - Contact email updates: Multiple files with contact information
 - Social media links: Footer and other components
 - CODEOWNERS updates: GitHub usernames
@@ -921,9 +921,9 @@ After completing the "Rebrand Template To A New Brand" issue with all required i
 
 ```
 Based on the information in issue #[number], update all instances of:
-- "Free For Charity" to "[New Org Name]"
+- "Sporting2Impact" to "[New Org Name]"
 - "33-4148206" to "[New EIN]"
-- "ffcworkingsite1.org" to "[new-domain.org]"
+- "sporting2impact.org" to "[new-domain.org]"
 - Update CODEOWNERS with @[username1], @[username2]
 - Update NEXT_PUBLIC_BASE_PATH in both workflow files to /[new-repo-name]
 - Update all social media links in footer components

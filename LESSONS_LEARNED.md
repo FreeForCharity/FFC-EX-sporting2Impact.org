@@ -25,7 +25,7 @@ This document captures key lessons learned during the development and evolution 
 
 ### Origins
 
-The FFC Single Page Template was created as a standardized, reusable foundation for Free For Charity web projects. It evolved from the production `freeforcharity-web` repository and has been enhanced with modern development practices.
+The FFC Single Page Template was created as a standardized, reusable foundation for Sporting2Impact web projects. It evolved from the production `freeforcharity-web` repository and has been enhanced with modern development practices.
 
 ### Key Milestones
 
@@ -381,7 +381,7 @@ docs: update README with new deployment instructions
 
 **Challenge**: Images and assets don't load on GitHub Pages deployment
 
-**Root Cause**: GitHub Pages serves the site at `/FFC_Single_Page_Template/` instead of `/`
+**Root Cause**: GitHub Pages serves the site at `/FFC-EX-sporting2Impact.org/` instead of `/`
 
 **Solution**:
 
@@ -609,5 +609,5 @@ Special thanks to the Next.js, React, and Tailwind CSS communities for excellent
 ---
 
 **Last Updated**: 2025-12-03
-**Contributors**: FreeForCharity Development Team
+**Contributors**: Sporting2Impact Development Team
 **Status**: Living Document (continuously updated)

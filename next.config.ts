@@ -10,15 +10,15 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'ffcworkingsite1.org',
+        hostname: 'sporting2impact.org',
       },
       {
         protocol: 'https',
-        hostname: 'staging.freeforcharity.org',
+        hostname: 'staging.sporting2impact.org',
       },
       {
         protocol: 'https',
-        hostname: 'freeforcharity.org',
+        hostname: 'sporting2impact.org',
       },
       {
         protocol: 'https',

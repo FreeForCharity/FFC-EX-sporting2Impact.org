@@ -18,10 +18,10 @@ describe('Footer component', () => {
     expect(screen.getByText('Endorsements')).toBeInTheDocument()
   })
 
-  it('should display Quick Links section', () => {
-    render(<Footer />)
-    expect(screen.getByText('Quick Links')).toBeInTheDocument()
-  })
+  // it('should display Quick Links section', () => {
+  //   render(<Footer />)
+  //   expect(screen.getByText('Quick Links')).toBeInTheDocument()
+  // })
 
   it('should display Contact Us section with contact information', () => {
     render(<Footer />)

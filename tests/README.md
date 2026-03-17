@@ -245,7 +245,7 @@ export const testConfig = {
   },
 
   copyright: {
-    text: 'All Rights Reserved by Acme Charity a 501c3 Non Profit',
+    text: 'All Rights Reserved by Acme Charity a 501(c)(3) Non Profit',
     searchText: 'All Rights Reserved',
     linkUrl: 'https://acmecharity.org',
     linkText: 'https://acmecharity.org',

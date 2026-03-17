@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Siva Ch",
     "role": "President & Treasurer",
-    "image": "/images/team/siva.jpg",
+    "image": "/Images/team/siva.jpg",
     "group": "Core Team",
     "email": "sivaramakrishna.ch@sporting2impact.org"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Sridhar",
     "role": "Vice President",
-    "image": "/images/team/sridhar.jpg",
+    "image": "/Images/team/sridhar.jpg",
     "group": "Core Team",
     "email": "sridhar.u@sporting2impact.org"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Vamsi",
     "role": "Secretary",
-    "image": "/images/team/vamsi.jpg",
+    "image": "/Images/team/vamsi.jpg",
     "group": "Core Team",
     "email": "vamsi.k@sporting2impact.org"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "name": "Akshat Ch",
     "role": "Outreach Coordinator",
-    "image": "/images/team/akshat.jpg",
+    "image": "/Images/team/akshat.jpg",
     "group": "Board of Directors",
     "school": "Mt. Hebron High School",
     "grade": "Senior"
@@ -36,7 +36,7 @@
     "id": 5,
     "name": "Tanya K",
     "role": "Social Media Coordinator",
-    "image": "/images/team/tanya.jpg",
+    "image": "/Images/team/tanya.jpg",
     "group": "Board of Directors",
     "school": "Marriotts Ridge High School",
     "grade": "Senior"
@@ -45,7 +45,7 @@
     "id": 6,
     "name": "Suchay U",
     "role": "Events Coordinator",
-    "image": "/images/team/suchay.jpg",
+    "image": "/Images/team/suchay.jpg",
     "group": "Board of Directors",
     "school": "Mt. Hebron High School",
     "grade": "Freshman"

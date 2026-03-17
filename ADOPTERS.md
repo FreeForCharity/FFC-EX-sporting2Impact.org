@@ -1,6 +1,6 @@
 # Adopters
 
-This document tracks organizations and individuals who have adopted, forked, or deployed this Free For Charity website template. Sharing your adoption helps build community, demonstrates the template's value, and allows us to better support users.
+This document tracks organizations and individuals who have adopted, forked, or deployed this Sporting2Impact website template. Sharing your adoption helps build community, demonstrates the template's value, and allows us to better support users.
 
 ## Purpose
 
@@ -19,7 +19,7 @@ If you're using this template, we'd love to hear from you! Add your organization
 1. Fork this repository
 2. Add your entry to the list below
 3. Submit a pull request
-4. Alternatively, [open an issue](https://github.com/FreeForCharity/FFC_Single_Page_Template/issues/new) with your information
+4. Alternatively, [open an issue](https://github.com/FreeForCharity/FFC-EX-sporting2Impact.org/issues/new) with your information
 
 ## Template
 
@@ -37,16 +37,16 @@ If you're using this template, we'd love to hear from you! Add your organization
 
 ## Adopters List
 
-### [Free For Charity](https://ffcworkingsite1.org)
+### [Sporting2Impact](https://sporting2impact.org)
 
 - **Type**: 501(c)(3) Nonprofit Organization
 - **Location**: Tucson, Arizona, USA
 - **EIN**: 33-4148206
-- **Use Case**: Primary website to promote Free For Charity's mission of connecting students, professionals, and businesses with nonprofits to reduce operating costs
+- **Use Case**: Primary website to promote Sporting2Impact's mission of connecting students, professionals, and businesses with nonprofits to reduce operating costs
 - **Deployment**: GitHub Pages with custom domain
 - **Launch Date**: December 2025
 - **Modifications**: Original template creator - includes all features
-- **Contact**: clarkemoyer@freeforcharity.org
+- **Contact**: info@sporting2impact.org
 
 ---
 
@@ -72,8 +72,8 @@ Listing your organization here is entirely voluntary. You may:
 
 If you have questions about adopter listings:
 
-- Open a [GitHub Discussion](https://github.com/FreeForCharity/FFC_Single_Page_Template/discussions)
-- Email: clarkemoyer@freeforcharity.org
+- Open a [GitHub Discussion](https://github.com/FreeForCharity/FFC-EX-sporting2Impact.org/discussions)
+- Email: info@sporting2impact.org
 
 ## Success Stories
 
@@ -84,7 +84,7 @@ We'd love to hear how this template helped your organization! Share your story:
 - **Time Saved**: Development time saved by using the template
 - **Lessons Learned**: Tips for other adopters
 
-Submit success stories via pull request or email them to clarkemoyer@freeforcharity.org.
+Submit success stories via pull request or email them to info@sporting2impact.org.
 
 ## Community Support
 
@@ -95,7 +95,7 @@ As the adopter community grows, we encourage:
 - Contributing bug fixes and features
 - Providing feedback on the template
 
-Thank you for being part of the Free For Charity community!
+Thank you for being part of the Sporting2Impact community!
 
 ---
 

@@ -2,8 +2,8 @@ import React from 'react'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Free For Charity Donation Policy | Free For Charity',
-  description: 'Free For Charity Donation Policy - Learn about our donation policies',
+  title: 'Sporting2Impact Donation Policy | Sporting2Impact',
+  description: 'Sporting2Impact Donation Policy - Learn about our donation policies',
 }
 
 const index = () => {
@@ -75,7 +75,7 @@ const index = () => {
           </h2>
 
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
-            Free For Charity accepts publicly traded securities and other forms of marketable
+            Sporting2Impact accepts publicly traded securities and other forms of marketable
             securities. Donations of securities will be liquidated promptly upon receipt unless
             otherwise directed by the Board of Directors. This ensures that the value of the
             donation can be utilized effectively to support our mission. Donors are encouraged to
@@ -102,7 +102,7 @@ const index = () => {
 
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
             Donors are responsible for ensuring that their contributions comply with all applicable
-            laws and regulations. Free For Charity recommends that donors consult with their
+            laws and regulations. Sporting2Impact recommends that donors consult with their
             financial advisors or legal counsel to understand the potential tax implications and
             legal requirements associated with their donations. It is crucial for donors to provide
             accurate and complete information about their contributions to facilitate proper
@@ -177,7 +177,7 @@ const index = () => {
           </h1>
 
           <p className="text-[14px] text-[#666] pb-[10px] leading-[24px] font-[500]">
-            Free For Charity respects the privacy and confidentiality of our donors. Personal
+            Sporting2Impact respects the privacy and confidentiality of our donors. Personal
             information collected during the donation process will be used solely for the purpose of
             processing and acknowledging the donation and will not be shared with third parties
             without the donor’s consent. Our commitment to donor privacy includes:

@@ -1,6 +1,6 @@
 # Security Documentation
 
-This document outlines the security measures implemented in the Free For Charity web application repository to protect code quality, maintain integrity, and ensure safe collaboration.
+This document outlines the security measures implemented in the Sporting2Impact web application repository to protect code quality, maintain integrity, and ensure safe collaboration.
 
 ## Branch Protection Rules
 
@@ -283,8 +283,8 @@ If you discover a security vulnerability in this repository:
 
 1. **Do NOT open a public issue** - this could put the live site at risk
 2. **Report privately** using one of these methods:
-   - **Preferred**: Use GitHub's [Security Advisories feature](https://github.com/FreeForCharity/FFC_Single_Page_Template/security/advisories/new)
-   - **Alternative**: Email clarkemoyer@freeforcharity.org with subject line "Security Vulnerability Report"
+   - **Preferred**: Use GitHub's [Security Advisories feature](https://github.com/FreeForCharity/FFC-EX-sporting2Impact.org/security/advisories/new)
+   - **Alternative**: Email info@sporting2impact.org with subject line "Security Vulnerability Report"
 3. Include as much detail as possible:
    - Description of the vulnerability
    - Steps to reproduce
@@ -314,9 +314,9 @@ Older versions may not receive security updates. We recommend always using the l
 
 #### Security Contact
 
-**Primary Contact**: Clarke Moyer, Founder  
-**Email**: clarkemoyer@freeforcharity.org  
-**Phone**: 520-222-8104 (text preferred)  
+**Primary Contact**: Siva Rama Krishna Chagarlamudi, Founder  
+**Email**: info@sporting2impact.org  
+**Phone**: 667-479-2048 (text preferred)  
 **Response Window**: 48 hours for initial acknowledgment
 
 ---
