@@ -246,6 +246,6 @@ This governance model is inspired by:
 
 ---
 
-**Last Updated**: Mar 15, 2026 
+**Last Updated**: Mar 15, 2026
 **Version**: 1.0  
 **CNCF Alignment**: This governance model aligns with CNCF project standards for transparency and community participation.

@@ -3,18 +3,17 @@
 import React from 'react'
 import HeroSlideshow from './LandingPageImages'
 
-
 const donationFormStyle: React.CSSProperties = {
   width: '100%',
   height: '100%',
   border: '0',
 }
 interface ExtendedIframeProps extends React.HTMLAttributes<HTMLIFrameElement> {
-  title: string;
-  style: React.CSSProperties;
-  src: string;
-  allowpaymentrequest: string;
-  allowtransparency: string;
+  title: string
+  style: React.CSSProperties
+  src: string
+  allowpaymentrequest: string
+  allowtransparency: string
 }
 const donationFormProps: ExtendedIframeProps = {
   title: 'Donation form powered by Zeffy',
@@ -40,7 +39,6 @@ const CharityHeroBackground = () => {
 
       {/* MAIN CONTENT */}
       <div className="relative z-10 w-[90%] max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-3 gap-10 py-20">
-
         {/* LEFT SIDE TEXT */}
         <div className="text-white flex flex-col justify-center">
           <h1 className="text-[50px] lg:text-[60px] font-[500] leading-[120%] mb-[20px]">
@@ -65,7 +63,6 @@ const CharityHeroBackground = () => {
             <iframe {...donationFormProps}></iframe>
           </div>
         </div>
-
       </div>
     </div>
   )

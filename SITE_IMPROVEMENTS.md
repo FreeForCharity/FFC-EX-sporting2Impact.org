@@ -77,24 +77,24 @@ This analysis compares FFC-EX-sporting2Impact.org against three sister repositor
 ### Technology Stack Comparison
 
 | Feature             | FFC-EX-sporting2Impact.org | freeforcharity-web | ffcadmin.org | KCCF-web |
-| ------------------- | ------------------------ | ------------------ | ------------ | -------- |
-| **Next.js Version** | 16.0.7                   | 15.5.2             | 16.0.3       | 15.4.6   |
-| **React Version**   | 19.1.0                   | 19.1.0             | 19.2.0       | 19.1.0   |
-| **Node.js Target**  | 20.x                     | 20.x               | 20.x         | 20.x     |
-| **Package Manager** | npm                      | npm                | pnpm         | npm      |
-| **Static Export**   | ✅                       | ✅                 | ✅           | ✅       |
-| **TypeScript**      | ✅                       | ✅                 | ✅           | ✅       |
-| **Tailwind CSS**    | ✅ v4.1.12               | ✅ v4.1.12         | ✅ v4.1.17   | ✅ v4    |
+| ------------------- | -------------------------- | ------------------ | ------------ | -------- |
+| **Next.js Version** | 16.0.7                     | 15.5.2             | 16.0.3       | 15.4.6   |
+| **React Version**   | 19.1.0                     | 19.1.0             | 19.2.0       | 19.1.0   |
+| **Node.js Target**  | 20.x                       | 20.x               | 20.x         | 20.x     |
+| **Package Manager** | npm                        | npm                | pnpm         | npm      |
+| **Static Export**   | ✅                         | ✅                 | ✅           | ✅       |
+| **TypeScript**      | ✅                         | ✅                 | ✅           | ✅       |
+| **Tailwind CSS**    | ✅ v4.1.12                 | ✅ v4.1.12         | ✅ v4.1.17   | ✅ v4    |
 
 ### Dependency Comparison
 
 | Library/Tool         | FFC-EX-sporting2Impact.org | freeforcharity-web | ffcadmin.org | KCCF-web |
-| -------------------- | ------------------------ | ------------------ | ------------ | -------- |
-| **framer-motion**    | ✅ 12.23.24              | ✅ 12.23.24        | ❌           | ❌       |
-| **lucide-react**     | ✅ 0.469.0               | ✅ 0.469.0         | ❌           | ❌       |
-| **react-icons**      | ✅ 5.5.0                 | ✅ 5.5.0           | ❌           | ❌       |
-| **swiper**           | ✅ 12.0.3                | ✅ 12.0.3          | ❌           | ❌       |
-| **@playwright/test** | ✅ 1.56.0                | ✅ 1.56.0          | ❌           | ❌       |
+| -------------------- | -------------------------- | ------------------ | ------------ | -------- |
+| **framer-motion**    | ✅ 12.23.24                | ✅ 12.23.24        | ❌           | ❌       |
+| **lucide-react**     | ✅ 0.469.0                 | ✅ 0.469.0         | ❌           | ❌       |
+| **react-icons**      | ✅ 5.5.0                   | ✅ 5.5.0           | ❌           | ❌       |
+| **swiper**           | ✅ 12.0.3                  | ✅ 12.0.3          | ❌           | ❌       |
+| **@playwright/test** | ✅ 1.56.0                  | ✅ 1.56.0          | ❌           | ❌       |
 
 **Observation:** FFC-EX-sporting2Impact.org and freeforcharity-web are nearly identical in their dependency stacks, suggesting they share similar feature sets.
 
@@ -2133,62 +2133,62 @@ trim_trailing_whitespace = false
 ### Development Tooling Status
 
 | Feature             | FFC-EX-sporting2Impact.org | freeforcharity-web | ffcadmin.org | KCCF-web |
-| ------------------- | ------------------------ | ------------------ | ------------ | -------- |
-| **Prettier**        | ✅ 3.7.4                 | ❌                 | ✅ 3.4.2     | ❌       |
-| **Husky**           | ✅ 9.1.7                 | ❌                 | ✅ 9.1.7     | ❌       |
-| **Commitlint**      | ✅ 20.1.0                | ❌                 | ✅ 20.0.1    | ❌       |
-| **.editorconfig**   | ✅ Added                 | ❌                 | ✅           | ❌       |
-| **Linkinator**      | ✅ Latest                | ❌                 | ✅ 7.4.6     | ❌       |
-| **Bundle Analyzer** | ⚠️ Config only           | ⚠️ Config only     | ✅ Active    | ❌       |
+| ------------------- | -------------------------- | ------------------ | ------------ | -------- |
+| **Prettier**        | ✅ 3.7.4                   | ❌                 | ✅ 3.4.2     | ❌       |
+| **Husky**           | ✅ 9.1.7                   | ❌                 | ✅ 9.1.7     | ❌       |
+| **Commitlint**      | ✅ 20.1.0                  | ❌                 | ✅ 20.0.1    | ❌       |
+| **.editorconfig**   | ✅ Added                   | ❌                 | ✅           | ❌       |
+| **Linkinator**      | ✅ Latest                  | ❌                 | ✅ 7.4.6     | ❌       |
+| **Bundle Analyzer** | ⚠️ Config only             | ⚠️ Config only     | ✅ Active    | ❌       |
 
 ### Testing Infrastructure Status
 
 | Feature                      | FFC-EX-sporting2Impact.org | freeforcharity-web | ffcadmin.org | KCCF-web |
-| ---------------------------- | ------------------------ | ------------------ | ------------ | -------- |
-| **Jest**                     | ✅ 30.2.0                | ❌                 | ✅ 30.2.0    | ❌       |
-| **React Testing Library**    | ✅ 16.3.0                | ❌                 | ✅ 16.3.0    | ❌       |
-| **jest-axe (Accessibility)** | ✅ 10.0.0                | ❌                 | ✅           | ❌       |
-| **Playwright (E2E)**         | ✅ 1.56.0                | ✅ 1.56.0          | ❌           | ❌       |
-| **Test Coverage**            | ✅ ~5% (25 tests)        | ❌                 | ✅ ~15%      | ❌       |
-| **Coverage Thresholds**      | ✅ Configured            | ❌                 | ✅           | ❌       |
+| ---------------------------- | -------------------------- | ------------------ | ------------ | -------- |
+| **Jest**                     | ✅ 30.2.0                  | ❌                 | ✅ 30.2.0    | ❌       |
+| **React Testing Library**    | ✅ 16.3.0                  | ❌                 | ✅ 16.3.0    | ❌       |
+| **jest-axe (Accessibility)** | ✅ 10.0.0                  | ❌                 | ✅           | ❌       |
+| **Playwright (E2E)**         | ✅ 1.56.0                  | ✅ 1.56.0          | ❌           | ❌       |
+| **Test Coverage**            | ✅ ~5% (25 tests)          | ❌                 | ✅ ~15%      | ❌       |
+| **Coverage Thresholds**      | ✅ Configured              | ❌                 | ✅           | ❌       |
 
 ### CI/CD & Security Status
 
 | Feature                          | FFC-EX-sporting2Impact.org | freeforcharity-web | ffcadmin.org | KCCF-web |
-| -------------------------------- | ------------------------ | ------------------ | ------------ | -------- |
-| **CodeQL Security Scanning**     | ✅ Active                | ❌                 | ✅ Active    | ✅       |
-| **Lighthouse CI**                | ✅ Active                | ❌                 | ✅ Active    | ❌       |
-| **Separate CI/Deploy Workflows** | ✅ Split                 | ❌ Monolithic      | ✅ Split     | ❌       |
-| **Dependabot**                   | ✅ Configured            | ✅                 | ✅           | ✅       |
-| **Link Validation in CI**        | ✅ Ready                 | ❌                 | ✅           | ❌       |
+| -------------------------------- | -------------------------- | ------------------ | ------------ | -------- |
+| **CodeQL Security Scanning**     | ✅ Active                  | ❌                 | ✅ Active    | ✅       |
+| **Lighthouse CI**                | ✅ Active                  | ❌                 | ✅ Active    | ❌       |
+| **Separate CI/Deploy Workflows** | ✅ Split                   | ❌ Monolithic      | ✅ Split     | ❌       |
+| **Dependabot**                   | ✅ Configured              | ✅                 | ✅           | ✅       |
+| **Link Validation in CI**        | ✅ Ready                   | ❌                 | ✅           | ❌       |
 
 ### Documentation Status
 
 | Documentation File       | FFC-EX-sporting2Impact.org | freeforcharity-web | ffcadmin.org | KCCF-web |
-| ------------------------ | ------------------------ | ------------------ | ------------ | -------- |
-| **README.md**            | ✅                       | ✅                 | ✅           | ✅       |
-| **CONTRIBUTING.md**      | ✅                       | ❌                 | ✅           | ❌       |
-| **TESTING.md**           | ✅                       | ✅                 | ✅           | ❌       |
-| **CODE_QUALITY.md**      | ✅                       | ❌                 | ✅           | ❌       |
-| **SECURITY.md**          | ✅                       | ❌                 | ✅           | ❌       |
-| **DEPLOYMENT.md**        | ✅                       | ❌                 | ✅           | ❌       |
-| **LIGHTHOUSE.md**        | ✅                       | ❌                 | ✅           | ❌       |
-| **ISSUE_RESOLUTION.md**  | ✅                       | ❌                 | ✅           | ❌       |
-| **RESPONSIVE_DESIGN.md** | ✅                       | ❌                 | ✅           | ❌       |
-| **QUICK_START.md**       | ✅                       | ❌                 | ✅           | ❌       |
-| **LESSONS_LEARNED.md**   | ✅                       | ❌                 | ✅           | ❌       |
-| **EXTERNAL_SERVICES.md** | ❌ Not needed            | ❌                 | ❌           | ✅       |
-| **GPG_SIGNING.md**       | ❌ Not implementing      | ❌                 | ✅           | ❌       |
+| ------------------------ | -------------------------- | ------------------ | ------------ | -------- |
+| **README.md**            | ✅                         | ✅                 | ✅           | ✅       |
+| **CONTRIBUTING.md**      | ✅                         | ❌                 | ✅           | ❌       |
+| **TESTING.md**           | ✅                         | ✅                 | ✅           | ❌       |
+| **CODE_QUALITY.md**      | ✅                         | ❌                 | ✅           | ❌       |
+| **SECURITY.md**          | ✅                         | ❌                 | ✅           | ❌       |
+| **DEPLOYMENT.md**        | ✅                         | ❌                 | ✅           | ❌       |
+| **LIGHTHOUSE.md**        | ✅                         | ❌                 | ✅           | ❌       |
+| **ISSUE_RESOLUTION.md**  | ✅                         | ❌                 | ✅           | ❌       |
+| **RESPONSIVE_DESIGN.md** | ✅                         | ❌                 | ✅           | ❌       |
+| **QUICK_START.md**       | ✅                         | ❌                 | ✅           | ❌       |
+| **LESSONS_LEARNED.md**   | ✅                         | ❌                 | ✅           | ❌       |
+| **EXTERNAL_SERVICES.md** | ❌ Not needed              | ❌                 | ❌           | ✅       |
+| **GPG_SIGNING.md**       | ❌ Not implementing        | ❌                 | ✅           | ❌       |
 
 ### User Experience Features Status
 
 | Feature                         | FFC-EX-sporting2Impact.org | freeforcharity-web | ffcadmin.org | KCCF-web    |
-| ------------------------------- | ------------------------ | ------------------ | ------------ | ----------- |
-| **Dark Mode**                   | ❌ Not implemented       | ❌                 | ❌           | ✅          |
-| **Cookie Consent**              | ✅ Basic                 | ✅ Basic           | ❌           | ✅ Advanced |
-| **Modal/Popup System**          | ✅ Basic (2 modals)      | ✅ Basic           | ❌           | ✅ Advanced |
-| **Theme Context**               | ❌                       | ❌                 | ❌           | ✅          |
-| **Advanced Context Management** | ❌                       | ❌                 | ❌           | ✅          |
+| ------------------------------- | -------------------------- | ------------------ | ------------ | ----------- |
+| **Dark Mode**                   | ❌ Not implemented         | ❌                 | ❌           | ✅          |
+| **Cookie Consent**              | ✅ Basic                   | ✅ Basic           | ❌           | ✅ Advanced |
+| **Modal/Popup System**          | ✅ Basic (2 modals)        | ✅ Basic           | ❌           | ✅ Advanced |
+| **Theme Context**               | ❌                         | ❌                 | ❌           | ✅          |
+| **Advanced Context Management** | ❌                         | ❌                 | ❌           | ✅          |
 
 ### Summary of Remaining Gaps
 
