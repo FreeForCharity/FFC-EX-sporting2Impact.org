@@ -21,7 +21,7 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
 export const metadata: Metadata = {
   metadataBase: new URL('https://sporting2impact.org'),
   title: {
-    default: 'Sporting2Impact | Building Healthier Communities',
+    default: 'Sporting2Impact | Empowering Communities Through Sport and Wellness',
     template: '%s | Sporting2Impact',
   },
   description:
@@ -55,8 +55,7 @@ export const metadata: Metadata = {
     url: 'https://sporting2impact.org/',
     siteName: 'Sporting2Impact',
     title: 'Sporting2Impact | Reduce Costs, Increase Impact',
-    description:
-      'Building Healthier Communities | SPORTS | FITNESS | CHARITY | VOLUNTEER | DONATE | IMPACT',
+    description: 'Empowering Communities Through Sport and Wellness',
     images: [
       {
         url: '/web-app-manifest-512x512.png',
@@ -69,9 +68,8 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     site: '@sporting2impact',
-    title: 'Sporting2Impact | Building Healthier Communities',
-    description:
-      'Building Healthier Communities | SPORTS | FITNESS | CHARITY | VOLUNTEER | DONATE | IMPACT',
+    title: 'Sporting2Impact | Empowering Communities Through Sport and Wellness',
+    description: 'Empowering Communities Through Sport and Wellness',
     images: ['/web-app-manifest-512x512.png'],
   },
   icons: {

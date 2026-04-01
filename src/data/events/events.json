@@ -1,5 +1,13 @@
 [
   {
+    "id": 19,
+    "title": "Free Pilates Session",
+    "date": "2026-04-25T14:00",
+    "location": "Miller Branch Library, Ellicott/Patapsco Room, Ellicott City, Maryland",
+    "registrationLink": "",
+    "type": "pilates"
+  },
+  {
     "id": 18,
     "title": "Learn Basics of Chess with Suchay",
     "date": "2026-04-12T14:00",
@@ -12,7 +20,7 @@
     "title": "Free Yoga Session",
     "date": "2026-04-18T10:00",
     "location": "Miller Branch Library, Ellicott City, Maryland",
-    "registrationLink": "Coming Soon",
+    "registrationLink": "https://www.zeffy.com/en-US/ticketing/free-yoga-session-18th-apr-saturday",
     "type": "yoga"
   },
   {
