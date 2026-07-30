@@ -89,12 +89,12 @@ const Header: React.FC = () => {
         isScrolled ? 'h-[55px]' : 'h-[80px]'
       }`}
     >
-      <div className="w-full">
+      <div className="w-full overflow-x-hidden">
         <div className="mx-auto max-w-[1080px]">
           <div className="flex items-center px-2 transition-all duration-300">
             {/* Logo */}
             <div
-              className={`transition-all duration-300 ${isScrolled ? 'w-[110px]' : 'w-[150px]'}`}
+              className={`shrink-0 transition-all duration-300 ${isScrolled ? 'w-[110px]' : 'w-[150px]'}`}
             >
               <Link href="/" onClick={handleLinkClick} className="block">
                 <img
@@ -107,7 +107,7 @@ const Header: React.FC = () => {
 
             {/* Menu or Search */}
             {!isSearchOpen ? (
-              <div className="flex items-center justify-end sm:pl-[50px] md:pl-[70px] w-full">
+              <div className="flex flex-1 min-w-0 items-center justify-end sm:pl-[50px] md:pl-[70px]">
                 {/* Desktop Menu */}
                 <nav className="hidden lg:block transition-all duration-300">
                   <ul className="flex items-center space-x-[1px] font-navbar font-[600]">
@@ -139,6 +139,15 @@ const Header: React.FC = () => {
                     <LiaSearchSolid className="h-5 w-5 cursor-pointer" />
                   </button>
                 </div>
+
+                {/* Donate Now CTA — desktop only, hidden on mobile to prevent overflow */}
+                <Link
+                  href="/#donate"
+                  onClick={handleLinkClick}
+                  className="hidden lg:flex items-center ml-3 px-4 py-2 bg-[#E53935] text-white text-[14px] font-[600] rounded-full whitespace-nowrap hover:bg-[#C62828] transition-colors duration-200"
+                >
+                  Donate Now
+                </Link>
 
                 {/* Mobile Menu Button */}
                 <button
@@ -208,6 +217,16 @@ const Header: React.FC = () => {
                   </li>
                 ))}
               </ul>
+              {/* Donate Now CTA button in mobile menu */}
+              <div className="mt-4 pt-4 border-t border-gray-100">
+                <Link
+                  href="/#donate"
+                  onClick={handleLinkClick}
+                  className="flex items-center justify-center w-full px-4 py-3 bg-[#E53935] text-white text-sm font-[600] rounded-full hover:bg-[#C62828] transition-colors duration-200"
+                >
+                  Donate Now
+                </Link>
+              </div>
             </div>
           </motion.div>
         )}
