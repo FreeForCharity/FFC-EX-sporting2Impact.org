@@ -9,7 +9,7 @@ Free For Charity is a Next.js 16.0.7 single-page static website that connects st
 ### Environment Setup
 
 - **Node.js Version**: Requires Node.js 20.x (validated with v20.19.5)
-- **Package Manager**: Uses npm with pnpm-lock.yaml
+- **Package Manager**: pnpm 10 (lockfile: pnpm-lock.yaml, version pinned via the packageManager field)
 
 ### Bootstrap and Build Process
 
