@@ -6,11 +6,23 @@ import { render, waitFor } from '@testing-library/react'
 // ID so the injection (and its ordering against the consent update) is
 // observable. This fork's component reads the ID from the environment at
 // module scope, so the env var must be set BEFORE the module is required —
-// hence the require() below instead of a hoisted import.
+// hence the require() below instead of a hoisted import. The original value
+// is captured first and restored in afterAll, and the module cache is
+// purged there, so no later suite in this worker sees the injected ID.
+const ORIGINAL_GA_ENV = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID
 process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID = 'G-TEST1234567'
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const CookieConsent = require('../../src/components/cookie-consent')
   .default as typeof import('../../src/components/cookie-consent').default
+
+afterAll(() => {
+  if (ORIGINAL_GA_ENV === undefined) {
+    delete process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID
+  } else {
+    process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID = ORIGINAL_GA_ENV
+  }
+  jest.resetModules()
+})
 
 const GA_SCRIPT_SELECTOR = 'script[src*="googletagmanager.com/gtag"]'
 

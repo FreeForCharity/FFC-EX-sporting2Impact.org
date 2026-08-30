@@ -19,10 +19,19 @@ export const analyticsConfig = {
   clarityProjectId: 'XXXXXXXX',
 } as const
 
-// The placeholder values shipped above. Loaders check against this list so
+// The placeholder values this fork actually ships: the config above ships
+// metaPixelId 'XXXXXXXXXXXXXXX' and clarityProjectId 'XXXXXXXX', and the
+// cookie-consent component's env-var fallbacks use 'G-XXXXXXXXXX',
+// 'XXXXXXXXXXXXXXX', and 'XXXXXXXXXX'. Loaders check against this list so
 // that "leave a value as its placeholder to keep that integration
-// effectively inert" (the promise a few lines up) is actually honored.
-const PLACEHOLDER_IDS: readonly string[] = ['G-XXXXXXXXXX', 'XXXXXXXXXXXXXXX', 'XXXXXXXXXX']
+// effectively inert" is actually honored; the X{6,} regex below also
+// catches any other all-X variant.
+const PLACEHOLDER_IDS: readonly string[] = [
+  'G-XXXXXXXXXX',
+  'XXXXXXXXXXXXXXX',
+  'XXXXXXXXXX',
+  'XXXXXXXX',
+]
 
 /**
  * True when an analytics ID has been replaced with a real value. A falsy
