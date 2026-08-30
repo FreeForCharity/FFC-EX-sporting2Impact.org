@@ -9,43 +9,43 @@ Free For Charity is a Next.js 16.0.7 single-page static website that connects st
 ### Environment Setup
 
 - **Node.js Version**: Requires Node.js 20.x (validated with v20.19.5)
-- **Package Manager**: Uses npm with package-lock.json
+- **Package Manager**: Uses npm with pnpm-lock.yaml
 
 ### Bootstrap and Build Process
 
 **Build Process**
 
-- `npm run build` -- Builds the static site successfully (~30 seconds)
+- `pnpm run build` -- Builds the static site successfully (~30 seconds)
 - Google Fonts are NOT used in this project (imports have been removed)
 - Build generates 12 static pages (1 homepage + 7 policy pages + 1 not-found page + 2 metadata files: sitemap.xml, robots.txt)
 - NEVER CANCEL. Set timeout to 180+ seconds for safety.
 
 ### Core Commands and Timings
 
-1. `npm install` -- takes ~17 seconds. NEVER CANCEL. Set timeout to 60+ seconds.
-2. `npm run lint` -- takes ~2 seconds. Produces 8 warnings about img tags and React hooks (expected). Set timeout to 30+ seconds.
-3. `npm run build` -- takes ~30 seconds. NEVER CANCEL. Set timeout to 180+ seconds.
-4. `npm run dev` -- starts in ~1 second with turbopack. NEVER CANCEL. Set timeout to 30+ seconds.
-5. `npm run preview` -- serves built static files. NEVER CANCEL. Set timeout to 30+ seconds.
+1. `pnpm install` -- takes ~17 seconds. NEVER CANCEL. Set timeout to 60+ seconds.
+2. `pnpm run lint` -- takes ~2 seconds. Produces 8 warnings about img tags and React hooks (expected). Set timeout to 30+ seconds.
+3. `pnpm run build` -- takes ~30 seconds. NEVER CANCEL. Set timeout to 180+ seconds.
+4. `pnpm run dev` -- starts in ~1 second with turbopack. NEVER CANCEL. Set timeout to 30+ seconds.
+5. `pnpm run preview` -- serves built static files. NEVER CANCEL. Set timeout to 30+ seconds.
 
 ### Development Workflow
 
 ```bash
 # Install dependencies (17 seconds)
-npm install
+pnpm install
 
 # Start development server (1 second startup)
-npm run dev
+pnpm run dev
 # Visit http://localhost:3000
 
 # Lint code (2 seconds, 8 warnings expected)
-npm run lint
+pnpm run lint
 
 # Build for production (30 seconds)
-npm run build
+pnpm run build
 
 # Preview built site
-npm run preview
+pnpm run preview
 # Visit http://localhost:3000
 ```
 
@@ -68,19 +68,19 @@ npm run preview
 
 ```bash
 # Build the site first
-npm run build
+pnpm run build
 
 # Install Playwright browsers (first time only)
-npx playwright install chromium
+pnpm exec playwright install chromium
 
 # Run all tests
-npm test
+pnpm test
 
 # Run tests in headed mode (to see browser)
-npm run test:headed
+pnpm run test:headed
 
 # Run tests with UI
-npm run test:ui
+pnpm run test:ui
 ```
 
 **Test Suites:**
@@ -93,13 +93,13 @@ To test the GitHub Pages deployment locally with basePath:
 
 ```bash
 # Build with basePath for GitHub Pages
-NEXT_PUBLIC_BASE_PATH=/FFC_Single_Page_Template npm run build
+NEXT_PUBLIC_BASE_PATH=/FFC_Single_Page_Template pnpm run build
 
 # Preview the site
-npm run preview
+pnpm run preview
 
 # Run tests (in another terminal)
-npm test
+pnpm test
 ```
 
 ### Pre-Commit Validation
@@ -107,8 +107,8 @@ npm test
 **ALWAYS run before committing changes:**
 
 ```bash
-npm run lint  # Fix any errors, warnings about img tags are expected
-npm test     # Run automated tests (requires build first)
+pnpm run lint  # Fix any errors, warnings about img tags are expected
+pnpm test     # Run automated tests (requires build first)
 ```
 
 ## Application Architecture
@@ -270,7 +270,7 @@ import { assetPath } from "../lib/assetPath";
 The site auto-deploys to GitHub Pages via `.github/workflows/deploy.yml` when pushed to main branch:
 
 1. Node.js 20 setup
-2. `npm ci` for clean install
+2. `pnpm install --frozen-lockfile` for clean install
 3. `NEXT_PUBLIC_BASE_PATH=/FFC_Single_Page_Template` is set for GitHub Pages deployment
 4. `next build` builds the site with proper basePath
 5. Playwright tests run to validate the build
@@ -285,7 +285,7 @@ The site auto-deploys to GitHub Pages via `.github/workflows/deploy.yml` when pu
 
 ### Google Fonts Build Failure
 
-- **Issue**: `npm run build` fails with "ENOTFOUND fonts.googleapis.com"
+- **Issue**: `pnpm run build` fails with "ENOTFOUND fonts.googleapis.com"
 - **Cause**: Network restrictions prevent Google Fonts access
 - **Workaround**: Temporarily comment out font imports in `src/app/layout.tsx`
 - **Files affected**: Lines 2, 9-12, 73 in `src/app/layout.tsx`
@@ -307,7 +307,7 @@ The project currently has 16 ESLint warnings. All have been reviewed and are acc
 - `react-hooks/exhaustive-deps` (2): Missing effect dependencies - intentional for current implementation
 - `react-hooks/immutability` (2): Direct mutation in Swiper setup - works correctly but violates best practices
 
-**Running `npm run lint` will show these warnings - this is expected and does not indicate a problem.**
+**Running `pnpm run lint` will show these warnings - this is expected and does not indicate a problem.**
 
 ## GitHub Community Health Files
 
@@ -363,25 +363,25 @@ When updating documentation:
 ```bash
 # Repository setup
 node --version        # Verify Node.js 20.x
-npm install          # 17 seconds
+pnpm install          # 17 seconds
 
 # Development
-npm run dev          # http://localhost:3000 (1 second startup)
-npm run lint         # 2 seconds, warnings expected
+pnpm run dev          # http://localhost:3000 (1 second startup)
+pnpm run lint         # 2 seconds, warnings expected
 
 # Testing
-npm run build        # Build first (required for tests)
-npm test             # Run Playwright tests
-npm run test:headed  # Run tests in headed mode
-npm run test:ui      # Run tests with Playwright UI
+pnpm run build        # Build first (required for tests)
+pnpm test             # Run Playwright tests
+pnpm run test:headed  # Run tests in headed mode
+pnpm run test:ui      # Run tests with Playwright UI
 
 # Production (requires font workaround)
-npm run build        # 20 seconds when fonts disabled
-npm run preview      # http://localhost:3000
+pnpm run build        # 20 seconds when fonts disabled
+pnpm run preview      # http://localhost:3000
 
 # Test GitHub Pages deployment locally
-NEXT_PUBLIC_BASE_PATH=/FFC_Single_Page_Template npm run build
-npm run preview      # Test with basePath
+NEXT_PUBLIC_BASE_PATH=/FFC_Single_Page_Template pnpm run build
+pnpm run preview      # Test with basePath
 
 # File structure overview
 ls -la src/app/      # Main application code
@@ -395,7 +395,7 @@ ls -la .github/      # GitHub workflows and configs
 ### Build Failures
 
 1. **Google Fonts error**: Apply font workaround in `layout.tsx`
-2. **TypeScript errors**: Run `npm run lint` to identify issues
+2. **TypeScript errors**: Run `pnpm run lint` to identify issues
 3. **Network timeouts**: Increase timeout values as specified above
 
 ### Development Server Issues
